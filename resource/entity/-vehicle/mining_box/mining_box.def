@@ -1,0 +1,23 @@
+{actor
+	(include "/properties/cannon_mgun.ext")
+	{props "vision_cannon_low" "cannon" "cannon_small"}
+	{collider "cannon_small"}
+	{Extension "crate7.mdl"}
+  	{extender "inventory"
+    		{box
+			{size 6 8}     
+			{item "antitank" "mine" 30}
+			{item "antipersonnel" "mine" 50}
+
+		}
+  	}
+
+
+	{Volume "body1"
+	{tags "body"}
+	{able{obstacle 0}}
+	{thickness 1}
+	{component "body"}
+	}
+}
+

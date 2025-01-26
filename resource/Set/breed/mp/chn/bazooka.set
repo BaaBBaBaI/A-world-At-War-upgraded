@@ -1,0 +1,51 @@
+{breed
+	{skin "cha_smg"}
+	{portrait "chn_soldier3"}
+	{icon "smgs1"}
+	{icon_priority 0}
+	{nationality chn}
+	{armors
+		{head cha_helmet}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"tank" 0.8
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_2
+		}
+	}
+	{inventory
+		{item "weapon bazooka" filled}
+		{item "mauser_pistol"filled}
+		{item "pistol ammo" 100}
+		{item "ammo bazooka" 5}
+		{item "bandage" 2}
+		{item "grenade n73at" 1}
+		{in_hands 0}
+	}
+}

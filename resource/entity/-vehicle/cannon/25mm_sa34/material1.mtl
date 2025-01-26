@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "25mm_sa"}
+	{specular "$/model/kpvt_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

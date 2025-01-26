@@ -1,0 +1,60 @@
+{breed
+	{skin "eng_sniper"}
+	{portrait "eng_soldier5"}
+	{nationality eng}
+	{icon "scout"}
+	{icon_priority 5}
+	{armors
+		{head "fieldcap_eng"}
+	}
+	{perks
+		{"health" "500%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "300%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"stealth"
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_4
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "sten" filled}
+		{item "weapon piatrocket" filled}
+		{item "ammo piatrocket" 7}
+		{item "ammo pistol" 200}
+		{item "bandage" 5}
+		{item "grenade mk1" 4}
+		{item "smoke grenade" 2}
+		{item "grenade n73at" 4}
+		{in_hands 0}
+	}
+}

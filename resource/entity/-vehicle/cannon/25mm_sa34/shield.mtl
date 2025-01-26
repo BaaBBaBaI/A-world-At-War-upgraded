@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "sa_25"}
+	{bump "sa_25_bp"}
+	{specular "sa_25_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

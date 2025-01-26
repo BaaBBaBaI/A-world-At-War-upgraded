@@ -1,0 +1,21 @@
+{from "pattern gun"    ;Panhard
+	{desc "25mm SA35"}
+	{filling "bullet25 zenite" 15}	
+	{fireSound "gun/20mm_burst/"}
+	{rechargeTime 3}
+	{RecoveryTime 0.27}
+	{reloadSound "flak38"}
+	{automatic}
+	{AimingTolerance 20}
+	{burst
+		{min 1}
+		{short 2}
+		{long 10}
+	}
+	
+	("range_zenite")
+	{projectileDamage 30}
+	("speed" s(920))
+	("caliber_zenite")
+	("damage" a(47) b(40) c(30) d(12) e(8))
+}

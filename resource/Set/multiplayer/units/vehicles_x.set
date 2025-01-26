@@ -1,0 +1,115 @@
+;----- Extra -----
+
+
+;같컃eroes같�													; 150 MP
+
+{"cromwell_mk_vi"  		("extra" t() sc(30.00) cw(0) cp(15))}	;4
+{"m4a4_tulip"  			("extra" t() sc(37.50) cw(0) cp(15))}	;5
+{"churchill_crocodile"  ("extra" t() sc(37.50) cw(0) cp(20))}	;5
+{"churchill_avre"  		("extra" t() sc(45.00) cw(0) cp(20))}	;6
+{"black_prince"  		("extra" t() sc(67.50) cw(0) cp(22))}	;9
+
+{"sdkfz303"        		("extra" t() sc(0.00) cw(0) cp(0))}		;0
+{"marder_3h"	        ("extra" t() sc(22.50) cw(0) cp(5))}	;3
+{"hetzer"  ("extra" t() sc(30.50) cw(0) cp(15))}	;3
+{"sdkfz301wanze"	        ("extra" t() sc(15.00) cw(0) cp(10))}	;3
+{"nebelwerfer41"        ("extra" t() sc(30.00) cw(0) cp(10))}	;4
+{"stuh42"	        	("extra" t() sc(37.50) cw(0) cp(15))}	;5
+{"pak43"        		("extra" t() sc(45.00) cw(0) cp(15))}	;6
+{"veteran_tiger"        ("extra" t() sc(52.50) cw(0) cp(20))}	;7
+{"veteran_pz5g"        ("extra" t() sc(52.50) cw(0) cp(20))}	;7
+{"elefantita"        	("extra" t() sc(75.00) cw(0) cp(15))}	;9
+{"jagdtiger"        	("extra" t() sc(75.00) cw(0) cp(20))}	;9
+{"sturmtiger"        	("extra" t() sc(75.00) cw(0) cp(20))}	;10
+{"karlthor"        	("extra" t() sc(75.00) cw(0) cp(25))}	;10
+{"SdKfz251_stukazufuss"        	("extra" t() sc(75.00) cw(0) cp(20))}	;9
+ 
+{"ho-ni_3"        		("extra" t() sc(15.00) cw(0) cp(5))}	;2
+{"type_97_150mm"        ("extra" t() sc(22.50) cw(0) cp(8))}	;3
+{"chi-ha120"        	("extra" t() sc(22.50) cw(0) cp(8))}	;3
+{"type4_200mm"        	("extra" t() sc(37.50) cw(0) cp(10))}	;5
+{"veteran_type4_75mm"        	("extra" t() sc(37.50) cw(0) cp(5))}	;5
+{"ho-ri_1"        		("extra" t() sc(67.50) cw(0) cp(12))}	;9
+
+{"zis_30"         ("extra" t() sc(14.50) cw(0) cp(10))}		;2
+{"bs3"        			("extra" t() sc(30.00) cw(0) cp(15))}	;4
+{"kv8_41"        			("extra" t() sc(37.50) cw(0) cp(15))}	;5
+{"kv2"        			("extra" t() sc(37.50) cw(0) cp(20))}	;5
+{"bm_8_24"        		("extra" t() sc(45.00) cw(0) cp(15))}	;6
+{"is3"        		("extra" t() sc(75.00) cw(0) cp(25))}	;9
+{"203b4"        		("extra" t() sc(75.00) cw(0) cp(20))}	;10
+
+{"m8_howitzer"        	("extra" t() sc(7.50) cw(0) cp(5))}		;1
+{"m4a3_zippo"        	("extra" t() sc(22.50) cw(0) cp(15))}	;3
+{"m4a3e8_fury"        	("extra" t() sc(37.50) cw(0) cp(15))}	;3 
+{"m4a3_105"        		("extra" t() sc(37.50) cw(0) cp(15))}	;5
+{"m4a3e2_jumbo_76"      ("extra" t() sc(52.50) cw(0) cp(20))}	;7
+{"m26e4"      			("extra" t() sc(75.00) cw(0) cp(20))}	;10
+{"t95"      			("extra" t() sc(75.00) cw(0) cp(20))}	;10
+{"tortez"      			("extra" t() sc(75.00) cw(0) cp(20))}	;10
+
+{"47mm_1938_vet"       ("extra" t() sc(7.50) cw(0) cp(5))}		;1
+{"mle_27"         ("extra" t() sc(14.50) cw(0) cp(7))}		;2
+{"mk2a_fra"        	("extra" t() sc(22.50) cw(0) cp(10))}	;3
+{"tog2"  ("extra" t() sc(37.50) cw(0) cp(15))}	;5
+{"sherman_spa"  ("extra" t() sc(67.50) cw(0) cp(20))}	;9
+ 
+{"pz6bh"       ("extra" t() sc(7.50) cw(0) cp(20))}		;10
+{"tas_44td"         ("extra" t() sc(14.50) cw(0) cp(20))}		;8
+{"Veteran_tas_44m"        	("extra" t() sc(52.50) cw(0) cp(20))}	;7
+;{"zrinyi2"  ("extra" t() sc(37.50) cw(0) cp(15))}	;5
+{"hetzer_hun"  ("extra" t() sc(30.50) cw(0) cp(15))}	;3
+{"nimrod"        	("extra" t() sc(22.50) cw(0) cp(15))}	;3
+{"zrinyi2"  ("extra" t() sc(37.50) cw(0) cp(15))}	;5
+{"sdkfz250_9_hun"  ("extra" t() sc(22.50) cw(0) cp(12))}	;2
+{"flak41"  ("extra" t() sc(12.50) cw(0) cp(5))}	;1
+{"csaba40m"  ("extra" t() sc(12.50) cw(0) cp(5))}	;1
+{"stuh42ita"	        	("extra" t() sc(37.50) cw(0) cp(15))}	;5
+    
+ 
+;같캚rtillery같�
+{"22cm_mortier"			("extra" t() sc(67.00) cw(0) cp(20))} 
+{"155mm_mle1917"			("extra" t() sc(40.00) cw(0) cp(5))} 
+{"105mm_mle1913"			("extra" t() sc(30.00) cw(0) cp(1))} 
+
+{"vickers_fra"  			("extra" t() sc(37.50) cw(0) cp(10))}
+{"vickers"  			("extra" t() sc(37.50) cw(0) cp(10))}
+{"pdr25"  				("extra" t() sc(30.00) cw(0) cp(5))}
+{"bl6"  				("extra" t() sc(40.00) cw(0) cp(10))}
+{"land_mattress"  		("extra" t() sc(65.00) cw(0) cp(15))}
+{"universal_carrier"  	("extra" t() sc(2.50) cw(0) cp(0))}
+
+ 
+{"pak40"  				("extra" t() sc(32.50) cw(0) cp(10))}
+
+;lower cp{"flak37"  				("extra" t() sc(35.00) cw(0) cp(10))}
+{"lefh18"  				("extra" t() sc(32.50) cw(0) cp(5))}
+{"sfh18"  				("extra" t() sc(40.00) cw(0) cp(10))}
+{"steyr_rso"  			("extra" t() sc(1.00) cw(0) cp(0))}
+
+{"type4_75mm"  			("extra" t() sc(27.50) cw(0) cp(10))}
+{"t91_105m"  			("extra" t() sc(25.00) cw(0) cp(5))}
+{"type96_150mm"  		("extra" t() sc(35.00) cw(0) cp(10))}
+
+{"k61"  				("extra" t() sc(12.50) cw(0) cp(10))}
+{"m30_1938"  			("extra" t() sc(35.00) cw(0) cp(5))}
+{"d1"  					("extra" t() sc(40.00) cw(0) cp(10))}
+{"t20"  				("extra" t() sc(2.50) cw(0) cp(0))}
+
+{"bofors"  				("extra" t() sc(13.75) cw(0) cp(10))}
+{"m2a1l"  				("extra" t() sc(32.50) cw(0) cp(5))}
+{"m114"  				("extra" t() sc(40.00) cw(0) cp(10))}
+{"gmc_cckw"  			("extra" t() sc(1.00) cw(0) cp(0))}
+
+;finnish troops
+
+{"kv1_41_fin"      			("extra" t() sc(75.00) cw(0) cp(20))}	;10
+{"isu152_fin"      			("extra" t() sc(75.00) cw(0) cp(20))}	;10
+{"22cm_mortier_fin"      		("extra" t() sc(75.00) cw(0) cp(20))}	;10
+{"122mm_howitzer_m1910_30_fin" 	("extra" t() sc(75.00) cw(0) cp(15))}
+
+{"itk31"  				("extra" t() sc(35.00) cw(0) cp(10))}
+{"np_ml20_fin_elite"  				("extra" t() sc(35.00) cw(0) cp(15))}
+{"np_ml20_fin"  			("extra" t() sc(35.00) cw(0) cp(15))}
+{"np_sdkfz251_17"  		("extra" t() sc(5.00) cw(0) cp(10))}
+

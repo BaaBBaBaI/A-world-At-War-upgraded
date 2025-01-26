@@ -1,0 +1,59 @@
+{breed
+	{skin "cha_rifle1"}
+	{portrait chn_officer}
+	{icon officer}
+	{icon_priority 1}
+	{nationality chn}
+	{tags "officer"}
+	{armors
+		{head cha_cap29}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" recon
+		}
+		{"speed" 1
+		}
+		{"tank" 0.8
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_2
+		}
+		{"field_glass2"}
+ 
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "ammo rifle" 150}
+		
+		{item "bandage" 3}
+		{item "grenade m24"}
+		
+		{item "mauzer_m" filling "rifle ammo" 5}
+		{item "smoke grenade" 2}		
+		{in_hands 3}
+	}
+}

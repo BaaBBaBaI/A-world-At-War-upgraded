@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m3"}
+	{specular "$/model/37m3_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

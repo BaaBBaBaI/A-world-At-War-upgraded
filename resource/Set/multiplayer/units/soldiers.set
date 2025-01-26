@@ -1,0 +1,1090 @@
+;SDL
+(define "nocp"
+    {tags   "nocp %side crew man"}
+    {cp     0.0}
+    {score  0.25}
+    {basic}
+    {breed}
+    {cw 0.25}
+)
+{"mp/chn/civil1" ("nocp" side(chn))}
+{"mp/chn/civil2" ("nocp" side(chn))}
+{"mp/chn/civil_pistol" ("nocp" side(chn))}
+{"mp/ita/colonial" ("nocp" side(ita))}
+{"mp/chn/home_guard3" ("nocp" side(chn))}
+{"mp/chn/rifle_nocp" ("nocp" side(chn))}
+{"mp/chn/smg_nocp" ("nocp" side(chn))}
+{"mp/chn/oficer_arty" ("nocp" side(chn))}
+{"mp/ita/oficer_arty" ("nocp" side(chn))}
+{"mp/com/oficer_arty" ("nocp" side(chn))}
+{"mp/eng/oficer_arty" ("nocp" side(chn))}
+{"mp/fra/oficer_arty" ("nocp" side(chn))}
+ 
+(define "recon"
+    {tags   "elite %side infantry man"}
+    {cp 1.5}
+    {score  1.40}
+    {basic}
+    {breed}
+    {cw 20.0}
+)
+
+
+{"mp/fin/reco" ("recon" side(fin))}
+{"mp/fin/reco2" ("recon" side(fin))}
+{"mp/fin/reco3" ("recon" side(fin))}
+
+
+{"mp/fra/reco" ("recon" side(fra))}
+{"mp/fra/reco2" ("recon" side(fra))}
+{"mp/fra/reco3" ("recon" side(fra))}
+{"mp/com/reco" ("recon" side(com))}
+{"mp/com/reco2" ("recon" side(com))}
+{"mp/com/reco3" ("recon" side(com))}
+{"mp/rus/reco" ("recon" side(rus))}
+{"mp/rus/reco2" ("recon" side(rus))}
+{"mp/rus/reco3" ("recon" side(rus))}
+{"mp/eng/reco" ("recon" side(eng))}
+{"mp/eng/reco2" ("recon" side(eng))}
+{"mp/rus/reco3" ("recon" side(rus))}
+{"mp/jap/reco" ("recon" side(jap))}
+{"mp/jap/reco2" ("recon" side(jap))}
+{"mp/rus/reco3" ("recon" side(rus))}
+{"mp/ita/reco" ("recon" side(ita))}
+{"mp/ita/reco2" ("recon" side(ita))}
+{"mp/ita/reco3" ("recon" side(ita))}
+
+{"mp/usa/reco" ("recon" side(usa))}
+{"mp/usa/reco2" ("recon" side(usa))}
+{"mp/usa/reco3" ("recon" side(usa))}
+
+{"mp/chn/reco" ("recon" side(chn))}
+{"mp/chn/reco2" ("recon" side(chn))}
+{"mp/chn/reco3" ("recon" side(chn))}
+{"mp/hun/reco" ("recon" side(hun))}
+{"mp/hun/reco2" ("recon" side(hun))}
+{"mp/hun/reco3" ("recon" side(hun))}
+{"mp/ger/reco" ("recon" side(ger))}
+{"mp/ger/reco2" ("recon" side(ger))}
+{"mp/ger/reco3" ("recon" side(ger))}
+
+
+(define "tankman"
+    {tags   "tankman %side crew man"}
+    {cp     2.0}
+    {score  0.25}
+    {basic}
+    {breed}
+    {cw 0.25}
+)
+{"mp/rus/tankman" ("tankman" side(rus))}
+{"mp/ger/tankman" ("tankman" side(ger))}
+{"mp/usa/tankman" ("tankman" side(usa))}
+{"mp/eng/tankman" ("tankman" side(eng))}
+{"mp/jap/tankman" ("tankman" side(jap))}
+{"mp/com/tankman" ("tankman" side(com))}
+{"mp/fra/tankman" ("tankman" side(fra))}
+{"mp/hun/tankman" ("tankman" side(hun))}
+{"mp/fin/tankman" ("tankman" side(fin))}
+{"mp/ita/tankman" ("tankman" side(ita))}
+{"mp/chn/tankman" ("tankman" side(chn))}
+{"mp/ger2/tankman" ("tankman" side(ger2))}
+  
+
+(define "tankman2"
+    {tags   "tankman %side crew man"}
+    {cp     2.0}
+    {score  0.50}
+    {basic}
+    {breed}
+    {cw 0.5}
+)
+{"mp/rus/tankman2" ("tankman2" side(rus))}
+{"mp/ger/tankman2" ("tankman2" side(ger))}
+{"mp/usa/tankman2" ("tankman2" side(usa))}
+{"mp/eng/tankman2" ("tankman2" side(eng))}
+{"mp/jap/tankman2" ("tankman2" side(jap))}
+{"mp/com/tankman2" ("tankman2" side(com))}
+{"mp/fra/tankman2" ("tankman2" side(fra))}
+{"mp/hun/tankman2" ("tankman2" side(hun))}
+{"mp/fin/tankman2" ("tankman2" side(fin))}
+{"mp/ita/tankman2" ("tankman2" side(ita))}
+{"mp/ger2/tankman2" ("tankman2" side(ger2))}
+
+(define "vehicle_supporter"
+    {tags   "supporter %side infantry man"}
+    {cp     2.5}
+    {score  0.50}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/rus/vehicle_supporter" ("vehicle_supporter" side(rus))}
+{"mp/ger/vehicle_supporter" ("vehicle_supporter" side(ger))}
+{"mp/usa/vehicle_supporter" ("vehicle_supporter" side(usa))}
+{"mp/eng/vehicle_supporter" ("vehicle_supporter" side(eng))}
+{"mp/jap/vehicle_supporter" ("vehicle_supporter" side(jap))}
+{"mp/com/vehicle_supporter" ("vehicle_supporter" side(com))}
+{"mp/fra/vehicle_supporter" ("vehicle_supporter" side(fra))}
+{"mp/hun/vehicle_supporter" ("vehicle_supporter" side(hun))}
+{"mp/fin/vehicle_supporter" ("vehicle_supporter" side(fin))}
+{"mp/ita/vehicle_supporter" ("vehicle_supporter" side(ita))}
+{"mp/chn/vehicle_supporter" ("vehicle_supporter" side(chn))}
+{"mp/ger2/vehicle_supporter" ("vehicle_supporter" side(ger2))}
+
+(define "home_guard_chn"
+    {tags   "home_guard_chn %side infantry man"}
+    {cp     1.0}
+    {score  0.25}
+    {basic}
+    {breed}
+    {cw 0.5}
+)
+{"mp/chn/home_guard" ("home_guard_chn" side(chn))}
+{"mp/chn/home_guard2" ("home_guard_chn" side(chn))}
+ 
+
+(define "home_guard"
+    {tags   "home_guard %side infantry man"}
+    {cp     1.875}
+    {score  0.25}
+    {basic}
+    {breed}
+    {cw 0.5}
+)
+{"mp/rus/home_guard" ("home_guard" side(rus))}
+{"mp/ger/home_guard" ("home_guard" side(ger))}
+{"mp/usa/home_guard" ("home_guard" side(usa))}
+{"mp/eng/home_guard" ("home_guard" side(eng))}
+{"mp/jap/home_guard" ("home_guard" side(jap))}
+{"mp/com/home_guard" ("home_guard" side(com))}
+{"mp/fra/home_guard" ("home_guard" side(fra))}
+{"mp/hun/home_guard" ("home_guard" side(hun))}
+{"mp/fin/home_guard" ("home_guard" side(fin))}
+{"mp/ita/home_guard" ("home_guard" side(ita))}
+{"mp/ger2/home_guard" ("home_guard" side(ger2))}
+ 
+{"mp/rus/home_guard2" ("home_guard" side(rus))}
+{"mp/ger/home_guard2" ("home_guard" side(ger))}
+{"mp/usa/home_guard2" ("home_guard" side(usa))}
+{"mp/eng/home_guard2" ("home_guard" side(eng))}
+{"mp/jap/home_guard2" ("home_guard" side(jap))}
+{"mp/com/home_guard2" ("home_guard" side(com))}
+{"mp/fra/home_guard2" ("home_guard" side(fra))}
+{"mp/hun/home_guard2" ("home_guard" side(hun))}
+{"mp/fin/home_guard2" ("home_guard" side(fin))}
+{"mp/ita/home_guard2" ("home_guard" side(ita))}
+{"mp/ger2/home_guard2" ("home_guard" side(ger2))}
+ 
+{"mp/ita/home_guard3" ("home_guard" side(ita))}
+{"mp/fin/home_guard3" ("home_guard" side(fin))}
+{"mp/ita/home_guard4" ("home_guard" side(ita))}
+{"mp/ita/home_guard5" ("home_guard" side(ita))}
+ 
+{"mp/ita/cara1" ("home_guard" side(ita))}
+{"mp/ita/cara2" ("home_guard" side(ita))}
+
+{"mp/ger/youth" ("home_guard" side(ger))}
+{"mp/ger/youth2" ("home_guard" side(ger))}
+{"mp/ger/youth3" ("home_guard" side(ger))}
+ 
+(define "rifle_reg"
+    {tags   "rifle %side infantry man"}
+    {cp     2.0}
+    {score  0.50}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/rus/rifle" ("rifle_reg" side(rus))}
+{"mp/ger/rifle" ("rifle_reg" side(ger))}
+{"mp/usa/rifle" ("rifle_reg" side(usa))}
+{"mp/eng/rifle" ("rifle_reg" side(eng))}
+{"mp/jap/rifle" ("rifle_reg" side(jap))}
+{"mp/com/rifle" ("rifle_reg" side(com))}
+{"mp/fra/rifle" ("rifle_reg" side(fra))}
+{"mp/hun/rifle" ("rifle_reg" side(hun))}
+{"mp/ita/rifle" ("rifle_reg" side(ita))}
+{"mp/chn/rifle" ("rifle_reg" side(chn))}
+
+
+(define "rifle"
+    {tags   "rifle %side infantry man"}
+    {cp     2.5}
+    {score  0.50}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/chn/hero_rifle" ("rifle" side(chn))}
+{"mp/chn/hero_mg" ("rifle" side(chn))}
+
+{"mp/fin/rifle" ("rifle" side(fin))}
+{"mp/fin/tank_hunter" ("rifle" side(fin))}
+{"mp/fin/tank_hunter2" ("rifle" side(fin))}
+
+{"mp/rus/rifle2" ("rifle" side(rus))}
+{"mp/ger/rifle2" ("rifle" side(ger))}
+{"mp/usa/rifle2" ("rifle" side(usa))}
+{"mp/eng/rifle2" ("rifle" side(eng))}
+{"mp/com/rifle2" ("rifle" side(com))}
+{"mp/jap/rifle2" ("rifle" side(jap))}
+{"mp/ita/rifle2" ("rifle" side(ita))}
+{"mp/chn/rifle2" ("rifle" side(chn))}
+{"mp/fra/rifle2" ("rifle" side(fra))}
+{"mp/hun/rifle2" ("rifle" side(hun))}
+{"mp/fin/rifle2" ("rifle" side(fin))}
+{"mp/ger2/rifle" ("rifle" side(ger2))}
+
+{"mp/eng/rifle3" ("rifle" side(eng))}
+{"mp/com/rifle3" ("rifle" side(com))}
+{"mp/fra/rifle3" ("rifle" side(fra))}
+{"mp/hun/rifle3" ("rifle" side(hun))}
+{"mp/fin/rifle3" ("rifle" side(fin))}
+{"mp/chn/rifle3" ("rifle" side(chn))}
+{"mp/fra/rifle_eng" ("rifle" side(fra))}
+{"mp/ita/rifle3" ("rifle" side(ita))}
+{"mp/ita/rifle4" ("rifle" side(ita))}
+{"mp/ita/rifle5" ("rifle" side(ita))}
+{"mp/ita/rifle6" ("rifle" side(ita))}
+{"mp/ita/rifle7" ("rifle" side(ita))}
+{"mp/ger2/rifle2" ("rifle" side(ger2))}
+
+{"mp/eng/grenadier" ("rifle" side(eng))}
+
+(define "rifle_lowcp"
+    {tags   "rifle %side infantry man"}
+    {cp     0.50}
+    {score  0.50}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/rus/rifle3" ("rifle_lowcp" side(rus))}
+{"mp/rus/flagbearer" ("rifle_lowcp" side(rus))}
+
+
+(define "smg"
+    {tags   "smg %side infantry man"}
+    {cp     2.5}
+    {score  0.75}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/rus/smg" ("smg" side(rus))}
+{"mp/usa/smg" ("smg" side(usa))}
+{"mp/eng/smg" ("smg" side(eng))}
+{"mp/ger/smg" ("smg" side(ger))}
+{"mp/jap/smg" ("smg" side(jap))}
+{"mp/com/smg" ("smg" side(com))}
+{"mp/fra/smg" ("smg" side(fra))}
+{"mp/hun/smg" ("smg" side(hun))}
+{"mp/fin/smg" ("smg" side(fin))}
+{"mp/ita/smg" ("smg" side(ita))}
+{"mp/chn/smg" ("smg" side(chn))}
+{"mp/ger2/smg" ("smg" side(ger2))}
+
+{"mp/rus/smg2" ("smg" side(rus))}
+{"mp/usa/smg2" ("smg" side(usa))}
+{"mp/eng/smg2" ("smg" side(eng))}
+{"mp/com/smg2" ("smg" side(com))}
+{"mp/ger/smg2" ("smg" side(ger))}
+{"mp/jap/smg2" ("smg" side(jap))}
+{"mp/fin/smg2" ("smg" side(fin))}
+{"mp/ita/smg2" ("smg" side(ita))}
+{"mp/chn/smg2" ("smg" side(chn))}
+{"mp/ger2/smg2" ("smg" side(ger2))}
+
+{"mp/fra/smg2" ("smg" side(fra))}
+{"mp/hun/smg2" ("smg" side(hun))}
+
+{"mp/rus/smg3" ("smg" side(rus))}
+{"mp/eng/smg3" ("smg" side(eng))}
+{"mp/com/smg3" ("smg" side(com))}
+{"mp/fra/smg3" ("smg" side(fra))}
+{"mp/hun/smg3" ("smg" side(hun))}
+{"mp/fin/smg3" ("smg" side(fin))}
+
+(define "native_lowcp"
+    {tags   "smg %side infantry man"}
+    {cp     2}
+    {score  0.75}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/com/native_ammo" ("native_lowcp" side(com))}
+
+(define "smg_lowcp"
+    {tags   "smg %side infantry man"}
+    {cp     0.50}
+    {score  0.75}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/rus/smg4" ("smg_lowcp" side(rus))}
+{"mp/com/native" ("smg_lowcp" side(com))}
+
+(define "squadleader"
+    {tags   "smg %side infantry man"}
+    {cp     2.5}
+    {score  1.00}
+    {basic}
+    {breed}
+    {cw 1.5}
+
+)
+{"mp/rus/squadleader" ("squadleader" side(rus))}
+{"mp/usa/squadleader" ("squadleader" side(usa))}
+{"mp/eng/squadleader" ("squadleader" side(eng))}
+{"mp/ger/squadleader" ("squadleader" side(ger))}
+{"mp/jap/squadleader" ("squadleader" side(jap))}
+{"mp/com/squadleader" ("squadleader" side(com))}
+{"mp/fra/squadleader" ("squadleader" side(fra))}
+{"mp/hun/squadleader" ("squadleader" side(hun))}
+{"mp/fin/squadleader" ("squadleader" side(fin))}
+{"mp/ita/squadleader" ("squadleader" side(ita))}
+{"mp/chn/squadleader" ("squadleader" side(chn))}
+{"mp/ger2/squadleader" ("squadleader" side(ger2))}
+
+{"mp/rus/squadleader2" ("squadleader" side(rus))}
+{"mp/usa/squadleader2" ("squadleader" side(usa))}
+{"mp/eng/squadleader2" ("squadleader" side(eng))}
+{"mp/ger/squadleader2" ("squadleader" side(ger))}
+{"mp/jap/squadleader2" ("squadleader" side(jap))}
+{"mp/com/squadleader2" ("squadleader" side(com))}
+{"mp/fin/squadleader2" ("squadleader" side(fin))}
+{"mp/ita/squadleader2" ("squadleader" side(ita))}
+{"mp/ger2/squadleader2" ("squadleader" side(ger2))}
+
+{"mp/ita/adra1" ("squadleader" side(ita))}
+{"mp/ita/adra2" ("squadleader" side(ita))}
+
+(define "shotgun"
+    {tags   "smg %side infantry man"}
+    {cp     3.0}
+    {score  1.50}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/usa/shotgun" ("shotgun" side(usa))}
+{"mp/fra/shotgun" ("shotgun" side(fra))}
+{"mp/fra/shotgun_nocap" ("shotgun" side(fra))}
+
+
+
+(define "mgun"
+    {tags   "mgun %side infantry man"}
+    {cp     5.0}
+    {score  3.00}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/rus/mgun" ("mgun" side(rus))}
+{"mp/ger/mgun" ("mgun" side(ger))}
+{"mp/ita/mgun" ("mgun" side(ita))}
+{"mp/chn/mgun" ("mgun" side(chn))}
+{"mp/ger2/mgun" ("mgun" side(ger2))}
+
+{"mp/fra/mgun" ("mgun" side(fra))}
+{"mp/hun/mgun" ("mgun" side(hun))}
+
+{"mp/usa/mgun2" ("mgun" side(usa))}
+{"mp/eng/mgun2" ("mgun" side(eng))}
+
+{"mp/fra/mgun2" ("mgun" side(fra))}
+{"mp/fra/mgun_sup" ("mgun" side(fra))}
+{"mp/hun/mgun_sup" ("mgun" side(hun))}
+
+{"mp/fra/defense_mg" ("mgun" side(fra))}
+{"mp/fra/maginot" ("mgun" side(fra))}
+
+(define "mgun_light"
+    {tags   "mgun_light %side infantry man"}
+    {cp     4.0}
+    {score  2.00}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/usa/mgun" ("mgun_light" side(usa))}
+{"mp/eng/mgun" ("mgun_light" side(eng))}
+{"mp/jap/mgun" ("mgun_light" side(jap))}
+{"mp/com/mgun" ("mgun_light" side(com))}
+{"mp/fin/mgun" ("mgun_light" side(fin))}
+{"mp/fin/mgun2" ("mgun_light" side(fin))}
+{"mp/jap/mgun_hguard" ("mgun_light" side(jap))}
+
+(define "saper"
+    {tags   "saper %side mine infantry man"}
+    {cp     1.5}
+    {score  1.25}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/rus/saper" ("saper" side(rus))}
+{"mp/usa/saper" ("saper" side(usa))}
+{"mp/eng/saper" ("saper" side(eng))}
+{"mp/ger/saper" ("saper" side(ger))}
+{"mp/jap/saper" ("saper" side(jap))}
+{"mp/ita/saper" ("saper" side(ita))}
+{"mp/chn/saper" ("saper" side(chn))}
+{"mp/ger2/saper" ("saper" side(ger2))}
+
+{"mp/fra/saper" ("saper" side(fra))}
+{"mp/hun/saper" ("saper" side(hun))}
+{"mp/fin/saper" ("saper" side(fin))}
+
+{"mp/usa/saper2" ("saper" side(usa))}
+{"mp/eng/saper2" ("saper" side(eng))}
+{"mp/com/mgun" ("mgun_light" side(com))}
+{"mp/eng/saper3" ("saper" side(eng))}
+
+;------------------------------------------------------------
+
+(define "engineer"
+    {tags   "saper %side mine infantry man"}
+    {cp     1.5}
+    {score  1.25}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/fra/engineer" ("saper" side(fra))}
+{"mp/hun/engineer" ("saper" side(hun))}
+
+;-----------------------------------------------------------
+
+(define "ap_miner"
+    {tags   "ap_miner %side mine infantry man"}
+    {cp     3}
+    {score  1.75}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/rus/ap_miner" ("ap_miner" side(rus))}
+{"mp/usa/ap_miner" ("ap_miner" side(usa))}
+{"mp/eng/ap_miner" ("ap_miner" side(eng))}
+{"mp/ger/ap_miner" ("ap_miner" side(ger))}
+{"mp/jap/ap_miner" ("ap_miner" side(jap))}
+{"mp/com/ap_miner" ("ap_miner" side(com))}
+{"mp/fra/ap_miner" ("ap_miner" side(fra))}
+{"mp/hun/ap_miner" ("ap_miner" side(hun))}
+{"mp/fin/ap_miner" ("ap_miner" side(fin))}
+{"mp/fin/ap_miner2" ("ap_miner" side(fin))}
+{"mp/ita/ap_miner" ("ap_miner" side(ita))}
+{"mp/chn/ap_miner" ("ap_miner" side(chn))}
+{"mp/ger2/ap_miner" ("ap_miner" side(ger2))}
+
+
+
+(define "at_miner"
+    {tags   "at_miner %side mine infantry man"}
+    {cp     3}
+    {score  2.50}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/rus/at_miner" ("at_miner" side(rus))}
+{"mp/usa/at_miner" ("at_miner" side(usa))}
+{"mp/eng/at_miner" ("at_miner" side(eng))}
+{"mp/ger/at_miner" ("at_miner" side(ger))}
+{"mp/jap/at_miner" ("at_miner" side(jap))}
+{"mp/com/at_miner" ("at_miner" side(com))}
+{"mp/fra/at_miner" ("at_miner" side(fra))}
+{"mp/hun/at_miner" ("at_miner" side(hun))}
+{"mp/fin/at_miner" ("at_miner" side(fin))}
+{"mp/fin/at_miner2" ("at_miner" side(fin))}
+{"mp/ita/at_miner" ("at_miner" side(ita))}
+{"mp/chn/at_miner" ("at_miner" side(chn))}
+{"mp/ger2/at_miner" ("at_miner" side(ger2))}
+
+
+
+
+(define "elite"
+    {tags   "elite %side infantry man"}
+    {cp 3.125}
+    {score  1.40}
+    {basic}
+    {breed}
+    {cw 3.0}
+)
+{"mp/rus/elite" ("elite" side(rus))}
+{"mp/ger/elite" ("elite" side(ger))}
+{"mp/eng/elite" ("elite" side(eng))}
+{"mp/usa/elite" ("elite" side(usa))}
+{"mp/jap/elite" ("elite" side(jap))}
+{"mp/com/elite" ("elite" side(com))}
+{"mp/fra/elite" ("elite" side(fra))}
+{"mp/hun/elite" ("elite" side(hun))}
+{"mp/fin/elite" ("elite" side(fin))}
+{"mp/fin/elite1" ("elite" side(fin))}
+{"mp/ita/elite" ("elite" side(ita))}
+{"mp/chn/elite" ("elite" side(chn))}
+{"mp/ger2/elite" ("elite" side(ger2))}
+
+{"mp/rus/elite2" ("elite" side(rus))}
+{"mp/ger/elite2" ("elite" side(ger))}
+{"mp/eng/elite2" ("elite" side(eng))}
+{"mp/com/elite2" ("elite" side(com))}
+{"mp/usa/elite2" ("elite" side(usa))}
+{"mp/jap/elite2" ("elite" side(jap))}
+{"mp/fin/elite2" ("elite" side(fin))}
+{"mp/chn/elite2" ("elite" side(chn))}
+{"mp/fra/elite2" ("elite" side(fra))}
+{"mp/hun/elite2" ("elite" side(hun))}
+{"mp/ita/elite2" ("elite" side(ita))}
+{"mp/ger2/elite2" ("elite" side(ger2))}
+
+{"mp/rus/elite3" ("elite" side(rus))}
+{"mp/ger/elite3" ("elite" side(ger))}
+{"mp/eng/elite3" ("elite" side(eng))}
+{"mp/usa/elite3" ("elite" side(usa))}
+{"mp/jap/elite3" ("elite" side(jap))}
+{"mp/com/elite3" ("elite" side(com))}
+{"mp/fra/elite3" ("elite" side(fra))}
+{"mp/hun/elite3" ("elite" side(hun))}
+{"mp/fin/elite3" ("elite" side(fin))}
+{"mp/ita/elite3" ("elite" side(ita))}
+{"mp/chn/elite3" ("elite" side(chn))}
+{"mp/rus/elite4" ("elite" side(rus))}
+{"mp/ger/elite4" ("elite" side(ger))}
+{"mp/eng/elite4" ("elite" side(eng))}
+{"mp/com/elite4" ("elite" side(com))}
+{"mp/usa/elite4" ("elite" side(usa))}
+{"mp/fin/elite4" ("elite" side(fin))}
+{"mp/ger2/elite3" ("elite" side(ger2))}
+
+{"mp/fra/elite4" ("elite" side(fra))}
+{"mp/hun/elite4" ("elite" side(hun))}
+{"mp/ita/elite4" ("elite" side(ita))}
+{"mp/ger2/elite4" ("elite" side(ger2))}
+
+{"mp/rus/elite5" ("elite" side(rus))}
+{"mp/ger/elite5" ("elite" side(ger))}
+{"mp/usa/elite5" ("elite" side(usa))}
+{"mp/eng/elite5" ("elite" side(eng))}
+{"mp/com/elite5" ("elite" side(com))}
+{"mp/fin/elite5" ("elite" side(fin))}
+{"mp/ita/elite5" ("elite" side(ita))}
+{"mp/hun/elite4-41" ("elite" side(hun))}
+{"mp/hun/elite-41" ("elite" side(hun))}
+{"mp/ger2/elite5" ("elite" side(ger2))}
+
+{"mp/rus/elite6" ("elite" side(rus))}
+{"mp/ger/elite6" ("elite" side(ger))}
+{"mp/usa/elite6" ("elite" side(usa))}
+{"mp/eng/elite6" ("elite" side(eng))}
+{"mp/com/elite5" ("elite" side(com))}
+{"mp/hun/elite41" ("elite" side(hun))}
+{"mp/fin/elite6" ("elite" side(fin))}
+{"mp/ger2/elite6" ("elite" side(ger2))}
+
+{"mp/ita/elite6" ("elite" side(ita))}
+{"mp/ita/elite7" ("elite" side(ita))}
+{"mp/ita/elite8" ("elite" side(ita))}
+{"mp/ita/elite9" ("elite" side(ita))}
+{"mp/ita/elite10" ("elite" side(ita))}
+
+{"mp/eng/lrdg_raid_smg" ("elite" side(eng))} 
+{"mp/eng/lrdg_raid_radio" ("elite" side(eng))} 
+{"mp/com/lrdg_raid_smg" ("elite" side(com))} 
+{"mp/com/lrdg_raid_radio" ("elite" side(com))}
+ 
+{"mp/jap/agent_1" ("elite" side(jap))}
+{"mp/jap/agent_2" ("elite" side(jap))}
+{"mp/jap/agent_leader" ("elite" side(jap))}
+
+{"mp/com/can_para" ("elite" side(com))}
+{"mp/com/can_para_2" ("elite" side(com))}
+{"mp/com/can_para_3" ("elite" side(com))}
+{"mp/com/can_para_4" ("elite" side(com))}
+
+{"mp/com/king_afr_officer" ("elite" side(com))}
+{"mp/com/king_afr_rifle" ("elite" side(com))}
+ 
+{"mp/com/sacred_band1" ("elite" side(com))}
+{"mp/com/sacred_band2" ("elite" side(com))}
+{"mp/com/sacred_band3" ("elite" side(com))}
+
+{"mp/com/ghurka" ("elite" side(com))}
+{"mp/com/ghurka2" ("elite" side(com))}
+{"mp/com/ghurka3" ("elite" side(com))}
+
+{"mp/com/rats" ("elite" side(com))}
+{"mp/com/rats2" ("elite" side(com))}
+{"mp/com/rats3" ("elite" side(com))}
+
+
+{"mp/chn/elite_kor2" ("elite" side(chn))}
+{"mp/chn/elite_kor3" ("elite" side(chn))}
+
+
+{"mp/chn/muslim" ("elite" side(chn))}
+{"mp/chn/muslim1" ("elite" side(chn))}
+
+
+{"mp/chn/elite_kmt1" ("elite" side(chn))}
+{"mp/chn/elite_kmt2" ("elite" side(chn))}
+{"mp/chn/elite_kmt3" ("elite" side(chn))}
+{"mp/chn/elite_nra1" ("elite" side(chn))}
+{"mp/chn/elite_nra2" ("elite" side(chn))}
+{"mp/chn/elite_nra3" ("elite" side(chn))}
+
+{"mp/usa/marauder" ("elite" side(usa))}
+{"mp/usa/marauder2" ("elite" side(usa))}
+(define "recon"
+    {tags   "elite %side infantry man"}
+    {cp 3.125}
+    {score  1.40}
+    {basic}
+    {breed}
+    {cw 20.0}
+)
+
+
+{"mp/fin/recon" ("recon" side(fin))}
+{"mp/fin/recon2" ("recon" side(fin))}
+
+
+
+(define "elite_lowcp"
+    {tags   "elite %side infantry man"}
+    {cp 0.25}
+    {score  1.25}
+    {basic}
+    {breed}
+    {cw 3.0}
+)
+
+{"mp/jap/elite4" ("elite_lowcp" side(jap))}
+{"mp/ita/bazooker3" ("elite_lowcp" side(ita))}
+ 
+(define "sturmovik"
+    {tags   "sturmovik %side spec infantry man"}
+    {cp     3.75}
+    {score  2.15}
+    {basic}
+    {breed}
+    {cw 5.0}
+)
+
+ 
+{"mp/rus/sturmovik" ("sturmovik" side(rus))}
+{"mp/ger/sturmovik" ("sturmovik" side(ger))}
+{"mp/eng/sturmovik" ("sturmovik" side(eng))}
+{"mp/com/sturmovik" ("sturmovik" side(com))}
+{"mp/usa/sturmovik" ("sturmovik" side(usa))}
+{"mp/jap/sturmovik" ("sturmovik" side(jap))}
+{"mp/com/sturmovik" ("sturmovik" side(com))}
+{"mp/fin/sturmovik" ("sturmovik" side(fin))}
+{"mp/ita/sturmovik" ("sturmovik" side(ita))}
+{"mp/fin/sniper3" ("sturmovik" side(fin))}
+{"mp/chn/sturmovik" ("sturmovik" side(chn))}
+{"mp/fra/sturmovik" ("sturmovik" side(fra))}
+{"mp/hun/sturmovik" ("sturmovik" side(hun))}
+{"mp/ger2/sturmovik" ("sturmovik" side(ger2))}
+
+{"mp/rus/sturmovik2" ("sturmovik" side(rus))}
+{"mp/ger/sturmovik2" ("sturmovik" side(ger))}
+{"mp/eng/sturmovik2" ("sturmovik" side(eng))}
+{"mp/com/sturmovik2" ("sturmovik" side(com))}
+{"mp/usa/sturmovik2" ("sturmovik" side(usa))}
+{"mp/jap/sturmovik2" ("sturmovik" side(jap))}
+{"mp/chn/sturmovik2" ("sturmovik" side(chn))}
+{"mp/fra/sturmovik2" ("sturmovik" side(fra))}
+{"mp/hun/sturmovik2" ("sturmovik" side(hun))}
+{"mp/fin/sturmovik2" ("sturmovik" side(fin))}
+{"mp/ita/sturmovik2" ("sturmovik" side(ita))}
+{"mp/ger2/sturmovik2" ("sturmovik" side(ger2))}
+
+
+{"mp/rus/sturmovik3" ("sturmovik" side(rus))}
+{"mp/ger/sturmovik3" ("sturmovik" side(ger))}
+{"mp/eng/sturmovik3" ("sturmovik" side(eng))}
+{"mp/com/sturmovik3" ("sturmovik" side(com))}
+{"mp/usa/sturmovik3" ("sturmovik" side(usa))}
+{"mp/jap/sturmovik3" ("sturmovik" side(jap))}
+{"mp/fra/sturmovik3" ("sturmovik" side(fra))}
+{"mp/hun/sturmovik3" ("sturmovik" side(hun))}
+{"mp/fin/sturmovik3" ("sturmovik" side(fin))}
+{"mp/ita/sturmovik3" ("sturmovik" side(ita))}
+{"mp/chn/sturmovik3" ("sturmovik" side(chn))}
+{"mp/ger2/sturmovik3" ("sturmovik" side(ger2))}
+
+{"mp/rus/sturmovik4" ("sturmovik" side(rus))}
+{"mp/ger/sturmovik4" ("sturmovik" side(ger))}
+{"mp/eng/sturmovik4" ("sturmovik" side(eng))}
+{"mp/com/sturmovik4" ("sturmovik" side(com))}
+{"mp/usa/sturmovik4" ("sturmovik" side(usa))}
+{"mp/jap/sturmovik4" ("sturmovik" side(jap))}
+{"mp/hun/sturmovik4" ("sturmovik" side(hun))}
+{"mp/fra/sturmovik4" ("sturmovik" side(fra))}
+{"mp/ita/sturmovik4" ("sturmovik" side(ita))}
+{"mp/hun/elitemarksman1" ("sturmovik" side(hun))}
+{"mp/fin/sturmovik4" ("sturmovik" side(fin))}
+{"mp/ger2/sturmovik4" ("sturmovik" side(ger2))}
+
+{"mp/rus/sturmovik4b" ("sturmovik" side(rus))}
+{"mp/ger/sturmovik4b" ("sturmovik" side(ger))}
+{"mp/eng/sturmovik4b" ("sturmovik" side(eng))}
+{"mp/com/sturmovik4b" ("sturmovik" side(com))}
+{"mp/usa/sturmovik4b" ("sturmovik" side(usa))}
+{"mp/jap/sturmovik4b" ("sturmovik" side(jap))}
+{"mp/fra/sturmovik4b" ("sturmovik" side(fra))}
+{"mp/hun/sturmovik4-41" ("sturmovik" side(hun))}
+{"mp/hun/elitemarksman2" ("sturmovik" side(hun))}
+{"mp/eng/sturmovik4c" ("sturmovik" side(eng))}
+{"mp/fin/sturmovik4b" ("sturmovik" side(fin))}
+{"mp/ita/sturmovik4b" ("sturmovik" side(ita))}
+{"mp/ger2/sturmovik4b" ("sturmovik" side(ger2))}
+
+{"mp/rus/sturmovik5" ("sturmovik" side(rus))}
+{"mp/ger/sturmovik5" ("sturmovik" side(ger))}
+{"mp/eng/sturmovik5" ("sturmovik" side(eng))}
+{"mp/com/sturmovik5" ("sturmovik" side(com))}
+{"mp/usa/sturmovik5" ("sturmovik" side(usa))}
+{"mp/jap/sturmovik5" ("sturmovik" side(jap))}
+{"mp/fra/sturmovik5" ("sturmovik" side(fra))}
+{"mp/hun/sturmovik5" ("sturmovik" side(hun))}
+{"mp/fin/sturmovik5" ("sturmovik" side(fin))}
+{"mp/ita/sturmovik5" ("sturmovik" side(ita))}
+{"mp/ger2/sturmovik5" ("sturmovik" side(ger2))}
+
+{"mp/rus/sturmovik5b" ("sturmovik" side(rus))}
+{"mp/ger/sturmovik5b" ("sturmovik" side(ger))}
+{"mp/eng/sturmovik5b" ("sturmovik" side(eng))}
+{"mp/com/sturmovik5b" ("sturmovik" side(com))}
+{"mp/usa/sturmovik5b" ("sturmovik" side(usa))}
+{"mp/jap/sturmovik5b" ("sturmovik" side(jap))}
+{"mp/fra/sturmovik5b" ("sturmovik" side(fra))}
+{"mp/hun/sturmovik5b" ("sturmovik" side(hun))}
+{"mp/fin/sturmovik5b" ("sturmovik" side(fin))}
+{"mp/ita/sturmovik5b" ("sturmovik" side(ita))}
+{"mp/ger2/sturmovik5b" ("sturmovik" side(ger2))}
+
+{"mp/rus/sturmovik6" ("sturmovik" side(rus))}
+{"mp/ger/sturmovik6" ("sturmovik" side(ger))}
+{"mp/eng/sturmovik6" ("sturmovik" side(eng))}
+{"mp/usa/sturmovik6" ("sturmovik" side(usa))}
+{"mp/jap/sturmovik6" ("sturmovik" side(jap))}
+{"mp/fra/sturmovik6" ("sturmovik" side(fra))}
+{"mp/hun/sturmovik6" ("sturmovik" side(hun))}
+{"mp/com/sturmovik6" ("sturmovik" side(com))}
+{"mp/fin/sturmovik6" ("sturmovik" side(fin))}
+{"mp/ita/sturmovik6" ("sturmovik" side(ita))}
+{"mp/ger2/sturmovik6" ("sturmovik" side(ger2))}
+
+{"mp/rus/sturmovik6b" ("sturmovik" side(rus))}
+{"mp/ger/sturmovik6b" ("sturmovik" side(ger))}
+{"mp/eng/sturmovik6b" ("sturmovik" side(eng))}
+{"mp/usa/sturmovik6b" ("sturmovik" side(usa))}
+{"mp/jap/sturmovik6b" ("sturmovik" side(jap))}
+{"mp/fra/sturmovik6b" ("sturmovik" side(fra))}
+{"mp/hun/sturmovik6b" ("sturmovik" side(hun))}
+{"mp/com/sturmovik6b" ("sturmovik" side(com))}
+{"mp/fin/sturmovik6b" ("sturmovik" side(fin))}
+{"mp/ita/sturmovik6b" ("sturmovik" side(ita))}
+{"mp/ger2/sturmovik6b" ("sturmovik" side(ger2))}
+
+{"mp/fin/elitemarks" ("sturmovik" side(fin))}
+{"mp/fin/elitemarks2" ("sturmovik" side(fin))}
+
+
+{"mp/chn/elitemarksman1" ("sturmovik" side(chn))}
+{"mp/chn/elitemarksman2" ("sturmovik" side(chn))}
+
+(define "toerni"
+    {tags   "sturmovik %side spec infantry man"}
+    {cp     2}
+    {score  2.15}
+    {basic}
+    {breed}
+    {cw 5.0}
+)
+ 
+{"mp/fin/toerni_shreck" ("toerni" side(fin))}
+{"mp/fin/toerni_mg" ("toerni" side(fin))}
+{"mp/fin/toerni_smg" ("toerni" side(fin))}
+{"mp/fin/toerni_rifle" ("toerni" side(fin))}
+
+(define "ger_sup"
+    {tags   "sturmovik %side spec infantry man"}
+    {cp     1.5}
+    {score  2.15}
+    {basic}
+    {breed}
+    {cw 5.0}
+)
+{"mp/fin/tankman2_ger" ("ger_sup" side(fin))}
+{"mp/fin/tankman_ger" ("ger_sup" side(fin))}
+
+{"mp/fin/sturm" ("ger_sup" side(fin))}
+{"mp/fin/sturm2" ("ger_sup" side(fin))}
+{"mp/fin/sturm3" ("ger_sup" side(fin))}
+{"mp/fin/sturm4" ("ger_sup" side(fin))}
+{"mp/fin/sturm5" ("ger_sup" side(fin))}
+
+
+(define "flamer"
+    {tags   "flamer %side spec infantry man"}
+    {cp     3.0}
+    {score  1.75}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/rus/flamer" ("flamer" side(rus))}
+{"mp/usa/flamer" ("flamer" side(usa))}
+{"mp/eng/flamer" ("flamer" side(eng))}
+{"mp/com/flamer" ("flamer" side(com))}
+{"mp/ger/flamer" ("flamer" side(ger))}
+{"mp/jap/flamer" ("flamer" side(jap))}
+{"mp/chn/flamer" ("flamer" side(chn))}
+{"mp/ger2/flamer" ("flamer" side(ger2))}
+
+{"mp/fra/flamer" ("flamer" side(fra))}
+{"mp/hun/flamer" ("flamer" side(hun))}
+{"mp/fin/flamer" ("flamer" side(fin))}
+{"mp/ita/flamer" ("flamer" side(ita))}
+
+{"mp/rus/flamer2" ("flamer" side(rus))}
+{"mp/usa/flamer2" ("flamer" side(usa))}
+{"mp/eng/flamer2" ("flamer" side(eng))}
+{"mp/com/flamer" ("flamer" side(com))}
+{"mp/ger/flamer2" ("flamer" side(ger))}
+{"mp/jap/flamer2" ("flamer" side(jap))}
+{"mp/ita/flamer2" ("flamer" side(ita))}
+{"mp/ger2/flamer2" ("flamer" side(ger2))}
+
+{"mp/rus/flamer3" ("flamer" side(rus))}
+{"mp/fin/flamer2" ("flamer" side(fin))}
+
+
+
+(define "sniper"
+    {tags   "sniper %side spec infantry man"}
+    {cp     10.0}
+    {score  8.00}
+    {basic}
+    {breed}
+    {cw 2.0}
+)
+{"mp/rus/sniper" ("sniper" side(rus))}
+{"mp/usa/sniper" ("sniper" side(usa))}
+{"mp/eng/sniper" ("sniper" side(eng))}
+{"mp/ger/sniper" ("sniper" side(ger))}
+{"mp/jap/sniper" ("sniper" side(jap))}
+{"mp/hun/sniper" ("sniper" side(hun))}
+{"mp/fra/sniper" ("sniper" side(fra))}
+{"mp/fin/sniper" ("sniper" side(fin))}
+{"mp/com/sniper" ("sniper" side(com))}
+{"mp/ita/sniper" ("sniper" side(ita))}
+{"mp/chn/sniper" ("sniper" side(chn))}
+{"mp/rus/sniper2" ("sniper" side(rus))}
+{"mp/ger/sniper2" ("sniper" side(ger))}
+{"mp/fin/sniper2" ("sniper" side(fin))}
+{"mp/ita/sniper2" ("sniper" side(ita))}
+{"mp/ger2/sniper" ("sniper" side(ger2))}
+
+
+(define "sniper_mid"
+    {tags   "sniper %side spec infantry man"}
+    {cp     5.0}
+    {score  8.00}
+    {basic}
+    {breed}
+    {cw 2.0}
+)
+{"mp/fin/toerni_sniper" ("sniper_mid" side(fin))}
+
+
+(define "scout"
+    {tags   "scout %side spec infantry man"}
+    {cp    	3.0}
+    {score  4.00}
+    {basic}
+    {breed}
+    {cw 2.0}
+)
+{"mp/rus/scout" ("scout" side(rus))}
+{"mp/usa/scout" ("scout" side(usa))}
+{"mp/eng/scout" ("scout" side(eng))}
+{"mp/eng/scout2" ("scout" side(eng))}
+{"mp/com/scout" ("scout" side(com))}
+
+{"mp/fra/scout2" ("scout" side(fra))}
+{"mp/usa/scout2" ("scout" side(usa))}
+{"mp/fra/sas_scout2" ("scout" side(fra))}
+{"mp/fra/sas_scout" ("scout" side(fra))}
+
+{"mp/chn/chindit2" ("scout" side(chn))}
+{"mp/chn/chindit1" ("scout" side(chn))}
+
+{"mp/usa/OSS_Agent" ("scout" side(usa))}
+
+(define "radioman"
+    {tags   "radioman %side spec infantry man"}
+    {cp     10.0}
+    {score  20.00}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/rus/radioman" ("radioman" side(rus))}
+{"mp/usa/radioman" ("radioman" side(usa))}
+{"mp/eng/radioman" ("radioman" side(eng))}
+{"mp/com/radioman" ("radioman" side(com))}
+{"mp/ger/radioman" ("radioman" side(ger))}
+{"mp/jap/radioman" ("radioman" side(jap))}
+
+{"mp/fra/radioman" ("radioman" side(fra))}
+{"mp/hun/radioman" ("radioman" side(hun))}
+{"mp/fin/radioman" ("radioman" side(fin))}
+{"mp/ita/radioman" ("radioman" side(ita))}
+{"mp/chn/radioman" ("radioman" side(chn))}
+{"mp/ger2/radioman" ("radioman" side(ger2))}
+
+(define "commander"
+    {tags   "oficer %side spec infantry man"}
+    {cp     4.00}
+    {score  10.00}
+    {basic}
+    {breed}
+    {cw 10.0}
+)
+{"mp/ger/commander" ("commander" side(ger))}
+
+
+
+(define "oficer"
+    {tags   "oficer %side spec infantry man"}
+    {cp     -20.00}
+    {score  10.00}
+    {basic}
+    {breed}
+    {cw 10.0}
+)
+{"mp/rus/oficer" ("oficer" side(rus))}
+{"mp/usa/oficer" ("oficer" side(usa))}
+{"mp/eng/oficer" ("oficer" side(eng))}
+{"mp/ger/oficer" ("oficer" side(ger))}
+{"mp/jap/oficer" ("oficer" side(jap))}
+{"mp/com/oficer" ("oficer" side(com))}
+{"mp/fra/oficer" ("oficer" side(fra))}
+{"mp/hun/oficer" ("oficer" side(hun))}
+{"mp/fin/oficer" ("oficer" side(fin))}
+{"mp/ita/oficer" ("oficer" side(ita))}
+{"mp/chn/oficer" ("oficer" side(chn))}
+{"mp/ger2/oficer" ("oficer" side(ger2))}
+{"mp/ger2/oficer2" ("oficer" side(ger2))}
+
+(define "bazooker"
+    {tags   "bazooker %side spec infantry man"}
+    {cp     3.0}
+    {score  2.00}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/rus/bazooker" ("bazooker" side(rus))}
+{"mp/ger/bazooker" ("bazooker" side(ger))}
+{"mp/usa/bazooker" ("bazooker" side(usa))}
+{"mp/eng/bazooker" ("bazooker" side(eng))}
+{"mp/jap/bazooker" ("bazooker" side(jap))}
+{"mp/hun/bazooker" ("bazooker" side(hun))}
+{"mp/com/bazooker" ("bazooker" side(com))}
+{"mp/fin/bazooker" ("bazooker" side(fin))}
+{"mp/ita/bazooker" ("bazooker" side(ita))}
+{"mp/chn/bazooker" ("bazooker" side(chn))}
+{"mp/ger2/bazooker" ("bazooker" side(ger2))}
+
+{"mp/rus/bazooker2" ("bazooker" side(rus))}
+{"mp/ger/bazooker2" ("bazooker" side(ger))}
+{"mp/usa/bazooker2" ("bazooker" side(usa))}
+{"mp/eng/bazooker2" ("bazooker" side(eng))}
+{"mp/com/bazooker2" ("bazooker" side(com))}
+{"mp/jap/bazooker2" ("bazooker" side(jap))}
+{"mp/hun/bazooker2" ("bazooker" side(hun))}
+{"mp/fin/bazooker2" ("bazooker" side(fin))}
+{"mp/ita/bazooker2" ("bazooker" side(ita))}
+{"mp/chn/bazooker2" ("bazooker" side(chn))}
+{"mp/ger2/bazooker2" ("bazooker" side(ger2))}
+
+{"mp/ger/bazooker3" ("bazooker" side(ger))}
+{"mp/jap/bazooker3" ("bazooker" side(jap))}
+{"mp/ger2/bazooker3" ("bazooker" side(ger2))}
+ 
+{"mp/hun/bazooker3" ("bazooker" side(hun))}
+{"mp/fin/bazooker3" ("bazooker" side(fin))}
+{"mp/fra/bazooker3" ("bazooker" side(fra))}
+
+
+(define "at_rifle"
+    {tags   "at_rifle %side spec infantry man"}
+    {cp     3.0}
+    {score  1.50}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/rus/at_rifle" ("at_rifle" side(rus))}
+{"mp/ger/at_rifle" ("at_rifle" side(ger))}
+{"mp/eng/at_rifle" ("at_rifle" side(eng))}
+{"mp/com/at_rifle" ("at_rifle" side(com))}
+{"mp/jap/at_rifle" ("at_rifle" side(jap))}
+{"mp/hun/at_rifle" ("at_rifle" side(hun))}
+{"mp/fra/at_rifle" ("at_rifle" side(fra))}
+{"mp/fin/at_rifle" ("at_rifle" side(fin))}
+{"mp/ita/at_rifle" ("at_rifle" side(ita))}
+{"mp/chn/at_rifle" ("at_rifle" side(chn))}
+{"mp/ger2/at_rifle" ("at_rifle" side(ger2))}
+
+{"mp/rus/at_rifle2" ("at_rifle" side(rus))}
+{"mp/ger/at_rifle2" ("at_rifle" side(ger))}
+{"mp/eng/at_rifle2" ("at_rifle" side(eng))}
+{"mp/com/at_rifle2" ("at_rifle" side(com))}
+{"mp/jap/at_rifle2" ("at_rifle" side(jap))}
+{"mp/hun/at_rifle2" ("at_rifle" side(hun))}
+{"mp/fra/at_rifle2" ("at_rifle" side(fra))}
+{"mp/fin/at_rifle2" ("at_rifle" side(fin))}
+{"mp/ita/at_rifle2" ("at_rifle" side(ita))}
+{"mp/ger2/at_rifle2" ("at_rifle" side(ger2))}
+
+
+(define "kamikaze"
+    {tags   "kamikaze %side spec infantry man"}
+    {cp     3.0}
+    {score  0.50}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/jap/kamikaze" ("kamikaze" side(jap))}
+{"mp/chn/suicide" ("kamikaze" side(chn))}
+{"mp/chn/suicide1" ("kamikaze" side(chn))}
+
+{"mp/jap/for_the_emperor_smg" ("kamikaze" side(jap))}
+{"mp/jap/for_the_emperor_rifle" ("kamikaze" side(jap))}
+
+(define "swedish"
+    {tags   "swedish %side infantry man"}
+    {cp     2.5}
+    {score  0.50}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+
+{"mp/fin/swe" ("swedish" side(fin))}
+{"mp/fin/swe2" ("swedish" side(fin))}
+{"mp/fin/swe3" ("swedish" side(fin))}
+{"mp/fin/swe4" ("swedish" side(fin))}

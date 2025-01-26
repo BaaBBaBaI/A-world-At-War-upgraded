@@ -1,0 +1,135 @@
+;----- Italy -----
+
+
+
+
+;���Button 1���
+
+ 
+{"as37"       ("vs" c(60) t(all)			s(ita) n(4) g(b1) sc(5.50) b(v1) cw(0) cp(0)) {level 1} {cost 120} {fore 1.0}}
+{"lince"              ("vs" c(60) t(all) 			s(ita) n(2) g(b2) sc(4.00) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1.0}}
+{"as421"       ("vs" c(300) t(all) 		s(ita) n(4) g(b3) sc(6.25) b(v1) cw(0) cp(0)) {level 1} {cost 180} {fore 0.5}}
+{"as423"    ("vs" c(300) t(all) 		s(ita) n(4) g(b4) sc(6.25) b(v1) cw(0) cp(0)) {level 1} {cost 250} {fore 0.5}}
+
+{"fiat35"         ("vs" c(60) t(all supply) 	s(ita) n(2) g(b5) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 1.0}}
+{"fiat35art"      ("vs" c(60) t(all supply) 	s(ita) n(2) g(b6) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1.0}}
+{"fiat35eng"      ("vs" c(60) t(all supply) 	s(ita) n(2) g(b7) sc(12.50) b(v1) cw(0) cp(0)) {level 1} {cost 250} {fore 0.0}}
+
+
+
+
+;���Button 2���
+
+{"bredasafat77_stan"        ("vs" c(300) t(all cannon) 	s(ita) n(2) g(c1) sc(6.00) b(v2) cw(2) cp(5)) {level 1} {cost 90} {fore 1.0}}
+{"20mmScotti"   ("vs" c(300) t(all cannon) 	s(ita) n(2) g(c2) sc(8.50) b(v2) cw(2) cp(5)) {level 1} {cost 175} {fore 0.5}}
+{"Brixia45"           ("vs" c(0) t(all cannon mediumcan) 	s(ita) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {level 1} {cost 260} {fore 1.0}}
+
+{"cannone4732"         	("vs" c(0) t(all cannon) 	s(ita) n(2) g(c4) sc(6.50)  b(v2) cw(2) cp(5)) {level 1} {cost 135} {fore 1.0}}
+{"cannone6517"            ("vs" c(0) t(all cannon mediumcan) 	s(ita) n(2) g(c5) sc(11.25) b(v2) cw(2) cp(10)) {level 1} {cost 200} {fore 1.0}}
+ 
+
+("how" side(ita) name(how_aa) c(0) c1(fiat35) c2(cannone9053) 	t(all cannon heavycan heavyaa) g(c6) b(v2) level(1) cost(650) f(1.0))
+("how" side(ita) name(how_b) c(0) c1(fiat35) c2(obice10528)  	t(all artillery) g(c8) b(v2) level(1) cost(640) f(1.0))
+("how" side(ita) name(how_a) c(0) c1(fiat35) c2(obice149A) 		t(all artillery heavyart) g(c9) b(v2) level(1) cost(800) f(1.0))
+
+ 
+
+
+;("how" side(ita) name(how_fl) c(0) c1(ac35) c2(20mmScotti)  	t(all artillery) g(c8) b(v2) level(1) cost(300) f(1.0))
+
+;SP units perhaps
+ 
+;("how" side(ita) name(how_fl2) c(0) c1(ac35) c2(cannone6517)  	t(all artillery) g(c8) b(v2) level(1) cost(240) f(1.0))
+;("how" side(ita) name(how_fl3) c(0) c1(fiat35) c2(cannone7527)  	t(all artillery) g(c8) b(v2) level(1) cost(310) f(1.0))
+
+;{"m10525"            ("v" c(0) t(all artillery) 			s(ita) n1(2) n2(1) g(c10) sc(37.50) b(v2) cw(0) cp(15)) {level 1} {cost 750} {fore 1.0}}
+;{"hummel"           ("v" c(0) t(all artillery heavyart) s(ita) n1(3) n2(1) g(c11) sc(45.00) b(v2) cw(0) cp(20)) {level 1} {cost 900} {fore 1.0}}
+;{"sdkfz4"           ("vs"  c(0) t(all artillery heavyart) s(ita) n(2) g(c12) sc(62.50) b(v2) cw(0) cp(20)) {level 1} {cost 1250} {fore 1.0}}
+
+
+
+
+;���Button 3���
+
+{"ab40"         	    ("v" c(150) t(all light) s(ita) n1(2) n2(1) g(d1) sc(11.00) b(v3) cw(0) cp(0)) {level 1} {cost 150} {fore 0.4}}
+;{"fiat611"         ("v" c(150) t(all light) 		s(ita) n1(1) n2(1) g(d2) sc(9.00)  b(v3) cw(0) cp(5)) {level 1} {cost 200} {fore 0.6}}
+{"l335"             ("v" c(150) t(all light) 		s(ita) n1(1) n2(1) g(d3) sc(12.50) b(v3) cw(0) cp(2)) {level 1} {cost 120} {fore 0}} 
+{"Lancia1ZM"             ("v" c(150) t(all light) s(ita) n1(1) n2(1) g(d4) sc(9.00)  b(v3) cw(0) cp(2)) {level 1} {cost 190} {fore 0.6}}
+;{"L35Lf"         ("v" c(200) t(all light)   		s(ita) n1(1) n2(1) g(d5) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 210} {fore 1.0}}
+{"c50cma"       ("v" c(300) t(all light)      	s(ita) n1(3) n2(1) g(d6) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 240} {fore 0}}
+{"ab41"         ("v" c(200) t(all light) 		s(ita) n1(1) n2(1) g(d7) sc(11.50) b(v3) cw(0) cp(5)) {level 1} {cost 240} {fore 0.4}}
+{"l335c"        ("v" c(0) t(all light) 	s(ita) n1(1) n2(1) g(d8) sc(12.00) b(v5) cw(0) cp(9)) {level 1} {cost 270} {fore 1.0}} 	
+{"l640"       	("v" c(300) t(all light)      	s(ita) n1(1) n2(1) g(d9) sc(20.00) b(v3) cw(0) cp(5)) {level 1} {cost 250} {fore 0}}
+
+ 
+ 
+ 
+ 
+
+
+;���Button 4���
+
+{"m1139"             ("v" c(0) t(all medium) 	s(ita) n1(3) n2(1) g(e1) sc(14.00) b(v4) cw(0) cp(0)) {level 1} {cost 180} {fore 1.0}}
+{"m1340"              ("v" c(0) t(all medium) 		s(ita) n1(3) n2(1) g(e2) sc(16.00) b(v4) cw(0) cp(2)) {level 1} {cost 250} {fore 1.0}}
+ 
+{"m1441"             ("v" c(0) t(all medium) 		s(ita) n1(3) n2(1) g(e4) sc(18.00) b(v4) cw(0) cp(2)) {level 1} {cost 290} {fore 1.0}}
+
+ 
+;{"pz3nita"             ("v" c(0) t(all medium) 		s(ita) n1(3) n2(1) g(e5) sc(30.00) b(v4) cw(0) cp(5)) {level 1} {cost 360} {fore 1.0}}		
+{"pz4hita"             ("v" c(0) t(all heavy) 			s(ita) n1(4) n2(1) g(e6) sc(62.50) b(v4) cw(0) cp(15)) {level 1} {cost 600} {fore 1.0}}  	
+
+{"m10525"             ("v" c(0) t(all heavy) 			s(ita) n1(1) n2(2) g(e7) sc(67.50) b(v4) cw(0) cp(15)) {level 1} {cost 750} {fore 1.0}}
+ 
+;{"pz6bh"            ("v" c(0) t(all sheavy) 		s(ita) n1(4) n2(1) g(e8) sc(120.00) b(v4) cw(0) cp(40)) {level 1} {cost 2400} {fore 1.0}} 	
+
+
+
+
+;���Button 5���
+{"m4732"         ("v" c(150) t(all light) 		s(ita) n1(1) n2(1) g(f1) sc(12.50) b(v5) i(8) cw(0) cp(0)) {level 1} {cost 230} {fore 0}} 
+{"m7518"             ("v" c(0) t(all medium) 		s(ita) n1(2) n2(1) g(f2) sc(21.00) b(v5) cw(0) cp(2)) {level 1} {cost 280} {fore 1.0}}
+{"m7532"           ("v" c(0) t(all medium) 	s(ita) n1(2) n2(1) g(f3) sc(26.25) b(v5) cw(2) cp(5)) {level 1} {cost 350} {fore 1.0}} 	
+{"m7534"          	("v" c(0) t(all medium) 		s(ita) n1(2) n2(1) g(f4) sc(30.00) b(v5) cw(0) cp(5)) {level 1} {cost 460} {fore 1.0}} 	
+{"m9053"          ("v" c(0) t(all heavy) 	s(ita) n1(3) n2(1) g(f5) sc(45.00) b(v5) cw(0) cp(12)) {level 1} {cost 750} {fore 1.0}}  			
+
+;{"l335"    ("v" c(0) t(all heavy)			s(ita) n1(1) n2(1) g(f4) sc(55.00) b(v5) cw(0) cp(30)) {level 1} {cost 1100} {fore 1.0}} 				
+;{"Lancia1ZM"      ("v" c(0) t(all heavy) 			s(ita) n1(3) n2(1) g(f5) sc(90.00) b(v5) cw(0) cp(30)) {level 1} {cost 1800} {fore 1.0}} 	
+;{"elefantita"          ("v" c(0) t(all sheavy arcade) 	s(ita) n1(3) n2(1) g(f6) sc(100.00) b(v5) cw(0) cp(40)) {level 1} {cost 2000} {fore 1.0}} 	
+
+
+
+
+ 
+
+;���Button Hero���
+
+{"hero1_ita"        ("i1" c(120)					t(all hero) s(ita) n1(sniper2:1) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
+{"heronew2_ita"    	("i2" c(120)					t(all hero) s(ita) n1(cara1:6) n2(cara2:4) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
+{"hero4_ita"		("2v" c(120) c1(ac35) c2(cannone6517)	t(all hero) s(ita) n1(vehicle_supporter:2) n2(vehicle_supporter:2) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
+
+{"heronew4_ita"    	("i1" c(240)					t(all hero) s(ita) n1(colonial:10)   g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}} 
+{"heronew3_ita"		("v1" c(240) c1(as423)  	t(all hero) s(ita) n1(adra1:4) n2(adra2:2)   g(h4) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+ 
+{"hero2_ita"        ("i4" c(240)					t(all hero) s(ita) n1(elite4:3) n2(elite5:4) n3(elite6:1) n4(elite7:2) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+
+{"hero3_ita"        ("v1" c(240) c1(pz3nita) 		t(all hero) s(ita) n1(tankman:4) n2(tankman2:1) g(h3) b(hero))) {level 1} {cost 3.0} {fore -0.5}} 
+{"heronew6_ita"		("3v" c(360) c1(kubel_mgun) c2(pz3f) c3(pz3)	t(all hero) s(ita) n1(elite_nocp:3) n2(elite_nocp:4) n3(elite_nocp:4) g(h3) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
+
+{"heronew1_ita"    	("v3" c(360)	c1(pak40) t(all hero) s(ita) n1(vehicle_supporter:2) n2(bazooker3:1) n3(reco:1) g(h3) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
+
+{"hero7_ita"		("v1" c(460) c1(obice149a_single)  	t(all hero) s(ita) n1(vehicle_supporter:2) g(h2) b(hero)) {level 1} {cost 4.0} {fore -0.5}}
+
+{"hero5_ita"        ("i2" c(480)					t(all hero) s(ita) n1(radioman:1) n2(smg:2) g(h7) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
+ 
+{"hero6_ita"		("v1" c(600) c1(stuh42ita) 		t(all hero) s(ita) n1(tankman:4) n2(tankman2:1) g(h8) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
+{"heroTD_ita"        ("v1" c(600) c1(Veteran_m9053) 	t(all hero) s(ita) n1(tankman:4) n2(tankman2:1) g(h11) b(hero)) {level 1} {cost 5.0} {fore -0.5}}  
+ 
+{"hero10_ita"        ("2art" c(600) c1(obice10528) c2(obice10528) c3() t(all hero) s(ita) n1(vehicle_supporter:2) n2(vehicle_supporter:2) n3(oficer_arty:1) g(h9) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
+
+
+ 
+
+
+{"hero9_ita"        ("v1" c(1200) c1(elefantita) 	t(all hero) s(ita) n1(tankman:3) n2(tankman2:1) g(h10) b(hero)) {level 1} {cost 8.0} {fore -0.5}}
+
+  
