@@ -189,7 +189,7 @@
 {"storm_mech_com"      ("vb4" c(0) c1(m3_eng) 		t(all inf_only) s(com) n1(6) n2(2) n3(1) n4(1) 	g(squad_6) b(squad1)) {level 1} {cost 435} {fore 1.0}}
 {"storm_mech_ita"      ("vb3" c(0) c1(as37) 		t(all inf_only) s(ita)  n1(2) n2(1) n3(3) 	g(squad_6) b(squad1)) {level 1} {cost 320} {fore 1.0}}
 {"storm_mech_fin"      ("vb5" c(0) c1(bt5_fin) 		t(all inf_only) s(fin)  n1(2) n2(1) n3(3) n4(1) n5(2)		g(squad_6) b(squad1)) {level 1} {cost 440} {fore 1.0}}
-{"storm_mech_ost"		("vb3" c(0) c1(sdkfz250_1) 	t(all inf_only) s(ger2) n1(3) n2(1) n3(2) 		g(squad_6) b(squad1)) {level 12} {cost 350} {fore 1.0}}
+{"storm_mech_ost"		("vb3" c(0) c1(sdkfz250_1) 	t(all inf_only) s(ger2) n1(3) n2(1) n3(2) 		g(squad_6) b(squad1)) {level 12} {cost 360} {fore 1.0}}
 
  
 
@@ -385,7 +385,7 @@
 ("squad_with2types" side(fin) name(flamers) c(150) g(soldier_8) c1(flamer:1) c2(flamer2:1) b(squad2) t(all flamer inf_only) level(1) cost(80) f(0))
 ("squad_with2types" side(ita) name(flamers) c(150) g(soldier_8) c1(flamer:1) c2(flamer2:1) b(squad2) t(all flamer inf_only) level(1) cost(80) f(0))
 ("squad_with2types" side(chn) name(flamers) c(150) g(soldier_8) c1(flamer:1) c2(rifle:3) b(squad2) t(all flamer inf_only) level(1) cost(80) f(0))
-("squad_with2types" side(ger2) name(flamers) c(150) g(soldier_8) c1(flamer:1) c2(flamer2:1) b(squad2) t(all flamer inf_only) level(3) cost(75) f(0))
+("squad_with2types" side(ger2) name(flamers) c(150) g(soldier_8) c1(flamer:1) c2(flamer2:1) b(squad2) t(all flamer inf_only) level(3) cost(80) f(0))
 
 
 
@@ -400,7 +400,7 @@
 ("squad_with1types" side(fin) name(snipers) c(150) g(soldier_9) c1(sniper:1) b(squad2) t(all sniper_only inf_only) level(1) cost(230) f(0))
 ("squad_with1types" side(ita) name(snipers) c(150) g(soldier_9) c1(sniper:1) b(squad2) t(all sniper_only inf_only) level(1) cost(230) f(0))
 ("squad_with1types" side(chn) name(snipers) c(150) g(soldier_9) c1(sniper:1) b(squad2) t(all sniper_only inf_only) level(1) cost(230) f(0))
-("squad_with1types" side(ger2) name(snipers) c(150) g(soldier_9) c1(sniper:1) b(squad2) t(all sniper_only inf_only) level(8) cost(160) f(0))
+("squad_with1types" side(ger2) name(snipers) c(150) g(soldier_9) c1(sniper:1) b(squad2) t(all sniper_only inf_only) level(8) cost(230) f(0))
 
 
 ("squad_with1types" side(rus) name(officers) c(150) g(soldier_10) c1(oficer:1) b(squad2) t(all officer inf_only) level(1) cost(360) f(0))
@@ -417,6 +417,6 @@
 ;("squad_with1types" side(com) name(nativeammo) c(150) g(soldier_10) c1(native_ammo:2) b(squad2) t(all officer inf_only) level(1) cost(20) f(0))
 {"nativeammo"   ("vb1" c(0) c1(ammobox_mobile) 	t(all inf_only) s(com) n1(2)  b(squad2)) {level 1} {cost 20} {fore 1.0}}
 ("squad_with1types" side(chn) name(officers) c(150) g(soldier_10) c1(oficer:1) b(squad2) t(all officer inf_only) level(1) cost(360) f(0))
-("squad_with2types" side(ger2) name(officers) c(150) g(soldier_10) c1(oficer:1) c2(smg2:2) b(squad2) t(all officer inf_only) level(18) cost(200) f(0))
+("squad_with2types" side(ger2) name(officers) c(150) g(soldier_10) c1(oficer:1) c2(smg2:2) b(squad2) t(all officer inf_only) level(18) cost(360) f(0))
 
 ("squad_with1types" side(ger) name(commander) c(150) g(soldier_10) c1(commander:1) b(squad2) t(all officer inf_only) level(1) cost(300) f(0))
