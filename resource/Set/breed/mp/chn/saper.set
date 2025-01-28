@@ -44,7 +44,7 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "mauser_pistol"}
+		{item "mauser_pistol" filled}
 		{item "pistol ammo" 240}
 		{item "mine_detector"}
 		{item "dynamite" 3}

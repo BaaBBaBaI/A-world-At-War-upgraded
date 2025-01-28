@@ -45,7 +45,7 @@
 		("veterancy_1")
 	}
 	{inventory                
-		{item "mauzer"}
+		{item "mauzer" filled}
 		{item "ammo rifle" 60}
 		{item "grenade type99at" 1}
 		{in_hands 0}
