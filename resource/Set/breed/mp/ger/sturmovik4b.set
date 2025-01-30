@@ -46,7 +46,7 @@
 	}
 	{inventory
 		{item "g43" filled}
-		{item "ammo rifle" 100}
+		{item "ammo rifle" 250}
 		{item "bandage" 5}
 		{item "grenade m39" 1}
 		{item "smoke grenade" 2}

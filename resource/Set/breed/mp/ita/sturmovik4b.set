@@ -46,7 +46,7 @@
 	}
 	{inventory
 		{item "carcano_m91" filled}
-		{item "ammo rifle" 160}
+		{item "ammo rifle" 180}
 		{item "buffetterie_alpini_c91special"}
 		{item "bandage" 5}
 		{item "smoke grenade" 2}

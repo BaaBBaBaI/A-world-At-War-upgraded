@@ -46,7 +46,7 @@
 	}
 	{inventory
 		{item "johnson" filled}
-		{item "ammo rifle" 150}
+		{item "ammo rifle" 250}
 		{item "bandage" 5}
 		{item "grenade m61" 1}
 		{item "grenade n73at" 1}

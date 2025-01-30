@@ -46,7 +46,7 @@
 	}
 	{inventory
 		{item "svt40" filled}
-		{item "ammo rifle" 150}
+		{item "ammo rifle" 250}
 		{item "bandage" 5}
 		{item "grenade f1" 1}  
 		{in_hands 0}

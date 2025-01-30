@@ -46,7 +46,7 @@
 	}
 	{inventory
 		{item "type2rifle" filled}		
-		{item "ammo rifle" 150}
+		{item "ammo rifle" 250}
 		{item "bandage" 5}
 		{item "smoke grenade" 2}
 		{item "grenade type97" 1}
