@@ -1,11 +1,11 @@
 {breed
-	{skin "8lu_rifle"}
-	{portrait "chn_elite2"}
-	{icon "stormtrooper_smg"}
-	{icon_priority 0}
-	{nationality chn}
+	{skin "ita-paratrooper_nembo"}
+	{portrait "ita_elite2"}
+	{nationality ita}
+	{icon "stormtroopers"}
+	{icon_priority 4}
 	{armors
-		{head helmet_paratrooper}
+		{head ita_bustina}
 	}
 	{perks
 		{"health" "250%"
@@ -45,10 +45,11 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "feg_43m" filled}
-		{item "ammo rifle" 100}
-		{item "erguotou"}
-		{item "bandage" 2}
+		{item "carcano_m91" filled}
+		{item "ammo rifle" 160}
+		{item "buffetterie_alpini_c91special"}
+		{item "bandage" 5}
+		{item "grenade m39" 2}	
 		{item "smoke grenade" 2}
 		{in_hands 0}
 	}

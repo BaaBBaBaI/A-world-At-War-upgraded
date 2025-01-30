@@ -1,14 +1,14 @@
 {breed
-	{skin "8lu_rifle"}
-	{portrait "chn_elite2"}
-	{icon "stormtrooper_smg"}
-	{icon_priority 0}
-	{nationality chn}
+	{skin "eng_mgun"}
+	{portrait "eng_soldier5"}
+	{nationality eng}
+	{icon "stormtrooper4c"}
+	{icon_priority 4}
 	{armors
-		{head helmet_paratrooper}
+		{head beret_sas}
 	}
 	{perks
-		{"health" "250%"
+		{"health" "350%"
 		}
 		{"health_regeneration" "100%"
 		}
@@ -45,10 +45,11 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "feg_43m" filled}
-		{item "ammo rifle" 100}
-		{item "erguotou"}
-		{item "bandage" 2}
+		{item "em3" filled}
+		{item "ammo rifle" 250}
+		{item "bandage" 5}
+		{item "grenade mk1" 1}
+		{item "grenade n73at" 1}
 		{item "smoke grenade" 2}
 		{in_hands 0}
 	}

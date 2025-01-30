@@ -1,14 +1,14 @@
 {breed
-	{skin "8lu_rifle"}
-	{portrait "chn_elite2"}
-	{icon "stormtrooper_smg"}
-	{icon_priority 0}
-	{nationality chn}
+	{skin "fin_t4"}
+	{portrait ger_soldier5}
+	{icon stormtrooper4}
+	{icon_priority 4}
+	{nationality fin}
 	{armors
-		{head helmet_paratrooper}
+		{head fieldcap1_fin}
 	}
 	{perks
-		{"health" "250%"
+		{"health" "350%"
 		}
 		{"health_regeneration" "100%"
 		}
@@ -16,17 +16,16 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.9
 		}
-		{"tank"	1.0
+		{"tank" 1
 		}
-		{"vehicle" 1.0
+		{"vehicle" 1
 		}
-		{"cannon" 1.0
+		{"cannon" 1
 		}
-		
 		{"pistol" lvl_4
 		}
 		{"smg" lvl_4
@@ -45,11 +44,11 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "feg_43m" filled}
-		{item "ammo rifle" 100}
-		{item "erguotou"}
-		{item "bandage" 2}
-		{item "smoke grenade" 2}
+		{item "pystykorva" filling "rifle ammo" 5}
+		{item "ammo rifle" 200}
+		{item "bandage" 5}
+		{item "grenade m24" 1}
+		{item "kasapanos grenade" 2}
 		{in_hands 0}
 	}
 }

@@ -102,5 +102,5 @@
 {"hero6_fra"  	    ("v1" c(600) c1(tog2) t(all hero) s(fra) n1(tankman:3) n2(tankman:1) g(h5) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
 {"hero8_fra"        ("2art" c(660) c1(155mm_mle1917) c2(155mm_mle1917) t(all hero) s(fra) n1(vehicle_supporter:2) n2(vehicle_supporter:2) n3(oficer_arty:1) g(h7) b(hero)) {level 1} {cost 7.0} {fore -0.5}}
 {"hero9_fra"        ("v1" c(870) c1(sherman_spa) t(all hero) s(fra) n1(tankman:5)  g(h9) b(hero)) {level 1} {cost 8.0} {fore -0.5}}
-{"hero10_fra"        ("v1" c(1020) c1(22cm_mortier) t(all hero) s(fra) n1(tankman:2) g(h9) b(hero)) {level 1} {cost 9.0} {fore -0.5}} 
+{"hero10_fra"        ("v1" c(1060) c1(22cm_mortier) t(all hero) s(fra) n1(tankman:2) g(h9) b(hero)) {level 1} {cost 9.0} {fore -0.5}} 
  

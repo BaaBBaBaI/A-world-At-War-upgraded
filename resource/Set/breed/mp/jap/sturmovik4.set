@@ -1,11 +1,11 @@
 {breed
-	{skin "8lu_rifle"}
-	{portrait "chn_elite2"}
-	{icon "stormtrooper_smg"}
-	{icon_priority 0}
-	{nationality chn}
+	{skin "jap_t4"}
+	{portrait "jap_soldier5"}
+	{nationality jap}
+	{icon "stormtrooper4"}
+	{icon_priority 4}
 	{armors
-		{head helmet_paratrooper}
+		{head helmet2_jap}
 	}
 	{perks
 		{"health" "250%"
@@ -45,10 +45,11 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "feg_43m" filled}
-		{item "ammo rifle" 100}
-		{item "erguotou"}
-		{item "bandage" 2}
+		{item "type99rifle" filled}
+		{item "ammo rifle" 250}
+		{item "bandage" 5}
+		{item "grenade type99" 1}
+		{item "grenade type3at" 1}
 		{item "smoke grenade" 2}
 		{in_hands 0}
 	}
