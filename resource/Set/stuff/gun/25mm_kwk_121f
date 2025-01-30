@@ -17,5 +17,5 @@
 	{projectileDamage 30}
 	("speed" s(920))
 	("caliber_zenite")
-	("damage" a(47) b(40) c(30) d(12) e(8))
+	("damage" a(49) b(43) c(35) d(14) e(9))
 }
