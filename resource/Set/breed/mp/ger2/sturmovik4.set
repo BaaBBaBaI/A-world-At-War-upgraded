@@ -48,8 +48,7 @@
 		{item "g41b" filled}
 		{item "ammo rifle" 250}
 		{item "bandage" 5}
-		{item "grenade m39" 2}
-		{item "grenade pwm1" 1}
+		{item "grenade m39" 1}
 		{item "smoke grenade" 1}
 		{in_hands 0}
 	}

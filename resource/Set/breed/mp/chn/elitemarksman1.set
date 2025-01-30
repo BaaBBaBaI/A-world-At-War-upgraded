@@ -8,7 +8,7 @@
 		{head helmet_paratrooper}
 	}
 	{perks
-		{"health" "250%"
+		{"health" "350%"
 		}
 		{"health_regeneration" "100%"
 		}
@@ -49,6 +49,7 @@
 	{inventory
 		{item "feg_35m" filled}
 		{item "ammo rifle" 100}
+		{item "erguotou"}
 		{item "bandage" 4}
 		{item "grenade molotov_coctail" 1}
 		{item "sandbag_kit" 1}

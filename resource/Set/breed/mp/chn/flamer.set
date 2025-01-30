@@ -48,7 +48,7 @@
 	{inventory
 		{item "flame_thrower"}
 		{item "balloon" filled}
-		{item "mauser_pistol"}
+		{item "mauser_pistol" filled}
 		{item "pistol ammo" 100}
 		{in_hands 0}
 	}

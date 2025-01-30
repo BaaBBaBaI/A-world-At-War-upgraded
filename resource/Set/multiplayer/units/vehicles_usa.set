@@ -45,7 +45,7 @@
 
 {"m5a1"             ("v" c(150) t(all light) 		s(usa) n1(3) n2(1) g(d4) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 280} {fore 0}}
 {"m24"              ("v" c(150) t(all light) 		s(usa) n1(3) n2(1) g(d5) sc(19.00) b(v3) cw(0) cp(5)) {level 1} {cost 380} {fore 0}}
-{"m19"              ("v" c(300) t(all light) 		s(usa) n1(3) n2(1) g(d6) sc(21.25) b(v3) cw(0) cp(5)) {level 1} {cost 400} {fore 0}}
+{"m19"              ("v" c(300) t(all light) 		s(usa) n1(3) n2(1) g(d6) sc(21.25) b(v3) cw(0) cp(5)) {level 1} {cost 425} {fore 0}}
 
 {"m4a3m"            ("v" c(150) t(deminer) 			s(usa) n1(1) n2(1) g(d7) sc(12.50) b(v3) cw(0) cp(0)) {level 1} {cost 250} {fore 0}}
 

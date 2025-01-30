@@ -44,11 +44,11 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "zb26"}
+		{item "zb26" filled}
 		{item "bandage" 6}
 		{item "mgun ammo" 1200}
 		{item "m24 grenade" 2}
-		{item "mauser_pistol"}
+		{item "mauser_pistol" filled}
 		{item "pistol ammo" 20}
 		{item "sandbag_kit" 1}
 		{in_hands 0}

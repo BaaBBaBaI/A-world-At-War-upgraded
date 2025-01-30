@@ -54,9 +54,9 @@
 	{inventory
 		{item "m12_shotgun" filled}
 		{item "ammo shotgun" 90}
-		{item "bandage" 3}
-		{item "grenade f1" 5}
-		{item "grenade n73at" 5}
+		{item "bandage" 2}
+		{item "grenade f1" 2}
+		{item "grenade n73at" 1}
 		{item "smoke grenade"}
 		{in_hands 0}
 	}

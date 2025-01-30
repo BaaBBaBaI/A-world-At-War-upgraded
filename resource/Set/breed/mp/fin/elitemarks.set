@@ -1,0 +1,54 @@
+{breed
+	{skin "fin_t4"}
+	{portrait ger_soldier5}
+	{icon stormtrooper4}
+	{icon_priority 4}
+	{nationality fin}
+	{armors
+		{head fieldcap1_fin}
+	}
+	{perks
+		{"health" "350%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"tank" 1
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_4
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "pystykorva" filling "rifle ammo" 5}
+		{item "ammo rifle" 200}
+		{item "bandage" 5}
+		{item "grenade m24" 1}
+		{item "kasapanos grenade" 2}
+		{in_hands 0}
+	}
+}

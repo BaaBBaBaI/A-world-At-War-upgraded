@@ -67,7 +67,7 @@
 ;���Button 5���
 
 {"ho-ni1"           ("v"  c(0) t(all medium) 		s(jap) n1(2) n2(1) g(f1) sc(16.25) b(v5) cw(0) cp(5)) {level 1} {cost 300} {fore 1.0}} 	
-{"ho-ri"      	    ("v"  c(0) t(all sheavy) 		s(jap) n1(3) n2(1) g(f2) sc(75.00) b(v5) cw(0) cp(15)) {level 1} {cost 1500} {fore 1.0}} 	
+{"ho-ri"      	    ("v"  c(0) t(all sheavy) 		s(jap) n1(3) n2(1) g(f2) sc(75.00) b(v5) cw(0) cp(15)) {level 1} {cost 1600} {fore 1.0}} 	
 
 
 

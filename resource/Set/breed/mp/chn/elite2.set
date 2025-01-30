@@ -50,7 +50,7 @@
 		{item "mgun ammo" 1200}
                 	{item "erguotou"}
 		{item "m24 grenade" 2}
-		{item "mauser_pistol"}
+		{item "mauser_pistol" filled}
 		{item "pistol ammo" 20}
 		{in_hands 0}
 	}

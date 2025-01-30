@@ -45,7 +45,7 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "PPD"}
+		{item "PPD" filled}
 		{item "ammo pistol" 500}
 		{item "m24 grenade" 2}
                 	{item "erguotou"}

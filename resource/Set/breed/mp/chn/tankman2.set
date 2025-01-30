@@ -45,7 +45,7 @@
 	}
 	{inventory
 		{item "bandage" 6}
-		{item "mauser_pistol"}
+		{item "mauser_pistol" filled}
 		{item "pistol ammo" 20}
 	}
 }

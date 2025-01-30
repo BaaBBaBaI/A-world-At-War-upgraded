@@ -47,6 +47,7 @@
 	{inventory
 		{item "feg_43m" filled}
 		{item "ammo rifle" 100}
+		{item "erguotou"}
 		{item "bandage" 2}
 		{item "smoke grenade" 2}
 		{in_hands 0}
