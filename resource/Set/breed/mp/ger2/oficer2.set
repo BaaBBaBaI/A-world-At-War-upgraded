@@ -50,7 +50,7 @@
 	{inventory
 		{item "mp41" filled}
 		{item "ammo pistol" 60}
-		{item "smoke_paradrop_ammo_heavy grenade" 5}
+		{item "smoke_paradrop_ammo_heavy grenade" 2}
 		{item "knife_ger"}
 		{item "binocular"}
 		{in_hands 0}

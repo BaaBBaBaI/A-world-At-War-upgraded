@@ -61,6 +61,7 @@
 {"m4a3e8"         	("v" c(0) t(all medium) 		s(usa) n1(4) n2(1) g(e4) sc(32.50) b(v4) cw(0) cp(15)) {level 1} {cost 600} {fore 1.0}} 	
 {"m4a3e2_jumbo"     ("v" c(0) t(all heavy) 			s(usa) n1(4) n2(1) g(e5) sc(50.00) b(v4) cw(0) cp(22)) {level 1} {cost 850} {fore 1.0}} 
 {"m26_pershing"     ("v" c(0) t(all heavy) 			s(usa) n1(4) n2(1) g(e6) sc(70.00) b(v4) cw(0) cp(25)) {level 1} {cost 1400} {fore 1.0}}	
+;{"m26e4"     ("v" c(0) t(all heavy) 			s(usa) n1(4) n2(1) g(e7) sc(70.00) b(v4) cw(0) cp(25)) {level 1} {cost 1400} {fore 1.0}}	
 
 
 

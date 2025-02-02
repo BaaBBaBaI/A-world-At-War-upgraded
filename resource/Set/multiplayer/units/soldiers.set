@@ -985,7 +985,18 @@
 {"mp/ita/oficer" ("oficer" side(ita))}
 {"mp/chn/oficer" ("oficer" side(chn))}
 {"mp/ger2/oficer" ("oficer" side(ger2))}
-{"mp/ger2/oficer2" ("oficer" side(ger2))}
+
+
+
+(define "oficer_ger2"
+    {tags   "oficer %side spec infantry man"}
+    {cp     5.00}
+    {score  10.00}
+    {basic}
+    {breed}
+    {cw 10.0}
+)
+{"mp/ger2/oficer2" ("oficer_ger2" side(ger2))}
 
 (define "bazooker"
     {tags   "bazooker %side spec infantry man"}

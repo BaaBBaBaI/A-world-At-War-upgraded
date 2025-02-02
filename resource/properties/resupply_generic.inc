@@ -50,10 +50,10 @@
 			{item "mortar" "fg" "ammo" 5 {max 30}{value 2}}
 			{item "hmgun" "ammo" 50 {max 300}{value 2}}
 			{item "mortar150" "fg" "ammo" 2 {max 15}{value 2}}
-			{item "bullet20" "zenite" "ammo" 10 {max 100}{value 2}}
-			{item "bullet25" "zenite" "ammo" 10 {max 100}{value 2}}
-			{item "bullet37" "zenite" "ammo" 10 {max 100}{value 2}}
-			{item "bullet40" "zenite" "ammo" 10 {max 100}{value 2}}
+			{item "bullet20" "zenite" "ammo" 10 {max 250}{value 2}}
+			{item "bullet25" "zenite" "ammo" 10 {max 200}{value 2}}
+			{item "bullet37" "zenite" "ammo" 10 {max 150}{value 2}}
+			{item "bullet40" "zenite" "ammo" 10 {max 150}{value 2}}
 			{item "bullet37" "ap" "ammo" 3 {max 30}{value 2}}
 			{item "bullet37" "fg" "ammo" 3 {max 25}{value 2}}
 			{item "bullet40" "ap" "ammo" 3 {max 30}{value 2}}

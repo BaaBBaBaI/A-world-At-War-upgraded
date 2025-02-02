@@ -58,7 +58,7 @@
 ;{"L35Lf"         ("v" c(200) t(all light)   		s(ita) n1(1) n2(1) g(d5) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 210} {fore 1.0}}
 {"c50cma"       ("v" c(300) t(all light)      	s(ita) n1(3) n2(1) g(d6) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 240} {fore 0}}
 {"ab41"         ("v" c(200) t(all light) 		s(ita) n1(1) n2(1) g(d7) sc(11.50) b(v3) cw(0) cp(5)) {level 1} {cost 240} {fore 0.4}}
-{"l335c"        ("v" c(0) t(all light) 	s(ita) n1(1) n2(1) g(d8) sc(12.00) b(v5) cw(0) cp(9)) {level 1} {cost 270} {fore 1.0}} 	
+{"l335c"        ("v" c(200) t(all light) 	s(ita) n1(1) n2(1) g(d8) sc(12.00) b(v5) cw(0) cp(9)) {level 1} {cost 270} {fore 1.0}} 	
 {"l640"       	("v" c(300) t(all light)      	s(ita) n1(1) n2(1) g(d9) sc(20.00) b(v3) cw(0) cp(5)) {level 1} {cost 250} {fore 0}}
 
  
