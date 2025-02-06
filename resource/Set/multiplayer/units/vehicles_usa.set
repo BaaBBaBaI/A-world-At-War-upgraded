@@ -89,7 +89,7 @@
 
 {"hero4_usa"        ("v1" c(360) c1(m4a3_zippo) 	t(all hero) s(usa) n1(tankman:4) n2(tankman2:1) g(h3) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
 {"hero5_usa"        ("i2" c(480)					t(all hero) s(usa) n1(radioman:1) n2(smg:2) g(h4) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
-{"heronew4_usa"     ("v1" c(480) c1(m4a3e8_fury) 		t(all hero) s(usa) n1(tankman:4) n2(tankman2:1) g(h5) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
+{"heronew4_usa"     ("v1" c(480) c1(m4a3e8_fury) 		t(all hero) s(usa) n1(tankman:4) n2(tankman2:1) g(h5) b(hero)) {level 1} {cost 4.0} {fore -0.5}}
 {"hero6_usa"  	    ("v1" c(600) c1(m4a3_105) 		t(all hero) s(usa) n1(tankman:4) n2(tankman2:1) g(h5) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
 
 {"hero7_usa"  	    ("v2" c(600) c1(m4a3e8) 		t(all hero) s(usa) n1(tankman:4) n2(tankman2:1) g(h6) b(hero)) {level 1} {cost 6.0} {fore -0.5}}

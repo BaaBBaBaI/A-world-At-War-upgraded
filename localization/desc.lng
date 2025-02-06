@@ -1167,7 +1167,7 @@
 		{"hero9_rus" "203mm B-4M"}
 		{"heronew4_rus" "Zis 30"}
 		{"heronew5_rus" "KV-1 Flamer"}
-		{"heronew6_rus" "IS3"}
+		{"heronew6_rus" "IS-2 \"To Berlin!\""}
 		{"heronew1_rus" "Shock Infantry"}
 		{"heronew2_rus" "BS-3"}
 		{"heronew3_rus" "BM-8-24"}
@@ -1222,7 +1222,7 @@
 		{"hero8_com" "Churchhill mk4"}
 		{"hero5_com" "1st Canadian Paratroopers (P)"}
 		{"hero9_com" "Veteran AA Gunners"}  
-		{"hero10_com" "Black Prince"}  
+		{"hero10_com" "Centurion Mk.I"}  
 
 		{"hero1_hun" "Guard the flanks"}
 		{"hero2_hun" "Sdkfz250 9"}
@@ -1289,6 +1289,7 @@
 		{"heronew1_ita" "Tank Hunters"}
 		{"hero10_ita" "Italian Bombardment"}
 		{"heroTD_ita" "Veteran Tank Destroyer"}
+		{"heronew6_com" "Staghound tulip"}
 
 
 		{"heronew1_chn" "Guerilla Uprising"}
@@ -1382,6 +1383,7 @@
 		{"20mm_u_boat" "AA gun"}
 		{"88mm_u_boat" "FlaK 41"}
 		{"achilles" "Achilles 1C"}
+		{"achilles_fr" "Achilles 1C"}
 		{"air-bag" "Boat"}
 		{"archer" "Archer"}
 		{"armor_barge_cs1" "Barge"}
@@ -1402,6 +1404,7 @@
         {"blitz3_6art_ger2" "Blitz3 Art"}
         {"blitz3_6eng_ger2" "Blitz3 Eng"}
 		{"blitz3_6" "Opel Blitz 3.6"}
+		{"staghound_mk1e" "Staghound tulip"}
 		{"blitz3_6art" "Opel Blitz 3.6"}
 		{"blitz3_6eng" "Opel Blitz 3.6"}
 		{"blitz3_6f" "Fuel truck"}
@@ -1419,6 +1422,7 @@
 		{"bs3" "BS-3"}
 		{"bt7a" "BT-7a"}
 		{"centurion" "Centurion Mk.II"}
+		{"centurionmk1" "Centurion Mk.I"}
 		{"chicken" "Chicken"}
 		{"chi-ha120" "Chi-Ha 120"}
 		{"chi-ha47" "Chi-Ha 47"}
@@ -1718,6 +1722,7 @@
 		{"m4a4_firefly" "M4A4 Firefly"}
 		{"m4a4_tulip" "M4A4 Tulip"}
 		{"m5" "M5 AT gun"}
+		{"m5_chn" "M5 AT gun"}
 		{"m5a1" "M5A1 Stuart"}
 		{"m7" "M7 Priest"}
 		{"m72" "M-72"}
@@ -1827,6 +1832,7 @@
 		{"t60" "T-60"}
 		{"t70" "T-70"}
 		{"t90_75m" "75mm Type 90"}
+		{"t90_75m_chn" "Captured Type 90"}
 		{"t91_105m" "105mm Type 91"}
 		{"t96_150mm" "Type 96"}
 		{"tendor" "Tender"}
@@ -2226,6 +2232,7 @@
 		{"122mm_a19s" "122mm A19s"}
 		{"122mm_d25" "122mm D25"}
 		{"122mm_d25m" "122mm D25m"}
+		{"122mm_d25veteran" "D25-T Veteran"}
 		{"122mm_m30" "122mm M30"}
 		{"122mm_m30s" "122mm M-30s"}
 		{"128mm_pak44" "128mm PaK 44"}
@@ -2532,6 +2539,8 @@
 		{"47mm_m47_32" "47mm m42 32"}
 		{"105mm_l13sg" "105mm l13sg"}
 		{"37mm_bofors" "37mm Bofors"}
+
+
 
 		{"220mm_mortar" "220mm mortar"}
 		{"75mm_type41" "75mm type 41"} 

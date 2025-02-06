@@ -86,7 +86,7 @@
 {"hero5_ost"		("v4" c(360) c1(sdkfz250_11)	t(all hero) s(ger2) n1(sturmovik:2) n2(sturmovik2:2) n3(sturmovik3:1) n4(elite_at:1) g(h2) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
 {"hero6_ost"		("v1" c(360) c1(sdkfz234_4)		t(all hero) s(ger2) n1(tankman:2) n2(tankman2:1) g(h2) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
 
-{"hero7_ost"		("i2" c(480)					t(all hero) s(ger2) n1(radioman:1) n2(smg:2) g(h3) b(hero)) {level 2} {cost 4.0} {fore -0.5}}
+{"hero7_ost"		("i2" c(480)					t(all hero) s(ger2) n1(radioman:1) n2(smg:2) g(h3) b(hero)) {level 2} {cost 5.0} {fore -0.5}}
 {"hero8_ost"		("v3" c(480) c1(t34_3_ger2)		t(all hero) s(ger2) n1(tankman:3) n2(tankman2:1) n3(elite:4) g(h4) b(hero)) {level 5} {cost 4.0} {fore -0.5}}
 {"hero10_ost"		("v1" c(600) c1(sdkfz8)				t(all hero) s(ger2) n1(tankman:3) n2(tankman2:1) g(h6) b(hero)) {level 15} {cost 5.0} {fore -0.5}}
 

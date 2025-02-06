@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/centurions/comet_track"}
+	{bump "$/model/centurions/comet_track_nm"}
+	{specular "$/model/centurions/comet_track_sm"}
+	{color "229 229 229 128"}
+	{blend test}
+}

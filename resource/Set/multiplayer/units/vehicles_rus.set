@@ -66,7 +66,7 @@
 {"is1"              ("v" c(0) t(all heavy) 			s(rus) n1(3) n2(1) g(e8) sc(55.00) b(v4) cw(0) cp(20)) {level 1} {cost 1100} {fore 1.0}} 	
 {"is2"           	("v" c(0) t(all heavy) 			s(rus) n1(4) n2(1) g(e9) sc(70.00) b(v4) cw(0) cp(20)) {level 1} {cost 1400} {fore 1.0}}
 	
-;{"is3"              ("v" c(0) t(all sheavy arcade) 	s(rus) n1(4) n2(1) g(e10) sc(110.00) b(v4) cw(0) cp(40)) {level 1} {cost 2200} {fore 1.0}} 	
+{"is3"              ("v" c(0) t(all sheavy arcade) 	s(rus) n1(4) n2(1) g(e10) sc(110.00) b(v4) cw(0) cp(40)) {level 1} {cost 2000} {fore 1.0}} 	
 
 
 
@@ -101,5 +101,5 @@
 
 {"heronew3_rus"		("v1" c(720) c1(bm_8_24)		t(all hero) s(rus) n1(tankman:1) n2(tankman2:1) g(h7) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
 {"hero7_rus"        ("v23" c(600) c1(t34_3) 		t(all hero) s(rus) n1(tankman:3) n2(tankman:1) n3(smg4:4) g(h7) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
-{"heronew6_rus"  	    ("v1" c(1040) c1(is3) 		t(all hero) s(rus) n1(tankman:4) n2(tankman2:1) g(h7) b(hero)) {level 1} {cost 9.0} {fore -0.5}}
-{"hero9_rus"  	    ("v1" c(1210) c1(203b4) 		t(all hero) s(rus) n1(vehicle_supporter:2) n2(tankman2:0) g(h8) b(hero)) {level 1} {cost 10.0} {fore -0.5}}
+{"heronew6_rus"  	("v1" c(840) c1(is2_berlin) 	t(all hero) s(rus) n1(tankman:4) n2(tankman2:1) g(h8) b(hero)) {level 1} {cost 8.0} {fore -0.5}}
+{"hero9_rus"  	    ("v1" c(1200) c1(203b4) 		t(all hero) s(rus) n1(vehicle_supporter:2) n2(tankman2:0) g(h8) b(hero)) {level 1} {cost 10.0} {fore -0.5}}

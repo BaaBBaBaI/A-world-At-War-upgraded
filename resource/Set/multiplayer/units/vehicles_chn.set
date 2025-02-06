@@ -22,8 +22,9 @@
 {"browning_1917_mgun_chn"    ("vs" c(300) t(all cannon) 	s(chn) n(2) g(c1) sc(5.00) b(v2) cw(2) cp(5)) {level 1} {cost 90} {fore 1.0}}
 {"cannone4732_chn"         	("vs" c(0) t(all cannon)	s(chn) n(2) g(c3) sc(6.50)  b(v2) cw(2) cp(5)) {level 1} {cost 135} {fore 1.0}}
 {"75mm_shneider_chn"              ("vs" c(0) t(all cannon)	s(chn) n(2) g(c4) sc(11.25) b(v2) cw(2) cp(5)) {level 1} {cost 180} {fore 1.0}}
-{"m5"               ("vs" c(0) t(all cannon heavycan) 	s(chn) n(2) g(c5) sc(21.25) b(v2) cw(2) cp(10)) {level 1} {cost 380} {fore 1.0}}
-{"t90_75m"          ("vs" c(0) t(all canonn heavycan) 	s(chn) n(2) g(c6) sc(14.00) b(v2) cw(2) cp(10)) {level 1} {cost 260} {fore 1.0}}
+{"t90_75m_chn"          ("vs" c(0) t(all canonn heavycan arcade) 	s(chn) n(2) g(c6) sc(14.00) b(v2) cw(2) cp(10)) {level 1} {cost 260} {fore 1.0}}
+{"m5_chn"               ("vs" c(0) t(all cannon heavycan) 	s(chn) n(2) g(c5) sc(21.25) b(v2) cw(2) cp(10)) {level 1} {cost 350} {fore 1.0}}
+
  
 {"m1mortar_chn"         ("vs" c(0) t(all cannon mediumcan)	s(chn) n(2) g(c5) sc(17.50) b(v2) cw(2) cp(5)) {level 1} {cost 280} {fore 1.0}}
 {"type_97_150mm_chn"         ("vs" c(0) t(all cannon) 	s(chn) n(2) g(c6) sc(17.50) b(v2) cw(2) cp(5)) {level 1} {cost 600} {fore 1.0}}
@@ -42,7 +43,7 @@
 {"L335_chn"      	   ("v" c(150) t(all light) 		s(chn) n1(2)  g(d2) sc(11.25) b(v3) cw(0) cp(5)) {level 1} {cost 120} {fore 0}} 
 
 
-{"t-26_chn"      	   ("v" c(150) t(all light) 		s(chn) n1(2) n2(1) g(d3) sc(11.25) b(v3) cw(0) cp(5)) {level 1} {cost 160} {fore 0}} 
+{"t-26_chn"      	   ("v" c(100) t(all light) 		s(chn) n1(2) n2(1) g(d3) sc(11.25) b(v3) cw(0) cp(5)) {level 1} {cost 160} {fore 0}} 
  
 {"amr35-13mm_chn"      ("v" c(300) t(all light) 		s(chn) n1(1) n2(1) g(d4) sc(15.00) b(v3) cw(0) cp(10)) {level 1} {cost 230} {fore 0.4}}
 {"vickers6t_chn"      ("v" c(150) t(all light) 		s(chn) n1(2) n2(1) g(d5) sc(13.00) b(v3) cw(0) cp(10)) {level 1} {cost 210} {fore 0.4}}	
@@ -93,13 +94,15 @@
  
 
  
-{"hero3_chn"        ("v2" c(360) c1(pak36) 		t(all hero) s(chn) n1(elite:4) n2(elite2_low:3) g(h3) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
+
 {"hero4_chn"        ("i3" c(360)			t(all hero) s(chn) n1(elite_kmt1:6) n2(elite_kmt2:6) n3(elite_kmt3:3) g(h3) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 {"heronew4_chn"     ("i3" c(360)			t(all hero) s(chn) n1(elite_nra1:6) n2(elite_nra2:6) n3(elite_nra3:3) g(h3) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+{"hero3_chn"        ("v2" c(360) c1(pak36) 		t(all hero) s(chn) n1(elite:4) n2(elite2_low:3) g(h3) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
+{"hero11_chn"       ("v2" c(360) c1(m24) 		t(all hero) s(chn) n1(vehicle_supporter:4) n2(home_guard:4) g(h5) b(hero)) {level 1} {cost 4.0} {fore -0.5}}
 {"hero5_chn"        ("i2" c(480)					t(all hero) s(chn) n1(radioman:1) n2(smg:2) g(h4) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
 
 
-{"hero11_chn"        ("v2" c(480) c1(m4a3_zippo) 		t(all hero) s(chn) n1(vehicle_supporter:4) n2(home_guard:4) g(h5) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
+
 
 ;united china
 {"hero6_chn"        ("i2" c(500)			t(all hero) s(chn) n1(rifle_nocp:30) n2(smg_nocp:20) n3(home_guard3:10)  g(h6) b(hero)) {level 1} {cost 3.0} {fore -0.5}}

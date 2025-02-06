@@ -70,14 +70,14 @@
 {"b1bis_3"              ("v" c(0) t(all heavy) 	s(fra) n1(3) n2(1) g(e6) sc(32.50) b(v4) cw(0) cp(12)) {level 1} {cost 440} {fore 1.0}} 
 {"b1bis_2"              ("v" c(0) t(all heavy) 	s(fra) n1(3) n2(1) g(e6) sc(32.50) b(v4) cw(0) cp(12)) {level 1} {cost 480} {fore 1.0}} 
  
-{"pz5g_fra"     ("v" c(0) t(all medium) 		s(fra) n1(4) n2(1) g(e7) sc(40.00) b(v4) cw(0) cp(20)) {level 1} {cost 1300} {fore 1.0}}
+{"pz5g_fra"     ("v" c(0) t(all medium arcade) 		s(fra) n1(4) n2(1) g(e7) sc(40.00) b(v4) cw(0) cp(20)) {level 1} {cost 1300} {fore 1.0}}
 ;{"churchill_mk_vii" ("v" c(0) t(all heavy) 			s(fra) n1(3) n2(1) g(e8) sc(45.00) b(v4) cw(0) cp(30)) {level 1} {cost 900} {fore 1.0}} 	
 ;{"centurion"        ("v" c(0) t(all heavy) 			s(fra) n1(4) n2(1) g(e5) sc(80.00) b(v4) cw(0) cp(30)) {level 1} {cost 1500} {fore 1.0}} 	
  
 ;���Button 5���
 
 {"lorraine_47"           ("v" c(0) t(all medium) 		s(fra) n1(3) n2(1) g(f1) sc(30.0) b(v5) cw(0) cp(5)) {level 1} {cost 200} {fore 1.0}} 	
-{"achilles"         ("v" c(0) t(all medium) 		s(fra) n1(4) n2(1) g(f2) sc(32.5) b(v5) cw(0) cp(15)) {level 1} {cost 650} {fore 1.0}}				
+{"achilles_fr"         ("v" c(0) t(all medium) 		s(fra) n1(4) n2(1) g(f2) sc(32.5) b(v5) cw(0) cp(15)) {level 1} {cost 650} {fore 1.0}}				
 
 
 
@@ -102,5 +102,5 @@
 {"hero6_fra"  	    ("v1" c(600) c1(tog2) t(all hero) s(fra) n1(tankman:3) n2(tankman:1) g(h5) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
 {"hero8_fra"        ("2art" c(660) c1(155mm_mle1917) c2(155mm_mle1917) t(all hero) s(fra) n1(vehicle_supporter:2) n2(vehicle_supporter:2) n3(oficer_arty:1) g(h7) b(hero)) {level 1} {cost 7.0} {fore -0.5}}
 {"hero9_fra"        ("v1" c(870) c1(sherman_spa) t(all hero) s(fra) n1(tankman:5)  g(h9) b(hero)) {level 1} {cost 8.0} {fore -0.5}}
-{"hero10_fra"        ("v1" c(1060) c1(22cm_mortier) t(all hero) s(fra) n1(tankman:2) g(h9) b(hero)) {level 1} {cost 9.0} {fore -0.5}} 
+{"hero10_fra"        ("v1" c(1150) c1(22cm_mortier) t(all hero) s(fra) n1(tankman:2) g(h9) b(hero)) {level 1} {cost 9.0} {fore -0.5}} 
  

@@ -1,0 +1,17 @@
+{game_entity
+	{Extension "staghound_e_x.mdl"}
+	{Volume "body"
+	}
+	{Volume "gun"
+	}
+	{Volume "turret"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+}
