@@ -27,9 +27,9 @@
 ;		{component "body"}
 		{able {visible 0}{window}{obstacle 0}}
 	}
-    ("armor_heavy" turret(100 90 60 20) body(120 90 60 30))
-    ("armor_engine"  t(40 90 60 30))
-    ("armor_mantlet" t(100))
+    ("armor_heavy" turret(100 90 60 20) body(110 70 50 30))
+    ("armor_engine"  t(40 70 45 30))
+    ("armor_mantlet" t(85))
 
 
 	{extender "enumerator"}
@@ -99,7 +99,7 @@
 			{item "ammo mgun" 2500}
 			{item "ammo hmgun" 900}          
 			{item "ammo bullet122 ap" 25}
-            		{item "ammo bullet122 fg" 24}
+            {item "ammo bullet122 fg" 19}
 			{item "ammo bullet122 apcr" 7}
 			{item "ammo hmgun" 900}
 			{item "ammo mgun" 2500}
