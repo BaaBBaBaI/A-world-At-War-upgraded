@@ -68,6 +68,15 @@
 {"flak41"  ("extra" t() sc(12.50) cw(0) cp(5))}	;1
 {"csaba40m"  ("extra" t() sc(12.50) cw(0) cp(5))}	;1
 {"stuh42ita"	        	("extra" t() sc(37.50) cw(0) cp(15))}	;5
+
+{"sdkfz234_3"			("extra" t() sc(15.00) cw(0) cp(10))}	;2
+{"sdkfz250_11"			("extra" t() sc(0.00) cw(0) cp(0))}		;0
+{"sdkfz234_4"			("extra" t() sc(22.50) cw(0) cp(10))}	;3
+{"t34_3_ger2"			("extra" t() sc(22.50) cw(0) cp(10))}	;3
+{"swg41"				("extra" t() sc(37.50) cw(0) cp(15))}	;5
+{"sdkfz8"				("extra" t() sc(52.50) cw(0) cp(15))}	;7
+{"brummbar"				("extra" t() sc(45.00) cw(0) cp(30))}	;6
+{"jagdtiger_ger2"		("extra" t() sc(75.00) cw(0) cp(40))}	;10
     
  
 ;���Artillery���
