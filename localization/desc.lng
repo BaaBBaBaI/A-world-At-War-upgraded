@@ -1894,6 +1894,11 @@
 		{"flak37_ger2" "Flak37"}
 		{"lefh18_ger2" "Lefh18"}
 		{"sfh18_ger2" "Sfh18"}
+		{"22cm_mortier" "Grande Puissance"}
+		{"22cm_mortier_fin" "Pinprick Cannon"}
+		{"105mm_mle1913" "Mle1913 Cannon"}
+		{"is2_berlin" "is2 Berlin"}
+		
 
 		;----- HP
 		{"8mm_schwarzlose" "8mm Schwarzlose"}
@@ -2137,6 +2142,8 @@
 		{"bullet65 ap" "AP 6.5cm"}
 		{"bullet65 fg" "HE 6.5cm"}
 		{"jagdtiger_ger2" "Jagdtiger"}
+		
+
 	}
 	{"weapon"
 		{"type"
@@ -2490,11 +2497,14 @@
 		{"mas38" "MAS mle 1938"}
 		{"hotchkiss" "Hotchkiss M.1914"}
 		{"mas36_grenade" "MAS mle 36 with Grenade launcher"}
-  	        {"besa_x4" ".303in Besa x 4"}
-               	{"ckm_wz30" "Ckm wz.30"}
+  		{"besa_x4" ".303in Besa x 4"}
+        {"ckm_wz30" "Ckm wz.30"}
 		{"sten_mk2" "Sten Mk.II"}
 		{"1xsmokegun" "1 x smoke gun"}
 		{"zb53" "7.92 mm ZB M1937"}
+		{"22cm_mortier" "Grande Puissance"}
+		{"22cm_mortier_fin" "Pinprick Cannon"}
+
 ;***********  HUNGARY *****************		
  
 		{"hun_paradropammo_heavy" "Signal - heavy ammo paradrop"}
@@ -2522,6 +2532,8 @@
 		{"zb24_s" "ZB 24/s"}
 		{"ppd40" "PPD 40"}
 		{"swg41" "28/32 cm Nebelwerfer 41"}
+		
+
 ;**************** CHINA *****************
 
 		{"mauser_pistol" "Mauser pistol"}

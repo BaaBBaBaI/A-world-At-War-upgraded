@@ -1,0 +1,18 @@
+{from "pattern gun"		; "French rotary magazine gun"
+	{filling "bullet57" 6}
+	{fireSound "gun/50to76_cal/50mm_kwk38"}
+	{reloadSound "gun_r02"}
+	{recoveryTime 2}
+	{rechargeTime 20}
+	("range_short")
+	{Automatic}
+	("speed" s(500))
+	("caliber_minimum")
+	{projectileDamage 134}
+	("damage" a(133) b(103) c(84) d(63) e(44))
+	{parameters "apcr"
+        ("damage" a(153) b(123) c(93) d(73) e(54))
+	}
+	
+	("accuracy_minimum")
+}
