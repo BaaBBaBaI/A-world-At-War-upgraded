@@ -55,7 +55,8 @@
 {"mle_27"         ("extra" t() sc(14.50) cw(0) cp(7))}		;2
 {"mk2a_fra"        	("extra" t() sc(22.50) cw(0) cp(10))}	;3
 {"tog2"  ("extra" t() sc(37.50) cw(0) cp(15))}	;5
-{"sherman_spa"  ("extra" t() sc(67.50) cw(0) cp(20))}	;9
+{"sherman_spa"  ("extra" t() sc(67.50) cw(0) cp(20))}
+{"m4a3e2_jumbo_firefly"		("extra" t() sc(52.50) cw(0) cp(20))}	;7	;9
  
 {"pz6bh"       ("extra" t() sc(7.50) cw(0) cp(20))}		;10
 {"tas_44td"         ("extra" t() sc(14.50) cw(0) cp(20))}		;8

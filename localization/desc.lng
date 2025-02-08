@@ -1711,6 +1711,8 @@
 		{"m4a3c" "M4A3 Calliope"}
 		{"m4a3e2_jumbo" "M4A3E2 Jumbo"}
 		{"m4a3e2_jumbo_76" "M4A3E2(76)W Jumbo"}
+		{"m4a3e8_fury" "m4a3e8 Fury"}
+		
 		{"m4a3e8" "M4A3E8(76)W Sherman"}
 		{"m4a3m" "M4A3 Crab"}
 		{"m4a3m_eng" "M4A3 Crab"}
@@ -1875,6 +1877,23 @@
 		{"zis5inf" "ZiS-5"}
 		{"zsu37" "ZSU-37"}
 		{"zis_30" "ZiS-30"}
+		{"sdkfz8" "SdKfz 8 Flak 37"}
+		{"t34_3_ger2" "Panzerkampfwagen T-34 85r"}
+		{"sdkfz234_4" "SdKfz 234/4"}
+		{"sdkfz250_11" "Sdkfz250 11"}
+		{"sdkfz234_3" "Sd.Kfz. 234/3 Stummel"}
+		{"brummbar" "Sd.Kfz. 166 Brummbar"}
+		{"jagdtiger_ger2" "Jagdtiger"}
+		{"swg41" "Schweres Wurfgerat 40/41 rocket"}
+		{"75mm_k51(l24)" "75mm K51(l24)"}
+		{"wurfrahmen40" "Schweres Wurfgerat 40/41 rocket"}
+		{"150mm_sig33_how2" "15 cm sIG 33"}
+		{"150mm_sig33_how" "15 cm sIG 33"}
+		{"pak38_ger2" "Pak38"}
+		{"pak40_ger2" "Pak40"}
+		{"flak37_ger2" "Flak37"}
+		{"lefh18_ger2" "Lefh18"}
+		{"sfh18_ger2" "Sfh18"}
 
 		;----- HP
 		{"8mm_schwarzlose" "8mm Schwarzlose"}
@@ -2117,6 +2136,7 @@
 		{"bullet149 fg" "HE 14.9cm"}
 		{"bullet65 ap" "AP 6.5cm"}
 		{"bullet65 fg" "HE 6.5cm"}
+		{"jagdtiger_ger2" "Jagdtiger"}
 	}
 	{"weapon"
 		{"type"
@@ -2320,6 +2340,7 @@
 		{"mg34_x2" "2x MG 34"}
 		
 		{"mg37" "MG 37(t)"}
+		{"brummbar" "Sd.Kfz. 166 Brummbar"}
 		{"mg42" "MG 42"}
 		{"mg42_120" "MG 42"}
 		{"mguncolt" "Colt MG"}
@@ -2500,6 +2521,7 @@
 		{"zh-29" "ZH-29"}
 		{"zb24_s" "ZB 24/s"}
 		{"ppd40" "PPD 40"}
+		{"swg41" "28/32 cm Nebelwerfer 41"}
 ;**************** CHINA *****************
 
 		{"mauser_pistol" "Mauser pistol"}
