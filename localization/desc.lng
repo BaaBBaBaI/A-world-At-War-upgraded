@@ -770,6 +770,8 @@
 				{"reco" "<c(c3baae)>Reconnaissance Leader"}
 				{"reco2" "<c(c3baae)>Reconnaissance infantry"}
 				{"reco3" "<c(c3baae)>Reconnaissance sniper"}
+				{"elite_at_rifle" "<c(c3baae)>Elite AT-rifle infantry"}
+				{"elite_at_rifle_2" "<c(c3baae)>Elite AT-rifle support"}
 			}
 		}
 		{"civilian"
@@ -893,6 +895,7 @@
 		{"elites(fin)" "kaukopartio"}
 		{"elites(ita)" "Elite Marine"}
 		{"elites(ger2)" "Jagers"}
+		{"elite_at_rifles(chn)" "Elite AT-rifle infantry"}
 	
 		{"flamers(eng)" "Flamethrower infantry"}
 		{"flamers(ger)" "Flamethrower infantry"}
@@ -972,6 +975,7 @@
 		{"riflemans2(ger2)" "Rifleman"}
 
 		{"rifleman3(ita)" "Gewgranat k98 rifleman"}
+		{"riflemen3(ita)" "Gewgranat k98 rifleman"}
 		
 		{"sappers(eng)" "Demolition Team"}
 		{"sappers(ger)" "Demolition Team"}
@@ -1582,6 +1586,14 @@
         {"hetzer_ger2" "Jagdpanzer 38"}
         {"nashorn_ger2" "Nashorn"}
         {"elefant_ger2" "Elefant"}
+		{"t95" "T95"}
+		{"veteran_pz5g" "Veteran Panther"}
+		{"kv8_41" "KV-1 Flamer"}
+		{"tortez" "Tortoise (A39)"}
+		{"veteran_type4_75mm" "Veteran 75mm Type-4"}
+		{"type41_mountaingun" "Type-41 unit 731"}
+		{"gun_carrier_3_inch" "Gun Carrier Mortar"}
+		
 		
 		
 
@@ -1689,6 +1701,13 @@
 		{"pz4hita" "PzKpfw IV Ausf.H"}
 		{"elefantita" "Elefant"}
 		{"vickers6t_chn" "Vickers 6t"}  
+		{"Veteran_m9053" "Semovente 90/53 veteran"}
+		{"stuh42ita" "StuH 42"}
+		{"obice149a_single" "Obice-149 Veteran"}
+		{"vickers_veteran" "Vickers Veteran"}
+		{"m4a1_eng" "M4A1 Grizzly"}
+		{"m15a1" "M15A1"}
+
 
 ;*******************************
 

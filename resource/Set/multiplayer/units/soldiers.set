@@ -801,6 +801,8 @@
 
 {"mp/chn/elitemarksman1" ("sturmovik" side(chn))}
 {"mp/chn/elitemarksman2" ("sturmovik" side(chn))}
+{"mp/chn/elite_at_rifle" ("sturmovik" side(chn))}
+{"mp/chn/elite_at_rifle_2" ("sturmovik" side(chn))}
 
 (define "toerni"
     {tags   "sturmovik %side spec infantry man"}

@@ -45,7 +45,7 @@
 	}
 	{inventory
 		{item "mp18" filled}
-		{item "m24 grenade" 2}
+		{item "m24 grenade" 4}
 		{item "grenade n73at" 2}
 		{item "bandage" 6}
 		{item "ammo pistol" 300}
