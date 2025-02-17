@@ -8,10 +8,10 @@
 	{aimtype direct}
 	{gravity 5.0}	
 	{burst {min 2} {noaiming}}
-	{range 170 180}
-	{rechargeTime 105}
+	{range 190 200}
+	{rechargeTime 80}
 	{spreading
-		{SpreadRadius 8}
+		{SpreadRadius 7}
 		{SpreadPower 1}
 		{radiusFunction
 			0.0		0.1
