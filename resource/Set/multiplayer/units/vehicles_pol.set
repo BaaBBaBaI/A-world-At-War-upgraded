@@ -37,12 +37,12 @@
 
 ;���Button 3���
 
-{"tks-mg"    	    	("v" c(120) t(all light) 		s(pol) n1(1) n2(1) g(d1) sc(11.50) b(v3) cw(0) cp(2)) {level 1} {cost 100} {fore 0.6}}
-{"vickers6t_pol"      ("v" c(120) t(all light) 		s(pol) n1(2) n2(1) g(d5) sc(13.00) b(v3) cw(0) cp(10)) {level 1} {cost 160} {fore 0.4}}	
+{"tks-mg"    	    	("v" c(120) t(all light) 		s(pol) n1(1) n2(1) g(d1) sc(11.50) b(v3) cw(0) cp(5)) {level 1} {cost 100} {fore 0.6}}
+{"vickers6t_pol"      ("v" c(120) t(all light) 		s(pol) n1(2) n2(1) g(d5) sc(13.00) b(v3) cw(0) cp(7)) {level 1} {cost 160} {fore 0.4}}	
 {"tks-20mm"     	 ("v" c(280) t(all light) 		s(pol) n1(1) n2(1) g(d4) sc(15.00) b(v3) cw(0) cp(7)) {level 1} {cost 250} {fore 0.4}}
-{"7tp"       		("v" c(150) t(all light) 	s(pol) n1(2) n2(1) g(d2) sc(12.00) b(v3) cw(0) cp(8)) {level 1} {cost 280} {fore 0.4}}
-{"wz34puteaux"            ("v" c(150) t(all light) 		s(pol) n1(1) n2(1) g(d2) sc(12.50) b(v3) cw(0) cp(5)) {level 1} {cost 250} {fore 0.6}}
-{"wz29"             ("v" c(150) t(all light) 		s(pol) n1(4) n2(1) g(d2) sc(12.50) b(v3) cw(0) cp(5)) {level 1} {cost 280} {fore 0.6}}
+{"wz34puteaux"            ("v" c(150) t(all light) 		s(pol) n1(1) n2(1) g(d2) sc(12.50) b(v3) cw(7) cp(5)) {level 1} {cost 250} {fore 0.6}}
+{"7tp"       		("v" c(150) t(all light) 	s(pol) n1(2) n2(1) g(d2) sc(12.00) b(v3) cw(0) cp(7)) {level 1} {cost 280} {fore 0.4}}
+{"wz29"             ("v" c(150) t(all light) 		s(pol) n1(4) n2(1) g(d2) sc(12.50) b(v3) cw(0) cp(8)) {level 1} {cost 280} {fore 0.6}}
 
 
 
@@ -50,22 +50,22 @@
 ;���Button 4���
 
 {"r35_pol"       	    ("v" c(0) t(all medium) 		s(pol) n1(1) n2(1) g(e1) sc(17.50) b(v4) cw(0) cp(10)) {level 1} {cost 280} {fore 1.0}}
-{"crusaderi"       	    ("v" c(0) t(all medium) 		s(pol) n1(3) n2(1) g(e2) sc(17.50) b(v4) cw(0) cp(12)) {level 1} {cost 300} {fore 1.0}}
+{"crusaderi"       	    ("v" c(0) t(all medium) 		s(pol) n1(3) n2(1) g(e2) sc(17.50) b(v4) cw(0) cp(10)) {level 1} {cost 300} {fore 1.0}}
 {"h35_pol"  		("v" c(0) t(all medium) 		s(pol) n1(1) n2(1) g(e2) sc(17.50) b(v4) cw(0) cp(10)) {level 1} {cost 320} {fore 1.0}} 
 
 {"cromwell_mk_vii_pol"  ("v" c(0) t(all medium) 		s(pol) n1(3) n2(1) g(e2) sc(17.50) b(v4) cw(0) cp(12)) {level 1} {cost 350} {fore 1.0}}
 {"m4a4_pol"             ("v" c(0) t(all medium) 		s(pol) n1(4) n2(1) g(e6) sc(18.00) b(v4) cw(0) cp(15)) {level 1} {cost 400} {fore 1.0}}
 	
 {"t34_2_pol"             ("v" c(0) t(all medium) 		s(pol) n1(3) n2(1) g(e6) sc(18.00) b(v4) cw(0) cp(15)) {level 1} {cost 400} {fore 1.0}}
-{"t34_3_pol"            ("v" c(0) t(all medium) 		s(pol) n1(3) n2(1) g(e6) sc(36.25) b(v4) cw(0) cp(15)) {level 1} {cost 725} {fore 1.0}}
+{"t34_3_pol"            ("v" c(0) t(all medium) 		s(pol) n1(3) n2(1) g(e6) sc(36.25) b(v4) cw(0) cp(17)) {level 1} {cost 725} {fore 1.0}}
 {"is85"             ("v" c(0) t(all heavy) 			s(pol) n1(3) n2(1) g(e7) sc(47.50) b(v4) cw(0) cp(20)) {level 1} {cost 1000} {fore 1.0}}
  
 ;���Button 5���
 
-{"su76_pol"             ("v" c(0) t(all medium) 		s(pol) n1(3) n2(1) g(f1) sc(14.00) b(v5) cw(0) cp(2)) {level 1} {cost 280} {fore 1.0}}
-{"m10wolverine_pol"           ("v" c(0) t(all medium) 		s(pol) n1(4) n2(1) g(f1) sc(30.0) b(v5) cw(0) cp(4)) {level 1} {cost 500} {fore 1.0}} 	
+{"su76_pol"             ("v" c(0) t(all medium) 		s(pol) n1(3) n2(1) g(f1) sc(14.00) b(v5) cw(0) cp(5)) {level 1} {cost 280} {fore 1.0}}
+{"m10wolverine_pol"           ("v" c(0) t(all medium) 		s(pol) n1(4) n2(1) g(f1) sc(30.0) b(v5) cw(0) cp(8)) {level 1} {cost 500} {fore 1.0}} 	
 				
-{"su85_pol"             ("v" c(0) t(all medium) 		s(pol) n1(3) n2(1) g(f3) sc(27.50) b(v5) cw(0) cp(5)) {level 1} {cost 550} {fore 1.0}} 
+{"su85_pol"             ("v" c(0) t(all medium) 		s(pol) n1(3) n2(1) g(f3) sc(27.50) b(v5) cw(0) cp(8)) {level 1} {cost 550} {fore 1.0}} 
 
 ;���Button Hero���
 
