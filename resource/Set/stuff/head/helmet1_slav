@@ -1,0 +1,4 @@
+{from "pattern headgear"
+	{desc "Mle.1926 Adrian helmet"}
+	{entity "helmet1_slav"}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "trooper_helmet_3_diff"}
+	{blend none}
+}

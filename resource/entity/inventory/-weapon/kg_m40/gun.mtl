@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "kg_m40"}
+	{blend none}
+}

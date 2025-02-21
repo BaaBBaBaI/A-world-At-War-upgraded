@@ -1,0 +1,4 @@
+{from "fieldcap_rus"
+	{entity "fieldcap1_phi"}
+	{desc "Campaign hat"}
+}

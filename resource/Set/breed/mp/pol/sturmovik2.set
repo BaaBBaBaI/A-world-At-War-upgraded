@@ -1,0 +1,66 @@
+{breed
+	{skin "pol_civilian"}
+	{portrait pol_elite2}
+	{icon mg}
+	{icon_priority 3}
+	{nationality pol}
+	{armors
+		{head "hat1"}
+	}
+	{perks
+		{"health" "350%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"stealth"
+		}
+		{"tank" 1
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_4
+		}
+	}
+	{veterancy
+		{"lvl_1" 4
+		}
+		{"lvl_2" 8
+		}
+		{"lvl_3" 24
+		}
+		{"lvl_4" 48
+		}
+		{"lvl_5" 80
+		}
+	}
+	{inventory
+		{item "kg_m40" filled}
+		{item "ammo mgun" 1200}
+		{item "bandage" 5}
+		{item "grenade poland_z33" 3}
+		{item "smoke grenade" 2}
+		{item "grenade n73at" 2}
+		{item "sandbag_kit"}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,4 @@
+{from "helmet pattern"
+	{entity "sunhelmet2_phi"}
+	{desc "Helmet"}
+}

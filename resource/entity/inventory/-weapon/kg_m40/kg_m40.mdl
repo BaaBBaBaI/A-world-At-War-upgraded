@@ -1,0 +1,88 @@
+;Exported by: admin
+;Date:        Sat Jun 13 18:44:01 2020
+;File:        F:\3d projects etc\sweden\???????? ??????\Kg_m40\kg_m40_vtv.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "fxshell"
+			{Matrix34
+				0.087156	0	0.996195
+				0	1	0
+				-0.996195	0	0.087156
+				3.05935	1.80322	0.349028
+			}
+		}
+		{bone "foresight3"
+			{Position 17.7708	1.7437	0.0014298}
+		}
+		{bone "kg_m40"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				5.9751	0.819412	-0.903721
+			}
+			{VolumeView "kg_m40.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 24.385 4.57767 1.27251}
+	{Bone "kg_m40"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		1.04259	-0.178591	-0.293699
+	}
+}
+{Extender "preview"
+	{"stuff_primary"
+		{camera
+			{origin 5.66411	0.0931531	31.2344}
+			{lookat 5.68709	-0.144335	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -1.51264	-0.52088	1.33739}
+			}
+			{"1"
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+			}
+		}
+	}
+	{"stuff"
+		{camera
+			{origin 5.63605	0.0931531	31.2287}
+			{lookat 5.65904	-0.144335	1.3304}
+			{fov 45}
+			{horizon 5.5274}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 11.0782	-1.2487	1.30826}
+			}
+			{"1"
+				{type point}
+				{position -1.51264	-0.52088	1.33739}
+			}
+			{"2"
+				{type directional}
+				{direction 0.00821002	-0.0186623	-0.499584}
+			}
+		}
+	}
+}

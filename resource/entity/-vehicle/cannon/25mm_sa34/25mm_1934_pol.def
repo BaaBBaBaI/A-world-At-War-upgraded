@@ -1,8 +1,9 @@
 {entity
 	(include "/properties/cannon.ext")
-	{props "vehicle" "cannon" "medium" "wheeled" "round_sandbag2" "vision_cannon_low" "muzzle_minimum"}
+	{props "vehicle" "cannon" "medium" "zenite" "wheeled" "round_sandbag2" "vision_cannon_low" "muzzle_zenite"}
 	("armor_light")
 	{collider "cannon_small"}
+	{targetClass "ap bullet"}
 
 	{extender "shield"
 		{on}

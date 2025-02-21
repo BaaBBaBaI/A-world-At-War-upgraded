@@ -1,0 +1,113 @@
+;Exported by: Georgy
+;Date:        Mon Jan 02 23:27:02 2012
+;File:        C:\Users\Georgy\Desktop\7tp\crash\7tp_xx_new.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position -0.821	-0.384	16.003}
+			{VolumeView "body.ply"}
+			{bone "engine"
+				{parameters "ID=engine;"}
+				{Position -25.6325	0.0145001	8.1965}
+				{VolumeView "engine.ply"}
+			}
+			{bone "fxfire1"
+				{Position -27.1585	4.73132	1.35314}
+			}
+			{bone "trackl"
+				{parameters "ID=trackleft;"}
+				{Matrix34
+					0.996195	-0.0871557	0
+					0.0871557	0.996195	0
+					0	0	1
+					1.8895	18.4175	-5.1465
+				}
+				{VolumeView "trackl.ply"}
+			}
+			{bone "trackr"
+				{parameters "ID=trackright;"}
+				{Position 1.8895	-18.4975	-5.1465}
+				{VolumeView "trackr.ply"}
+			}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{speed 0.01}
+				{Matrix34
+					1	0	0
+					0	0.984808	-0.173648
+					0	0.173648	0.984808
+					0.311166	2.9972	12.483
+				}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "ID=gun;"}
+					{limits -8 10}
+					{speed 0.01}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						13.7234	1.01229	-0.694214
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{Matrix34
+							1	0	0
+							0	0	1
+							0	-1	0
+							12.6173	-0.80566	-0.98281
+						}
+						{VolumeView "gun.ply"}
+					}
+				}
+				{bone "door"
+					{parameters "ID=turret;"}
+					{Position 1.30119	-4.71972	4.26674}
+					{VolumeView "door.ply"}
+				}
+			}
+		}
+	}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "body"}
+	{Position 1.96148	-1.40079	-6.32858}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "body"}
+	{Position 3.71295	-0.129029	3.21529}
+}
+{Volume "engine"
+	{Polyhedron "engine.vol"}
+	{Bone "engine"}
+	{Position -0.786861	-0.316302	-8.9523}
+}
+{Volume "gun"
+	{Polyhedron "gun.vol"}
+	{Bone "gun"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		-0.304008	4.76837e-005	0.000137329
+	}
+}
+{Volume "trackright"
+	{Polyhedron "trackright.vol"}
+	{Bone "trackr"}
+	{Position 0.64509	-1.37299	-2.07031}
+}
+{Volume "turret"
+	{Polyhedron "turret.vol"}
+	{Bone "turret"}
+	{Position -0.000223637	-0.000108719	-1.23176}
+}

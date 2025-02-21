@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "cromwell_x"}
+	{color "229 229 229 152"}
+	{blend test}
+}

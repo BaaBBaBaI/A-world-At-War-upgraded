@@ -1,0 +1,10 @@
+{from "pattern gun"      ; 75mm m.1897 field Gun
+	{filling "bullet75"}
+	{fireSound "gun/50to76_cal/75mm_kwk40"}
+	{reloadSound "gun_r03"}
+	("range_light_howitzer")
+	("caliber_medium")
+
+	{projectileDamage 52}
+	("damage" a(60) b(50) c(40) d(36) e(34))
+}

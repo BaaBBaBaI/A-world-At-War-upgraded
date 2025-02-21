@@ -79,11 +79,16 @@
 {"brummbar"				("extra" t() sc(45.00) cw(0) cp(30))}	;6
 {"jagdtiger_ger2"		("extra" t() sc(75.00) cw(0) cp(40))}	;10
     
+{"achilles_pol"			("extra" t() sc(22.50) cw(0) cp(10))}	;3
+{"t34_3_pol"			("extra" t() sc(22.50) cw(0) cp(10))}	;3
+{"is2_pol"		("extra" t() sc(75.00) cw(0) cp(30))}	;10
+{"pz5d_pol"			("extra" t() sc(22.50) cw(0) cp(20))}	;3
  
 ;���Artillery���
 {"22cm_mortier"			("extra" t() sc(67.00) cw(0) cp(20))} 
 {"155mm_mle1917"			("extra" t() sc(40.00) cw(0) cp(5))} 
-{"105mm_mle1913"			("extra" t() sc(30.00) cw(0) cp(1))} 
+{"105mm_mle1913"			("extra" t() sc(30.00) cw(0) cp(1))}
+{"np_su12"         ("extra" t() sc(14.50) cw(0) cp(10))}		;1 
 
 {"vickers_fra"  			("extra" t() sc(37.50) cw(0) cp(10))}
 {"vickers"  			("extra" t() sc(37.50) cw(0) cp(10))}

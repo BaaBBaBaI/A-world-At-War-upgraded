@@ -115,6 +115,19 @@
     {content "%c1 ( mp/%s/%n1 ) %c2 ( mp/%s/%n2 ) %c3 ( mp/%s/%n3 )"}
 )
 
+; 2 vehicle - 6 infantry types
+(define "v45"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n1 mp/%s/%n2 ) %c2 ( mp/%s/%n3 mp/%s/%n4 mp/%s/%n5 )"}
+
+)
+
+; 3 vehicle - 6 infantry types
+(define "v55"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n1 mp/%s/%n2 ) %c1 ( mp/%s/%n1 mp/%s/%n2 ) %c2 ( mp/%s/%n3 mp/%s/%n4 mp/%s/%n5 )"}
+)
+
 ; Engies
 (define "e2"
     ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
@@ -216,6 +229,7 @@
 	(include "vehicles_hun.set")
 	(include "vehicles_com.set")
 	(include "vehicles_fin.set")
+    (include "vehicles_pol.set")
 	(include "vehicles_ita.set")
 	(include "vehicles_chn.set")
 	(include "vehicles_x.set")

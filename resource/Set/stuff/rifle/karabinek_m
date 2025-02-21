@@ -1,0 +1,21 @@
+{from "pattern rifle"
+	{tag "sniper rifle"}
+	{filling "ammo rifle" 5}
+	{entity "karabinek_wz_29"}
+	{fireSound "rifle/type99rifle"}
+	{reloadSound "rifle_bolt_five"}
+	{recoveryTime 2.5}
+	("speed" s(850))
+	("accuracy_boost")
+	{desc "Marksman Karabinek WZ29"}
+	{special
+		{mode aim}
+		{PrepareTime 2}	
+		{PrepareCursor "aimed_shot2"}
+		{accuracy 2}
+		{damage 0.5}
+		
+	}
+	{tag "bolt"}
+}
+

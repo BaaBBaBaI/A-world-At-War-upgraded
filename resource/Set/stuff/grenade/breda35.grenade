@@ -1,0 +1,17 @@
+{from "pattern throwable"
+	{tag "fg"}
+	{inventory {size 1 1}}	
+	{entity "grenade_breda35"}
+
+	{throw
+		{range 30}
+		{startAngle 40}		
+		{spreading 3}
+	}	
+	{damage blastwave
+		{energy 1} ; kg
+		{area 3 8} ; m
+
+	}
+	{possibleDamageRadius 4}
+}

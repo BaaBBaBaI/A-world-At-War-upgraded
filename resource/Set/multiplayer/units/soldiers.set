@@ -66,6 +66,10 @@
 {"mp/hun/reco3" ("recon" side(hun))}
 {"mp/ger/reco" ("recon" side(ger))}
 {"mp/ger/reco2" ("recon" side(ger))}
+
+{"mp/pol/reco" ("recon" side(pol))}
+{"mp/pol/reco2" ("recon" side(pol))}
+{"mp/pol/reco3" ("recon" side(pol))}
 {"mp/ger/reco3" ("recon" side(ger))}
 
 
@@ -87,6 +91,7 @@
 {"mp/hun/tankman" ("tankman" side(hun))}
 {"mp/fin/tankman" ("tankman" side(fin))}
 {"mp/ita/tankman" ("tankman" side(ita))}
+{"mp/pol/tankman" ("tankman" side(pol))}
 {"mp/chn/tankman" ("tankman" side(chn))}
 {"mp/ger2/tankman" ("tankman" side(ger2))}
   
@@ -107,6 +112,7 @@
 {"mp/com/tankman2" ("tankman2" side(com))}
 {"mp/fra/tankman2" ("tankman2" side(fra))}
 {"mp/hun/tankman2" ("tankman2" side(hun))}
+{"mp/pol/tankman2" ("tankman2" side(pol))}
 {"mp/fin/tankman2" ("tankman2" side(fin))}
 {"mp/ita/tankman2" ("tankman2" side(ita))}
 {"mp/ger2/tankman2" ("tankman2" side(ger2))}
@@ -128,6 +134,7 @@
 {"mp/fra/vehicle_supporter" ("vehicle_supporter" side(fra))}
 {"mp/hun/vehicle_supporter" ("vehicle_supporter" side(hun))}
 {"mp/fin/vehicle_supporter" ("vehicle_supporter" side(fin))}
+{"mp/pol/vehicle_supporter" ("vehicle_supporter" side(pol))}
 {"mp/ita/vehicle_supporter" ("vehicle_supporter" side(ita))}
 {"mp/chn/vehicle_supporter" ("vehicle_supporter" side(chn))}
 {"mp/ger2/vehicle_supporter" ("vehicle_supporter" side(ger2))}
@@ -163,6 +170,7 @@
 {"mp/fin/home_guard" ("home_guard" side(fin))}
 {"mp/ita/home_guard" ("home_guard" side(ita))}
 {"mp/ger2/home_guard" ("home_guard" side(ger2))}
+{"mp/pol/home_guard" ("home_guard" side(pol))}
  
 {"mp/rus/home_guard2" ("home_guard" side(rus))}
 {"mp/ger/home_guard2" ("home_guard" side(ger))}
@@ -173,11 +181,13 @@
 {"mp/fra/home_guard2" ("home_guard" side(fra))}
 {"mp/hun/home_guard2" ("home_guard" side(hun))}
 {"mp/fin/home_guard2" ("home_guard" side(fin))}
+{"mp/pol/home_guard2" ("home_guard" side(pol))}
 {"mp/ita/home_guard2" ("home_guard" side(ita))}
 {"mp/ger2/home_guard2" ("home_guard" side(ger2))}
  
 {"mp/ita/home_guard3" ("home_guard" side(ita))}
 {"mp/fin/home_guard3" ("home_guard" side(fin))}
+{"mp/pol/home_guard3" ("home_guard" side(pol))}
 {"mp/ita/home_guard4" ("home_guard" side(ita))}
 {"mp/ita/home_guard5" ("home_guard" side(ita))}
  
@@ -200,6 +210,7 @@
 {"mp/ger/rifle" ("rifle_reg" side(ger))}
 {"mp/usa/rifle" ("rifle_reg" side(usa))}
 {"mp/eng/rifle" ("rifle_reg" side(eng))}
+{"mp/pol/rifle" ("rifle_reg" side(pol))}
 {"mp/jap/rifle" ("rifle_reg" side(jap))}
 {"mp/com/rifle" ("rifle_reg" side(com))}
 {"mp/fra/rifle" ("rifle_reg" side(fra))}
@@ -235,6 +246,7 @@
 {"mp/hun/rifle2" ("rifle" side(hun))}
 {"mp/fin/rifle2" ("rifle" side(fin))}
 {"mp/ger2/rifle" ("rifle" side(ger2))}
+{"mp/pol/rifle2" ("rifle" side(pol))}
 
 {"mp/eng/rifle3" ("rifle" side(eng))}
 {"mp/com/rifle3" ("rifle" side(com))}
@@ -245,6 +257,7 @@
 {"mp/fra/rifle_eng" ("rifle" side(fra))}
 {"mp/ita/rifle3" ("rifle" side(ita))}
 {"mp/ita/rifle4" ("rifle" side(ita))}
+{"mp/pol/rifle3" ("rifle" side(pol))}
 {"mp/ita/rifle5" ("rifle" side(ita))}
 {"mp/ita/rifle6" ("rifle" side(ita))}
 {"mp/ita/rifle7" ("rifle" side(ita))}
@@ -263,6 +276,16 @@
 {"mp/rus/rifle3" ("rifle_lowcp" side(rus))}
 {"mp/rus/flagbearer" ("rifle_lowcp" side(rus))}
 
+
+(define "bearer_lowcp"
+    {tags   "smg %side infantry man"}
+    {cp     2}
+    {score  0.75}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/pol/bearer_ammo" ("bearer_lowcp" side(pol))}
 
 (define "smg"
     {tags   "smg %side infantry man"}
@@ -284,6 +307,7 @@
 {"mp/ita/smg" ("smg" side(ita))}
 {"mp/chn/smg" ("smg" side(chn))}
 {"mp/ger2/smg" ("smg" side(ger2))}
+{"mp/pol/smg" ("smg" side(pol))}
 
 {"mp/rus/smg2" ("smg" side(rus))}
 {"mp/usa/smg2" ("smg" side(usa))}
@@ -291,6 +315,7 @@
 {"mp/com/smg2" ("smg" side(com))}
 {"mp/ger/smg2" ("smg" side(ger))}
 {"mp/jap/smg2" ("smg" side(jap))}
+{"mp/pol/smg2" ("smg" side(pol))}
 {"mp/fin/smg2" ("smg" side(fin))}
 {"mp/ita/smg2" ("smg" side(ita))}
 {"mp/chn/smg2" ("smg" side(chn))}
@@ -305,6 +330,7 @@
 {"mp/fra/smg3" ("smg" side(fra))}
 {"mp/hun/smg3" ("smg" side(hun))}
 {"mp/fin/smg3" ("smg" side(fin))}
+{"mp/pol/smg3" ("smg" side(pol))}
 
 (define "native_lowcp"
     {tags   "smg %side infantry man"}
@@ -340,6 +366,7 @@
 {"mp/usa/squadleader" ("squadleader" side(usa))}
 {"mp/eng/squadleader" ("squadleader" side(eng))}
 {"mp/ger/squadleader" ("squadleader" side(ger))}
+{"mp/pol/squadleader" ("squadleader" side(pol))}
 {"mp/jap/squadleader" ("squadleader" side(jap))}
 {"mp/com/squadleader" ("squadleader" side(com))}
 {"mp/fra/squadleader" ("squadleader" side(fra))}
@@ -358,6 +385,7 @@
 {"mp/fin/squadleader2" ("squadleader" side(fin))}
 {"mp/ita/squadleader2" ("squadleader" side(ita))}
 {"mp/ger2/squadleader2" ("squadleader" side(ger2))}
+{"mp/pol/squadleader2" ("squadleader" side(pol))}
 
 {"mp/ita/adra1" ("squadleader" side(ita))}
 {"mp/ita/adra2" ("squadleader" side(ita))}
@@ -389,12 +417,14 @@
 {"mp/ita/mgun" ("mgun" side(ita))}
 {"mp/chn/mgun" ("mgun" side(chn))}
 {"mp/ger2/mgun" ("mgun" side(ger2))}
+{"mp/pol/mgun" ("mgun" side(pol))}
 
 {"mp/fra/mgun" ("mgun" side(fra))}
 {"mp/hun/mgun" ("mgun" side(hun))}
 
 {"mp/usa/mgun2" ("mgun" side(usa))}
 {"mp/eng/mgun2" ("mgun" side(eng))}
+{"mp/pol/mgun2" ("mgun" side(pol))}
 
 {"mp/fra/mgun2" ("mgun" side(fra))}
 {"mp/fra/mgun_sup" ("mgun" side(fra))}
@@ -435,6 +465,7 @@
 {"mp/ita/saper" ("saper" side(ita))}
 {"mp/chn/saper" ("saper" side(chn))}
 {"mp/ger2/saper" ("saper" side(ger2))}
+{"mp/pol/saper" ("saper" side(pol))}
 
 {"mp/fra/saper" ("saper" side(fra))}
 {"mp/hun/saper" ("saper" side(hun))}
@@ -481,6 +512,7 @@
 {"mp/ita/ap_miner" ("ap_miner" side(ita))}
 {"mp/chn/ap_miner" ("ap_miner" side(chn))}
 {"mp/ger2/ap_miner" ("ap_miner" side(ger2))}
+{"mp/pol/ap_miner" ("ap_miner" side(pol))}
 
 
 
@@ -505,6 +537,7 @@
 {"mp/ita/at_miner" ("at_miner" side(ita))}
 {"mp/chn/at_miner" ("at_miner" side(chn))}
 {"mp/ger2/at_miner" ("at_miner" side(ger2))}
+{"mp/pol/at_miner" ("at_miner" side(pol))}
 
 
 
@@ -530,6 +563,7 @@
 {"mp/ita/elite" ("elite" side(ita))}
 {"mp/chn/elite" ("elite" side(chn))}
 {"mp/ger2/elite" ("elite" side(ger2))}
+{"mp/pol/elite" ("elite" side(pol))}
 
 {"mp/rus/elite2" ("elite" side(rus))}
 {"mp/ger/elite2" ("elite" side(ger))}
@@ -543,6 +577,7 @@
 {"mp/hun/elite2" ("elite" side(hun))}
 {"mp/ita/elite2" ("elite" side(ita))}
 {"mp/ger2/elite2" ("elite" side(ger2))}
+{"mp/pol/elite2" ("elite" side(pol))}
 
 {"mp/rus/elite3" ("elite" side(rus))}
 {"mp/ger/elite3" ("elite" side(ger))}
@@ -562,11 +597,13 @@
 {"mp/usa/elite4" ("elite" side(usa))}
 {"mp/fin/elite4" ("elite" side(fin))}
 {"mp/ger2/elite3" ("elite" side(ger2))}
+{"mp/pol/elite3" ("elite" side(pol))}
 
 {"mp/fra/elite4" ("elite" side(fra))}
 {"mp/hun/elite4" ("elite" side(hun))}
 {"mp/ita/elite4" ("elite" side(ita))}
 {"mp/ger2/elite4" ("elite" side(ger2))}
+{"mp/pol/elite4" ("elite" side(pol))}
 
 {"mp/rus/elite5" ("elite" side(rus))}
 {"mp/ger/elite5" ("elite" side(ger))}
@@ -578,6 +615,7 @@
 {"mp/hun/elite4-41" ("elite" side(hun))}
 {"mp/hun/elite-41" ("elite" side(hun))}
 {"mp/ger2/elite5" ("elite" side(ger2))}
+{"mp/pol/elite5" ("elite" side(pol))}
 
 {"mp/rus/elite6" ("elite" side(rus))}
 {"mp/ger/elite6" ("elite" side(ger))}
@@ -587,6 +625,7 @@
 {"mp/hun/elite41" ("elite" side(hun))}
 {"mp/fin/elite6" ("elite" side(fin))}
 {"mp/ger2/elite6" ("elite" side(ger2))}
+{"mp/pol/elite6" ("elite" side(pol))}
 
 {"mp/ita/elite6" ("elite" side(ita))}
 {"mp/ita/elite7" ("elite" side(ita))}
@@ -692,6 +731,7 @@
 {"mp/fra/sturmovik" ("sturmovik" side(fra))}
 {"mp/hun/sturmovik" ("sturmovik" side(hun))}
 {"mp/ger2/sturmovik" ("sturmovik" side(ger2))}
+{"mp/pol/sturmovik" ("sturmovik" side(pol))}
 
 {"mp/rus/sturmovik2" ("sturmovik" side(rus))}
 {"mp/ger/sturmovik2" ("sturmovik" side(ger))}
@@ -705,6 +745,7 @@
 {"mp/fin/sturmovik2" ("sturmovik" side(fin))}
 {"mp/ita/sturmovik2" ("sturmovik" side(ita))}
 {"mp/ger2/sturmovik2" ("sturmovik" side(ger2))}
+{"mp/pol/sturmovik2" ("sturmovik" side(pol))}
 
 
 {"mp/rus/sturmovik3" ("sturmovik" side(rus))}
@@ -719,6 +760,7 @@
 {"mp/ita/sturmovik3" ("sturmovik" side(ita))}
 {"mp/chn/sturmovik3" ("sturmovik" side(chn))}
 {"mp/ger2/sturmovik3" ("sturmovik" side(ger2))}
+{"mp/pol/sturmovik3" ("sturmovik" side(pol))}
 
 {"mp/rus/sturmovik4" ("sturmovik" side(rus))}
 {"mp/ger/sturmovik4" ("sturmovik" side(ger))}
@@ -732,6 +774,7 @@
 {"mp/hun/elitemarksman1" ("sturmovik" side(hun))}
 {"mp/fin/sturmovik4" ("sturmovik" side(fin))}
 {"mp/ger2/sturmovik4" ("sturmovik" side(ger2))}
+{"mp/pol/sturmovik4" ("sturmovik" side(pol))}
 
 {"mp/rus/sturmovik4b" ("sturmovik" side(rus))}
 {"mp/ger/sturmovik4b" ("sturmovik" side(ger))}
@@ -746,6 +789,8 @@
 {"mp/fin/sturmovik4b" ("sturmovik" side(fin))}
 {"mp/ita/sturmovik4b" ("sturmovik" side(ita))}
 {"mp/ger2/sturmovik4b" ("sturmovik" side(ger2))}
+{"mp/pol/sturmovik4b" ("sturmovik" side(pol))}
+{"mp/pol/sturmovik4c" ("sturmovik" side(pol))}
 
 {"mp/rus/sturmovik5" ("sturmovik" side(rus))}
 {"mp/ger/sturmovik5" ("sturmovik" side(ger))}
@@ -758,6 +803,7 @@
 {"mp/fin/sturmovik5" ("sturmovik" side(fin))}
 {"mp/ita/sturmovik5" ("sturmovik" side(ita))}
 {"mp/ger2/sturmovik5" ("sturmovik" side(ger2))}
+{"mp/pol/sturmovik5" ("sturmovik" side(pol))}
 
 {"mp/rus/sturmovik5b" ("sturmovik" side(rus))}
 {"mp/ger/sturmovik5b" ("sturmovik" side(ger))}
@@ -770,6 +816,7 @@
 {"mp/fin/sturmovik5b" ("sturmovik" side(fin))}
 {"mp/ita/sturmovik5b" ("sturmovik" side(ita))}
 {"mp/ger2/sturmovik5b" ("sturmovik" side(ger2))}
+{"mp/pol/sturmovik5b" ("sturmovik" side(pol))}
 
 {"mp/rus/sturmovik6" ("sturmovik" side(rus))}
 {"mp/ger/sturmovik6" ("sturmovik" side(ger))}
@@ -782,6 +829,7 @@
 {"mp/fin/sturmovik6" ("sturmovik" side(fin))}
 {"mp/ita/sturmovik6" ("sturmovik" side(ita))}
 {"mp/ger2/sturmovik6" ("sturmovik" side(ger2))}
+{"mp/pol/sturmovik6" ("sturmovik" side(pol))}
 
 {"mp/rus/sturmovik6b" ("sturmovik" side(rus))}
 {"mp/ger/sturmovik6b" ("sturmovik" side(ger))}
@@ -794,6 +842,7 @@
 {"mp/fin/sturmovik6b" ("sturmovik" side(fin))}
 {"mp/ita/sturmovik6b" ("sturmovik" side(ita))}
 {"mp/ger2/sturmovik6b" ("sturmovik" side(ger2))}
+{"mp/pol/sturmovik6b" ("sturmovik" side(pol))}
 
 {"mp/fin/elitemarks" ("sturmovik" side(fin))}
 {"mp/fin/elitemarks2" ("sturmovik" side(fin))}
@@ -857,6 +906,7 @@
 {"mp/hun/flamer" ("flamer" side(hun))}
 {"mp/fin/flamer" ("flamer" side(fin))}
 {"mp/ita/flamer" ("flamer" side(ita))}
+{"mp/pol/flamer" ("flamer" side(pol))}
 
 {"mp/rus/flamer2" ("flamer" side(rus))}
 {"mp/usa/flamer2" ("flamer" side(usa))}
@@ -869,6 +919,7 @@
 
 {"mp/rus/flamer3" ("flamer" side(rus))}
 {"mp/fin/flamer2" ("flamer" side(fin))}
+{"mp/pol/flamer2" ("flamer" side(pol))}
 
 
 
@@ -896,7 +947,7 @@
 {"mp/fin/sniper2" ("sniper" side(fin))}
 {"mp/ita/sniper2" ("sniper" side(ita))}
 {"mp/ger2/sniper" ("sniper" side(ger2))}
-
+{"mp/pol/sniper" ("sniper" side(pol))}
 
 (define "sniper_mid"
     {tags   "sniper %side spec infantry man"}
@@ -922,6 +973,8 @@
 {"mp/eng/scout" ("scout" side(eng))}
 {"mp/eng/scout2" ("scout" side(eng))}
 {"mp/com/scout" ("scout" side(com))}
+{"mp/pol/sas_scout" ("scout" side(pol))}
+{"mp/pol/sas_scout2" ("scout" side(pol))}
 
 {"mp/fra/scout2" ("scout" side(fra))}
 {"mp/usa/scout2" ("scout" side(usa))}
@@ -947,6 +1000,7 @@
 {"mp/com/radioman" ("radioman" side(com))}
 {"mp/ger/radioman" ("radioman" side(ger))}
 {"mp/jap/radioman" ("radioman" side(jap))}
+{"mp/pol/radioman" ("radioman" side(pol))}
 
 {"mp/fra/radioman" ("radioman" side(fra))}
 {"mp/hun/radioman" ("radioman" side(hun))}
@@ -987,7 +1041,7 @@
 {"mp/ita/oficer" ("oficer" side(ita))}
 {"mp/chn/oficer" ("oficer" side(chn))}
 {"mp/ger2/oficer" ("oficer" side(ger2))}
-
+{"mp/pol/oficer" ("oficer" side(pol))}
 
 
 (define "oficer_ger2"
@@ -1019,6 +1073,7 @@
 {"mp/ita/bazooker" ("bazooker" side(ita))}
 {"mp/chn/bazooker" ("bazooker" side(chn))}
 {"mp/ger2/bazooker" ("bazooker" side(ger2))}
+{"mp/pol/bazooker" ("bazooker" side(pol))}
 
 {"mp/rus/bazooker2" ("bazooker" side(rus))}
 {"mp/ger/bazooker2" ("bazooker" side(ger))}
@@ -1031,6 +1086,7 @@
 {"mp/ita/bazooker2" ("bazooker" side(ita))}
 {"mp/chn/bazooker2" ("bazooker" side(chn))}
 {"mp/ger2/bazooker2" ("bazooker" side(ger2))}
+{"mp/pol/bazooker2" ("bazooker" side(pol))}
 
 {"mp/ger/bazooker3" ("bazooker" side(ger))}
 {"mp/jap/bazooker3" ("bazooker" side(jap))}
@@ -1060,6 +1116,7 @@
 {"mp/ita/at_rifle" ("at_rifle" side(ita))}
 {"mp/chn/at_rifle" ("at_rifle" side(chn))}
 {"mp/ger2/at_rifle" ("at_rifle" side(ger2))}
+{"mp/pol/at_rifle" ("at_rifle" side(pol))}
 
 {"mp/rus/at_rifle2" ("at_rifle" side(rus))}
 {"mp/ger/at_rifle2" ("at_rifle" side(ger))}
@@ -1071,6 +1128,7 @@
 {"mp/fin/at_rifle2" ("at_rifle" side(fin))}
 {"mp/ita/at_rifle2" ("at_rifle" side(ita))}
 {"mp/ger2/at_rifle2" ("at_rifle" side(ger2))}
+{"mp/pol/at_rifle2" ("at_rifle" side(pol))}
 
 
 (define "kamikaze"

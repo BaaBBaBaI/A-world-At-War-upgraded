@@ -1,0 +1,14 @@
+{actor
+	(include "/properties/stuff_grenade.ext")
+	(include "/properties/shadow/round.inc")
+	{Extension "grenade_breda35.mdl"}
+	{extender "stuff"
+		{item "grenade breda35"}
+	}
+	{nogroupmesh 1}	
+	{props "grenade" "contact"}
+	{volume "body"
+		{able clear {bullet} {select} {contact_ground} {touch} {contact}}
+		{thickness 1}
+	}
+}

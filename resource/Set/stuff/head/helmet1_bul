@@ -1,0 +1,4 @@
+{from "helmet pattern"
+	{desc "Helmet"}
+	{entity "helmet1_bul"}
+}

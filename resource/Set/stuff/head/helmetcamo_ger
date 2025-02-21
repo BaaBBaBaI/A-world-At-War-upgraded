@@ -1,0 +1,4 @@
+{from "helmet pattern"
+	{desc "Helmet"}
+	{entity "helmetcamo_ger"}
+}

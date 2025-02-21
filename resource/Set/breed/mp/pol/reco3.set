@@ -1,0 +1,57 @@
+{breed
+	{skin "polish_soldier"}
+	{portrait "pol_recon"}
+	{icon officer}
+	{icon_priority 1}
+	{nationality pol}
+	{tags "officer"}
+	{armors
+		{head winterhat_pla}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" recon
+		}
+		{"speed" 1
+		}
+		{"tank" 0.8
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_2
+		}
+		{"field_glass2"}
+		{"aimedshot_m"} 
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "bandage" 3}
+		{item "grenade poland_o33"}
+		{item "karabinek_m" filled}
+		{item "ammo rifle" 150}
+		{item "smoke grenade" 2}
+		{in_hands 2}
+	}
+}

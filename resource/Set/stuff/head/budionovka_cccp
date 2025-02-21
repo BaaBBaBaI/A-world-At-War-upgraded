@@ -1,0 +1,4 @@
+{from "fieldcap_rus"
+	{desc "Budionovka cap"}
+	{entity "budionovka_cccp"}
+}

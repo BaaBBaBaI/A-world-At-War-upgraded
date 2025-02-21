@@ -103,7 +103,67 @@
 
 
 
-
+			{"pol"
+				{"ap_miner" "<c(c3baae)>combat engineer (AP mines)"}
+				{"at_miner" "<c(c3baae)>combat engineer (AT mines)"}
+				{"at_rifle" "<c(c3baae)>AT-Rifle infantry"}
+				{"at_rifle2" "<c(c3baae)>AT-Rifle support infantry"}
+				{"bazooker2" "<c(c3baae)>AT infantry Support"}
+				{"bazooker3" "<c(c3baae)>AT infantry"}
+				{"engineer" "<c(c3baae)>Engineer support"}
+				{"elite" "<c(c3baae)>People's Guard"}
+				{"elite2" "<c(c3baae)>People's Guard"}
+				{"elite3" "<c(c3baae)>People's Guard"}
+				{"elite4" "<c(c3baae)>People's Guard"}
+				{"elite5" "<c(c3baae)>People's Guard"}
+				{"elite6" "<c(c3baae)>People's Guard"}
+				{"elite_at" "<c(c3baae)>People's Guard"}
+				{"flamer" "<c(c3baae)>flamethrower infantry"}
+				{"flamer2" "<c(c3baae)>flamethrower support infantry"}
+				{"flamer3" "<c(c3baae)>shock infantry"}
+				{"bearer_ammo" "<c(c3baae)>Ammo cache infantry"}
+				{"home_guard" "<c(c3baae)>Resistance fighter"}
+				{"home_guard2" "<c(c3baae)>Resistance fighter"}
+				{"home_guard3" "<c(c3baae)>Resistance fighter"}
+				{"flagbearer" "<c(c3baae)>flagbearer"}
+				{"medic" "<c(c3baae)>medic"}
+				{"mgun" "<c(c3baae)>machine gunner"}
+				{"mgun2" "<c(c3baae)>machine gunner"}
+				{"oficer" "<c(c3baae)>officer"}
+				{"oficer_arty" "<c(c3baae)>officer"}
+				{"radioman" "<c(c3baae)>radio operator"}
+				{"rifle" "<c(c3baae)>rifleman"}
+				{"rifle2" "<c(c3baae)>assault rifleman"}
+				{"rifle3" "<c(c3baae)>rifleman"}
+				{"saper" "<c(c3baae)>mine disposal expert"}
+				{"smg" "<c(c3baae)>SMG infantry"}
+				{"smg2" "<c(c3baae)>assault SMG infantry"}
+				{"smg3" "<c(c3baae)>Assault SMG"}
+				{"smg4" "<c(c3baae)>SMG infantry"}
+				{"sniper" "<c(c3baae)>sniper"}
+				{"sniper2" "<c(c3baae)>guards sniper"}
+				{"sturmovik" "<c(c3baae)>Armia Krajowa"}
+				{"sturmovik2" "<c(c3baae)>Armia Krajowa"}
+				{"sturmovik3" "<c(c3baae)>Armia Krajowa"}
+				{"sturmovik4" "<c(c3baae)>Armia Krajowa"}
+				{"sturmovik4b" "<c(c3baae)>Armia Krajowa"}
+				{"sturmovik5" "<c(c3baae)>Armia Krajowa"}
+				{"sturmovik5b" "<c(c3baae)>Armia Krajowa"}
+				{"sturmovik6" "<c(c3baae)>Armia Krajowa"}
+				{"sturmovik6b" "<c(c3baae)>Armia Krajowa"}
+				{"squadleader" "<c(c3baae)>squad leader"}
+				{"squadleader2" "<c(c3baae)>assault squad leader"}
+				{"tankman" "<c(c3baae)>tank crew"}
+				{"tankman2" "<c(c3baae)>tank commander"}
+				{"vehicle_supporter" "<c(c3baae)>soldier"}
+				{"reco" "<c(c3baae)>Reconnaissance Leader"}
+				{"reco2" "<c(c3baae)>Reconnaissance infantry"}
+				{"reco3" "<c(c3baae)>Reconnaissance sniper"}
+				{"sas_scout" "<c(c3baae)>SAS scout commandos"}
+				{"sas_scout2" "<c(c3baae)>SAS scout commandos"}
+				{"sas_scout3" "<c(c3baae)>SAS scout commandos"}
+				{"usa_scout2" "<c(c3baae)>usa soldier"}
+			}
 
 			{"rus"
 				{"ap_miner" "<c(c3baae)>combat engineer (AP mines)"}
@@ -834,6 +894,7 @@
 		{"recon(ita)" "Reconnaissance"}
 		{"recon(chn)" "Reconnaissance"}
 		{"recon(ger2)" "Reconnaissance"}
+		{"recon(pol)" "Reconnaissance"}
 
 		{"ap_miners(eng)" "Mine Engineers"}
 		{"ap_miners(ger)" "Mine Engineers"}
@@ -847,6 +908,8 @@
 		{"ap_miners(ita)" "Mine Engineers"}
 		{"ap_miners(chn)" "Mine Engineers"}
 		{"ap_miners(ger2)" "Mine Engineers"}
+		{"ap_miners(pol)" "Mine Engineers"}
+
 
 
 		{"at_miners(eng)" "Combat engineers (AT mines)"}
@@ -860,6 +923,8 @@
 		{"at_miners(fin)" "Combat engineers (AT mines)"}
 		{"at_miners(ita)" "Combat engineers (AT mines)"}
 		{"at_miners(ger2)" "Combat engineers (AT mines)"}
+		{"at_miners(pol)" "Combat engineers (AT mines)"}
+
 		
 		{"at_rifles(eng)" "AT-Rifle infantry"}
 		{"at_rifles(ger)" "AT-Rifle infantry"}
@@ -871,6 +936,7 @@
 		{"at_rifles(fin)" "AT-Rifle infantry"}
 		{"at_rifles(ita)" "AT-Rifle infantry"}
 		{"at_rifles(ger2)" "AT-Rifle infantry"}
+		{"at_rifles(pol)" "AT-Rifle infantry"}
 		
 		{"bazookers(eng)" "AT infantry"}
 		{"bazookers(ger)" "AT infantry"}
@@ -883,6 +949,7 @@
 		{"bazookers(fin)" "AT infantry"}
 		{"bazookers(ita)" "AT infantry"}
 		{"bazookers(ger2)" "AT infantry"}
+		{"bazookers(pol)" "AT infantry"}
 				
 		{"elites(eng)" "Commandos"}
 		{"elites(ger)" "Paratroopers"}
@@ -896,6 +963,7 @@
 		{"elites(ita)" "Elite Marine"}
 		{"elites(ger2)" "Jagers"}
 		{"elite_at_rifles(chn)" "Elite AT-rifle infantry"}
+		{"elites(pol)" "People's Guards"}
 	
 		{"flamers(eng)" "Flamethrower infantry"}
 		{"flamers(ger)" "Flamethrower infantry"}
@@ -908,6 +976,7 @@
 		{"flamers(fin)" "Flamethrower infantry"}
 		{"flamers(ita)" "Flamethrower infantry"}
 		{"flamers(ger2)" "Flamethrower infantry"}
+		{"flamerss(pol)" "Flamethrower infantry"}
 		
 		{"home_guards(eng)" "Militia"}
 		{"home_guards(ger)" "Volkssturm"}
@@ -920,6 +989,7 @@
 		{"home_guards(fin)" "Reserve soldiers"}
 		{"home_guards(ita)" "Regrut"}	
 		{"home_guards(ger2)" "Leichte Aufklarer"}
+		{"home_guards(pol)" "Resistance Army"}
 
 		{"kamikazes(jap)" "Kamikaze"}
 		{"nativeammo" "Native Ammo Carrier"}
@@ -935,6 +1005,7 @@
 		{"mgs2(fin)" "Machine gunner"}
 		{"mgs2(ita)" "Machine gunner"}
 		{"mgs2(ger2)" "Machine gunner"}
+		{"mgs2(pol)" "Machine gunner"}
 
 		{"officers(eng)" "Officer"}
 		{"officers(ger)" "Officer"}
@@ -947,6 +1018,7 @@
 		{"officers(fin)" "Officer"}
 		{"officers(ita)" "Officer"}	
 		{"officers(ger2)" "Officer"}
+		{"officers(pol)" "Officer"}
 
 		{"commander(ger)" "Elite Commander"}	
 
@@ -961,6 +1033,7 @@
 		{"riflemans(fin)" "Regular infantry"}
 		{"riflemans(ita)" "Regular infantry"}	
 		{"riflemans(ger2)" "Veteranen infantry"}
+		{"riflemans(pol)" "Regular infantry"}
 
 		{"riflemans2(eng)" "Rifleman"}
 		{"riflemans2(ger)" "Rifleman"}
@@ -973,6 +1046,7 @@
 		{"riflemans2(fin)" "Rifleman"}
 		{"riflemans2(ita)" "Rifleman"}
 		{"riflemans2(ger2)" "Rifleman"}
+		{"riflemans2(pol)" "Rifleman"}
 
 		{"rifleman3(ita)" "Gewgranat k98 rifleman"}
 		{"riflemen3(ita)" "Gewgranat k98 rifleman"}
@@ -988,6 +1062,7 @@
 		{"sappers(fin)" "Demolition Team"}
 		{"sappers(ita)" "Demolition Team"}
 		{"sappers(chn)" "Demolition Team"}
+		{"sappers(pol)" "Demolition Team"}
 			
 		{"smgs(eng)" "Assault infantry"}
 		{"smgs(ger)" "Assault infantry"}
@@ -1000,6 +1075,7 @@
 		{"smgs(fin)" "Assault infantry"}
 		{"smgs(ita)" "Assault infantry"}
 		{"smgs(ger2)" "Stosstrupp"}
+		{"smgs(pol)" "Assault infantry"}
 				
 		{"smgs2(eng)" "SMG"}
 		{"smgs2(ger)" "SMG"}
@@ -1012,6 +1088,7 @@
 		{"smgs2(fin)" "SMG"}
 		{"smgs2(ita)" "SMG"}
 		{"smgs2(ger2)" "Assault Stosstrupp"}
+		{"smgs2(pol)" "SMG"}
 				
 		{"snipers(eng)" "Sniper"}
 		{"snipers(ger)" "Sniper"}
@@ -1024,6 +1101,7 @@
 		{"snipers(ita)" "Sniper"}
 		{"snipers(fin)" "Sniper"}
 		{"snipers(ger2)" "Sniper"}
+		{"snipers(pol)" "Sniper"}
 
 		{"snipers_d(eng)" "Sniper"}
 		{"snipers_d(ger)" "Sniper"}
@@ -1035,6 +1113,7 @@
 		{"snipers_d(com)" "Sniper"}
 		{"snipers_d(fin)" "Sniper"}
 		{"snipers_d(ita)" "Sniper"}
+		{"snipers_d(pol)" "Sniper"}
 		{"snipers_d(ger2)" "Sniper"}
 				
 		{"shotguns(usa)" "Shotgunners"}
@@ -1071,6 +1150,10 @@
 		{"stormtroopers1(ger2)" "Veteran marksmen"}
         {"stormtroopers2(ger2)" "Veteran AT infantry"}
         {"stormtroopers3(ger2)" "Veteran support infantry"}
+		{"stormtrooperss(pol)" "Armia Krajowa"}
+		{"stormtroopers1(pol)" "Elite Marksmen"}
+		{"stormtroopers2(pol)" "Elite AT infantry"}
+		{"stormtroopers3(pol)" "Elite Support infantry"}
 
 		{"stormtroopers(com)" "Commandos"}
 		{"stormtroopers1(com)" "Elite marksmen"}
@@ -1097,7 +1180,8 @@
 		{"storm_mech_com" "Mechanized Commando"}
 		{"storm_mech_fin" "Mechanized Border Jaegers"}
 		{"storm_mech_ita" "Mechanized Tank hunters"}	
-		{"storm_mech_ost" "Mechanized Gebirgsjager"}			
+		{"storm_mech_ost" "Mechanized Gebirgsjager"}	
+		{"storm_mech_pol" "Mechanized Armia Krajowa"}		
 		{"tankmans(eng)" "Tank crew"}
 		{"tankmans(ger)" "Tank crew"}
 		{"tankmans(jap)" "Tank crew"}
@@ -1109,6 +1193,7 @@
 		{"tankmans(fin)" "Tank crew"}
 		{"tankmans(ita)" "Tank crew"}		
 		{"tankmans(ger2)" "Tank crew"}
+		{"tankmans(pol)" "Tank crew"}
 		
 		{"hero1_eng" "Saboteur (S)"}
 		{"hero2_eng" "Grenadiers"}
@@ -1243,6 +1328,22 @@
 		{"heronew3_hun" "German Hetzer"}
 		{"heronew4_hun" "Defend Budapest!!"}
 		{"hero9_hun_new" "German King Tiger"}
+
+		{"hero1_pol" "Resistance (S)"}
+		{"heronew1_pol" "SU 12"}
+		{"hero2_pol" "AT Riflemans"}
+		{"heronew4_pol" "British Loan Aid"}
+		{"hero9_pol" "Polish Achilles"}
+		{"hero3_pol" "People Guard (S)"}
+		{"hero4_pol" "Resistance Army"}
+		{"hero8_pol_new" "Captured Panther"}
+		{"heronew5_pol" "Polish Commando"}
+		{"heronew6_pol" "Off-Map UC Boyes Elites"}
+		{"hero5_pol" "Polish Radioman"}
+		{"hero8_pol" "Dual Arty Barrage"}
+		{"heronew3_pol" "IS-2 1945"}
+		{"hero10_pol" "French Arty Aid"}
+		{"hero7_pol" "Assault Tanks"}
 
 		{"hero1_ost" "Veteran Officer"}
         {"hero2_ost" "Panzerschreck squad"}
@@ -1593,7 +1694,52 @@
 		{"veteran_type4_75mm" "Veteran 75mm Type-4"}
 		{"type41_mountaingun" "Type-41 unit 731"}
 		{"gun_carrier_3_inch" "Gun Carrier Mortar"}
-		
+		{"citroen_mort_pol" "Citroen Mortar Truck"}
+		{"25mm_1934_pol" "25mm SA-34 Mle 34"}
+		{"47mm_1938_pol" "47mm SA-37 Mle 37"}
+		{"75mm_1897_pol" "75mm 1897 APX"}
+		{"155mm_mle1917_pol" "155mm M1917"}
+		{"r35_pol" "Renault R-35"}
+		{"h35_pol" "Hotchkiss H-35"}
+		{"achilles_pol" "Achilles 1C"}
+		{"i-16" "Polikarpov I-16"}
+		{"po2" "Polikarpov Po-2"}
+		{"tb-3" "Tupolev TB-3"}
+		{"browning_1917_mgun_pol" "Heavy MG"}
+		{"is2_pol" "IS-2"}
+		{"m10wolverine_pol" "M10 Wolverine"}
+		{"t20_pol" "T20 tractor"}
+		{"105mm_m1913_pol" "105mm m1913"}
+		{"cromwell_mk_vii_pol" "Mk.VIII Cromwell"}
+		{"su76_pol" "SU-76"}
+		{"t-26_pol" "T-26"}
+		{"t70_pol" "T-70"}
+		{"m4a4_pol" "M4A4"}
+		{"su85_pol" "SU-85M Wojsko Polskie"}
+		{"gmc_pol" "GMC CCKW Ammo"}
+		{"gmc_art_pol" "GMC Arty Ammo"}
+		{"gmc_eng_pol" "GMC CCKW Engineer"}
+		{"vickers6t_pol" "Vickers 6T"} 
+		{"ft17_pol" "Renault FT17"} 
+		{"75mm_shneider_pol" "75mm Shneider"}
+		{"155mm_schneider_pol" "155mm Schneider mle.1917"}
+		{"47mm_1938_pol" "47mm SA 1937 L / 53"}
+		{"37mm_SA18_pol" "37mm Sa18"}
+		{"cws" "CWS bike"}
+		{"ckm_wz30_stan_fix" "Ckm wz30 MG"}
+		{"ckm_wz30_mgun" "Ciezki Karabin Maszynowy WZ30"}
+        {"ckm_wz30" "Ckm wz.30"}
+		{"zis2_pol" "USSR Aid ZIS-2"}
+		{"tks3" "TKS mortar"}
+		{"su76m" "SU-76M"}
+		{"tks-mg" "TK-3 tankette"}
+		{"tks-20mm" "TKS 20mm tankette"}
+		{"7tp" "7TP"}
+		{"wz34puteaux" "WZ34 Puteaux"}
+		{"wz29" "WZ29"}
+		{"crusaderi" "Mk.III Crusader"}
+		{"is85" "IS-1"}
+
 		
 		
 
@@ -1604,6 +1750,9 @@
 		{"t50_fin" "T50"}
 		{"pz4jfin" "Panzer IV"}
 		{"t34_3_fin" "Captured T-34"}
+		{"t34_2_pol" "T-34M1"}
+		{"t34_3_pol" "T-34M2"}
+		{"pz5d_pol" "WP Panther"}
 		
 		
 		{"np_ba20_fin" "BA-20"}
@@ -2161,6 +2310,7 @@
 		{"bullet65 ap" "AP 6.5cm"}
 		{"bullet65 fg" "HE 6.5cm"}
 		{"jagdtiger_ger2" "Jagdtiger"}
+		{"ckm_wz30_mgun" "Ciezki Karabin Maszynowy WZ30"}
 		
 
 	}
@@ -2177,6 +2327,15 @@
 			{"mgun_right" "<f(arial_hq)><c(20a601)>Right</c>"}
 			{"mgun_left" "<f(arial_hq)><c(20a601)>Left</c>"}
 		}
+		{"karabin_wz98pso" "Karabin Wz98 sniper"}
+		{"mors_wz39" "Pistolet maszynowy wz. 39 Mors"}
+		{"wz35" "WZ35"}
+		{"vis_wz35" "Vis wz35 Pistol"}
+		{"karabinek_38m" "Karabin samopowtarzalny wzor 38M"}
+		{"karabinek_wz98" "Kb wz. 98a"}
+		{"karabinek_wz29" "Karabinek wz. 1929"}
+		{"mauzer" "Karabiner 98k"}
+		{"g41" "Karabiner 98k sniper"}
 		{"144mm_bl45_s" "144mm bl45"}
 		{"76mm_t28" "76mm t28"}
 		{"20mm_lahti" "20mm lahti"}
@@ -2475,6 +2634,8 @@
 		{"bredasafat88" "7.7mm Breda-Safat"}
 		{"hotchkiss132" "13.2mm Modello 31"}
 		{"solathurns18" "Solothurn S-18"}
+		{"nagan_pol" "Nagant"}
+		{"hotchkiss1914t_pol" "Hotchkiss 1914"}
 		{"vetterlim70" "Vetterli M70/87/15"}
 		{"breda_30" "Breda 30"}
 		{"mab_38a" "Mab 38a"}		
@@ -2783,6 +2944,22 @@
 		{"fieldcap1_hun" "Cap"}
 		{"fieldcap2_hun" "Cap"}
 		{"fieldcap3_hun" "Cap"}
+		{"pol_fieldcap_wz37" "Field cap"}
+		{"pol_fieldcap_wz37radio" "Radio cap"}
+		{"pol_helmet_adriana" "Helmet"}
+		{"pol_helmet_m16" "Helmet"}
+		{"pol_rogatywka_wz36" "Cap"}
+		{"pol_tank_helmet" "Tank Helmet"}
+		{"pol_helmet_wz31" "Helmet"}
+		{"cap_pol_fieldcap43" "Field Cap"}
+		{"bullet37_pol ap" "AP 37mm"}
+		{"bullet37_pol apcr" "APCR 37mm"}
+		{"bullet37_pol fg" "HE 37mm"}
+		{"bullet37_pol fg" "HE 37mm"}
+		{"poland_o33" "AP grenade o33"}
+		{"poland_z33" "AP grenade z33"}
+		{"polish_soldier_head" "Field Cap"}
+
 		{"radiocap_hun" "Radio cap"}
 		{"tankhelmet2_hun" "Tank Helmet"}
 		{"hungarian_36m" "Kezigranat 36m"}	

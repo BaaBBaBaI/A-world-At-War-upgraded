@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "nps_body_clr"}
+	{blend none}
+}

@@ -1,0 +1,4 @@
+{from "helmet1_rus"
+	{desc "Helmet"}
+	{entity "fr_helmet_m26med"}
+}

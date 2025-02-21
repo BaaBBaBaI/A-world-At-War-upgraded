@@ -55,6 +55,9 @@
 			{item "bullet37" "zenite" "ammo" 10 {max 150}{value 2}}
 			{item "bullet40" "zenite" "ammo" 10 {max 150}{value 2}}
 			{item "bullet37" "ap" "ammo" 3 {max 30}{value 2}}
+			{item "bullet37_pol" "ap" "ammo" 3 {max 30}{value 2}}
+			{item "bullet37_pol" "fg" "ammo" 3 {max 30}{value 2}}
+			{item "bullet37_pol" "acpr" "ammo" 3 {max 30}{value 2}}
 			{item "bullet37" "fg" "ammo" 3 {max 25}{value 2}}
 			{item "bullet40" "ap" "ammo" 3 {max 30}{value 2}}
 			{item "bullet40" "fg" "ammo" 3 {max 25}{value 2}}
@@ -111,6 +114,7 @@
 			{item "bullet152" "ap" "ammo" 1 {max 10}{value 5}}
 			{item "bullet155" "fg" "ammo" 1 {max 10}{value 5}}
 			;
+
 			{item "bullet203" "ammo" 1 {max 5}{value 5}}
 			{item "bullet290" "ammo" 1 {max 5}{value 5}}
 			;
@@ -200,6 +204,9 @@
 			{item "bullet25" "zenite" "ammo" 10 {max 100}{value 2}}
 			{item "bullet37" "zenite" "ammo" 10 {max 100}{value 2}}
 			{item "bullet40" "zenite" "ammo" 10 {max 100}{value 2}}
+			{item "bullet37_pol" "ap" "ammo" 3 {max 30}{value 2}}
+			{item "bullet37_pol" "fg" "ammo" 3 {max 30}{value 2}}
+			{item "bullet37_pol" "acpr" "ammo" 3 {max 30}{value 2}}
 			{item "bullet37" "ap" "ammo" 3 {max 30}{value 2}}
 			{item "bullet37" "fg" "ammo" 3 {max 25}{value 2}}
 			{item "bullet40" "ap" "ammo" 3 {max 30}{value 2}}

@@ -1,0 +1,4 @@
+{from "fieldcap_rus"
+	{desc "Navy Cap"}
+	{entity "fieldcap_navy_sailorcap"}
+}

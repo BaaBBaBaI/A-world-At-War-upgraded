@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "officer_body_army_diff"}
+	{blend none}
+}

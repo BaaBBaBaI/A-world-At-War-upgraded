@@ -1,0 +1,9 @@
+{moto
+	(include "moto.inc")
+	{extender "inventory"
+		{Box
+			{item "bar" filled {user "mgun"}}
+		}
+	}
+	{texmod "ally3"}
+}

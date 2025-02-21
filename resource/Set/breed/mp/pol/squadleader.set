@@ -1,0 +1,63 @@
+{breed
+	{skin "pol_rebel1"}
+	{portrait pol_soldier3}
+	{icon officer}
+	{icon_priority 2}
+	{nationality pol}
+	{armors
+		{head pol_helmet_m16}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"tank" 0.8
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_2
+		}
+	}
+	{veterancy
+		{"lvl_1" 4
+		}
+		{"lvl_2" 8
+		}
+		{"lvl_3" 24
+		}
+		{"lvl_4" 48
+		}
+		{"lvl_5" 80
+		}
+	}
+	{inventory
+		{item "karabinek_38m" filled}
+		{item "ammo rifle" 150}
+		{item "bandage" 3}
+		{item "grenade poland_o33" 3}
+		{item "smoke grenade" 2}
+		{item "grenade n73at" 2}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,23 @@
+{entity
+	(include "75mm_1897.inc")
+
+	{extender "inventory"
+		{box
+			{item "bullet75 ap" 25}
+			{item "bullet75 fg" 50}
+
+			(mod "mp"
+				{item "sandbag_kit2"}
+			)
+		}
+	}
+	{Weaponry
+
+		{place "gun"
+			{weapon "75mm_1897" filling "bullet75 fg"}
+			{RestoreIKAfterAim}
+			{Rotate}
+			("abm_field_gun")
+		}
+	}
+}

@@ -1,0 +1,4 @@
+{from "fieldcap_rus"
+	{desc "Commando cap"}
+	{entity "commandocap_eng"}
+}

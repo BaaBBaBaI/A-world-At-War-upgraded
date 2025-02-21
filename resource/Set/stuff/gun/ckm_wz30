@@ -1,0 +1,11 @@
+{from "pattern mgun"
+	{desc "Browning WZ 30"}
+	{entity "browning_wz_30"}
+	{filling "ammo mgun" 330}
+	{fireSound	"mgun/1919_burst/"}
+	{reloadSound "ptrd"}
+
+	{RechargeTime 6}
+	{recoveryTime 0.13}
+	{automatic}
+}

@@ -1,0 +1,4 @@
+{from "fieldcap_rus"
+	{desc "Officer Cap"}
+	{entity "cap1_snlf"}
+}

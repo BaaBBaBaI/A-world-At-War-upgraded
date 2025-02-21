@@ -1,0 +1,4 @@
+{from "fieldcap_rus"
+	{desc "SS Cap Grey"}
+	{entity "cap1_ss_grey"}
+}

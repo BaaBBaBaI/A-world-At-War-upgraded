@@ -1,0 +1,19 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{desc "Kg m/40"}
+	{filling "ammo mgun" 30}
+	{entity "kg_m40"}
+	{fireSound	"mgun/bar_burst/"}
+	{reloadSound "bar"}
+
+	{mass 9}
+	{rechargeTime 4.0}
+	("recoveryTime" r(480))
+	("burst_short")
+	("speed" s(853))
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 96 92 88 80 70 60}
+	}
+
+}

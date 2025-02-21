@@ -1,0 +1,4 @@
+{from "helmet1_ger"
+	{desc "Helmet"}
+	{entity "ita_m33_bersagliere_b"}
+}

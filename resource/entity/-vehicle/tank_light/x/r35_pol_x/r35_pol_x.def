@@ -1,0 +1,4 @@
+{game_entity
+	{Extension "r35_pol_x.mdl"}
+	{texmod "pol"}
+}

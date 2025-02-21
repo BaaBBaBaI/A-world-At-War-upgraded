@@ -1,0 +1,7 @@
+{from "pattern rifle"
+	{entity "karabinek_wz_29"}
+	{fireSound "rifle/type99rifle"}
+	{reloadSound "rifle_bolt_five"}
+	{tag "bolt"}
+}
+

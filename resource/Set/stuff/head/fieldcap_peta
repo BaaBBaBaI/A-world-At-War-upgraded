@@ -1,0 +1,4 @@
+{from "fieldcap_rus"
+	{desc "Field Cap"}
+	{entity "fieldcap_peta"}
+}

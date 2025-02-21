@@ -1,0 +1,6 @@
+{from "pattern gun"      ; "SU76M"
+	{filling "bullet76" 6}
+	{fireSound "gun/50to76_cal/76mm_zis3"}
+	{reloadSound "gun_r00"}
+	("range_medium_howitzer")	
+}

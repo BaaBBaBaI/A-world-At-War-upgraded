@@ -1,0 +1,13 @@
+{from "pattern smg"
+	{desc "Blyskawica"}
+	{filling "ammo pistol" 32}
+	{entity "blyskawica"}
+	("recoveryTime" r(600))
+	{rechargeTime 4}
+	{fireSound	"smg/sten_burst/"}
+	{reloadSound "sten_reload"}
+      
+	("burst_short")
+	("accuracy_smg")
+ 	("speed" s(365))	
+}

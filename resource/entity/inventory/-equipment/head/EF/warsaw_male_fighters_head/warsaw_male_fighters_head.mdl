@@ -1,0 +1,48 @@
+;Exported by: Anatoly
+;Date:        Tue May 18 23:56:55 2021
+;File:        G:\Tank_HD\Divwer\warsaw_male_fighters\warsaw_male_fighters_head.max
+{Skeleton
+	{bone "beret"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "beret.ply"}
+	}
+}
+{Volume "body"
+	{Box 5.01511 4.44031 3.4252}
+	{Bone "beret"}
+	{Position -0.038585	0.00978846	3.54824}
+}
+{Volume "select"
+	{Box 5.32241 4.7497 3.66559}
+	{Bone "beret"}
+	{Position -0.0212926	0.00123866	3.55487}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.145324	-8.43031	2.63236}
+			{lookat -0.0892188	-0.863206	2.68864}
+			{fov 45}
+			{horizon 0.0197823}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.000430061	0.499999	-0.000794947}
+			}
+			{"1"
+				{type point}
+				{position 5.69444	-11.7608	2.65013}
+			}
+			{"2"
+				{type point}
+				{position -5.14683	-11.4918	2.9367}
+			}
+		}
+	}
+}

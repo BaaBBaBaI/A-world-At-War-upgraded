@@ -1,0 +1,11 @@
+{item
+	{desc "GasMask"}
+	{tag "itemin1hand keepEntity"}
+	{entity "gas_mask_jp"}
+	{inventory
+		{size 2 2}
+		{link_bone "head"}
+		{fsm "stuff"}
+	}
+               {mass 1}
+}

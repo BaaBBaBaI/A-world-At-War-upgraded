@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "Universal_Carrier_Mk.II_Battalion_Strzelcow_Podhalanskich"}
+	{specular "$/model/uk_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

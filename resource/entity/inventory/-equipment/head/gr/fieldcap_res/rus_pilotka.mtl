@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "pilotka"}
+	{bump "pilotka_nm"}
+	{specular "pilotka_spec"}
+	{color "229 229 229 25"}
+	{blend none}
+}
