@@ -1,0 +1,10 @@
+{material
+	{layer bump
+		{diffuse "/texture/land/town/cobble 14dark_shadow"}
+		{bump "/texture/land/town/cobble 14dark_shadow_nm"}
+	}
+	{layer bump
+		{diffuse "/texture/land/town/cobble_b1_x"}
+		{bump "/texture/land/town/cobble_b1_x_nm"}
+	}
+}

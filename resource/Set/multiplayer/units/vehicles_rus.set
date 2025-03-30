@@ -32,7 +32,7 @@
 
 {"su122"            ("v" c(0) t(all artillery) 			s(rus) n1(3) n2(1) g(c10) sc(40.00) b(v2) cw(0) cp(7)) {level 1} {cost 800} {fore 1.0}}
 {"isu152"           ("v"  c(0) t(all artillery heavyart) s(rus) n1(4) n2(1) g(c11) sc(67.50) b(v2) cw(0) cp(20)) {level 1} {cost 1350} {fore 1.0}} 	
-{"bm13"             ("vs" c(0) t(all artillery heavyart) s(rus) n(2) g(c12) sc(62.50) b(v2) cw(0) cp(15)) {level 1} {cost 1250} {fore 1.0}}
+{"bm13"             ("vs" c(0) t(all artillery heavyart) s(rus) n(2) g(c12) sc(62.50) b(v2) cw(0) cp(15)) {level 1} {cost 1075} {fore 1.0}}
 
 
 

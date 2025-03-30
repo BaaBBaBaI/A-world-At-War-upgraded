@@ -54,7 +54,7 @@
 	
 	{extender "inventory"
 		{box
-            {item "bullet40 zenite" 320}
+            {item "bullet40 zenite" 420}
         }
     }
     {Weaponry

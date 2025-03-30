@@ -1,0 +1,228 @@
+{mission
+	{Entity "map_point" 0xc007
+		{Position 1052.28 -5686.83}
+		{xform zl 93.47}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 9}
+	}
+	{Entity "map_point" 0x8000
+		{Position -1457.9 -5828.3}
+		{xform zl 93.47}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 1}
+	}
+	{Entity "map_point" 0x8001
+		{Position -104.13 -5799.13}
+		{xform zl 93.47}
+		{Extender "map_point"
+			{name b3}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 2}
+	}
+	{Entity "map_point" 0x8002
+		{Position 873.19 5375.91}
+		{xform zl -86.36}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 3}
+	}
+	{Entity "map_point" 0x8003
+		{Position -1491.65 5419.49}
+		{xform zl -84.58}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 4}
+	}
+	{Entity "map_point" 0x8004
+		{Position 282.35 5446.83}
+		{xform zl -83.34}
+		{Extender "map_point"
+			{name a3}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 5}
+	}
+	{Entity "flag_point_1" 0x8032
+		{Position 751.13 139.17}
+		{xform zl -43.71 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f1}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 1}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 51}
+	}
+	{Entity "flag_point_2" 0x8030
+		{Position -592.59 -1540.99}
+		{xform zl -43.71 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f2}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 2}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 49}
+	}
+	{Entity "flag_point_3" 0x8031
+		{Position 84.28 1670.76}
+		{xform zl -43.71 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f3}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 3}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 50}
+	}
+	{Tags "keep_places_without_door" 0x7200}
+	{Tags "keep_places_without_door" 0x3a00}
+	{Tags "keep_places_without_door" 0x2600}
+	{Tags "keep_places_without_door" 0x6051}
+	{Tags "keep_places_without_door" 0x107e}
+	{Tags "keep_places_without_door" 0x3082}
+	{Tags "keep_places_without_door" 0x3083}
+	{Tags "keep_places_without_door" 0x3084}
+	{Tags "keep_places_without_door" 0x3085}
+	{Tags "keep_places_without_door" 0x3086}
+	{Tags "keep_places_without_door" 0x20a3}
+	{Tags "keep_places_without_door" 0x683b}
+	{Tags "keep_places_without_door" 0x5166}
+	{Tags "keep_places_without_door" 0x2215}
+	{Tags "keep_places_without_door" 0x431b}
+	{Tags "keep_places_without_door" 0x1168}
+	{Tags "keep_places_without_door" 0x1174}
+	{Tags "keep_places_without_door" 0x117e}
+	{Tags "keep_places_without_door" 0x6232}
+	{Tags "keep_places_without_door" 0x31a7}
+	{Tags "keep_places_without_door" 0x618}
+	{Environment "single/1/5-shtrafbat"}
+	{Helpers
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+		{triggers
+			{"c"
+				{condition
+				}
+				{actions
+					{"set_clip"
+						{name s1}
+					}
+				}
+			}
+		}
+	}
+	{Fog 1}
+}

@@ -27,7 +27,7 @@
 
  
 {"m1mortar_chn"         ("vs" c(0) t(all cannon mediumcan)	s(chn) n(2) g(c5) sc(17.50) b(v2) cw(2) cp(5)) {level 1} {cost 280} {fore 1.0}}
-{"type_97_150mm_chn"         ("vs" c(0) t(all cannon) 	s(chn) n(2) g(c6) sc(17.50) b(v2) cw(2) cp(5)) {level 1} {cost 600} {fore 1.0}}
+{"type_97_150mm_chn"         ("vs" c(0) t(all cannon) 	s(chn) n(2) g(c6) sc(17.50) b(v2) cw(2) cp(5)) {level 1} {cost 525} {fore 1.0}}
   
  
 ("how" side(chn) name(how_aa) c(0) c1(gmc_cckw) c2(bofors)  	t(all cannon heavycan heavyaa) g(c7) b(v2) level(1) cost(275) f(1.0))
@@ -85,7 +85,7 @@
  
  ;elite koreans
 {"hero2_chn"        ("i2" c(240)					t(all hero) s(chn) n1(elite_kor2:7) n2(elite_kor3:3)  g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
-{"heronew3_chn"     ("i2" c(240)					t(all hero) s(chn) n1(muslim:10) n2(muslim1:3) g(h2) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
+{"heronew3_chn"     ("i2" c(240)					t(all hero) s(chn) n1(muslim:10) n2(muslim1:3) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 
 
 {"hero7_chn"  	    ("2v" c(240) c1(degtyarev_stan) c2(m1mortar) t(all hero) s(chn) n1(Hero_mg:2) n2(hero_rifle:8) n3(tankman:4) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
@@ -105,11 +105,11 @@
 
 
 ;united china
-{"hero6_chn"        ("i2" c(500)			t(all hero) s(chn) n1(rifle_nocp:30) n2(smg_nocp:20) n3(home_guard3:10)  g(h6) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
+{"hero6_chn"        ("i2" c(500)			t(all hero) s(chn) n1(rifle_nocp:30) n2(smg_nocp:20) n3(home_guard3:10)  g(h6) b(hero)) {level 1} {cost 4.0} {fore -0.5}}
 
  
 
-{"hero10_chn"        ("2art" c(700) c1(sfh18) c2(sfh18) t(all hero) s(chn) n1(vehicle_supporter:2) n2(vehicle_supporter:2) n3(oficer_arty:1)  g(h8) b(hero)) {level 1} {cost 7.0} {fore -0.5}} 
+{"hero10_chn"        ("2art" c(700) c1(sfh18) c2(sfh18) t(all hero) s(chn) n1(vehicle_supporter:2) n2(vehicle_supporter:2) n3(oficer_arty:1)  g(h8) b(hero)) {level 1} {cost 6.0} {fore -0.5}} 
 
 ;{"hero12_chn"  	    ("v1" c(900) c1(is2) 		t(all hero) s(chn) n1(tankman:4) n2(tankman2:1) g(h5) b(hero)) {level 1} {cost 8.0} {fore -0.5}}
 

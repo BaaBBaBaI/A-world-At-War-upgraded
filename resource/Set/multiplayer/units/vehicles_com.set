@@ -98,7 +98,7 @@
 {"hero4_com"        ("i2" c(480)					t(all hero) s(com) n1(radioman:1) n2(smg:2) g(h6) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
 {"hero5_com"        ("i4" c(600)					t(all hero) s(com) n1(can_para:8) n2(can_para_2:3) n3(can_para_3:2) n4(can_para_4:2)  g(h6) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
 
-{"heronew6_com"  ("v1" c(700) c1(staghound_mk1e) 		t(all hero arcade) s(com) n1(tankman:3) n2(tankman2:1) g(h6) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
+{"heronew6_com"  ("v1" c(700) c1(staghound_mk1e) 		t(all hero arcade) s(com) n1(tankman:3) n2(tankman2:1) g(h6) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
 {"hero7_com"        ("2art" c(600) c1(pdr25) c2(pdr25) 			t(all hero) s(com) n1(vehicle_supporter:2) n2(vehicle_supporter:2) n3(oficer_arty:1) g(h7) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
 
 

@@ -9,10 +9,10 @@
 		{tags "body"}
 		{component "body"}
 		{thickness 19
-			{front 22}
-			{top 13}
+			{front 12}
+			{top 12}
 			{rear	9}
-			{bottom 13}
+			{bottom 12}
 		}
 	}
 	{volume "turret"

@@ -1,0 +1,10 @@
+{material
+	{layer bump
+		{diffuse "/texture/land/town/cobble_bck2"}
+		{bump "/texture/land/town/cobble_bck2_nm"}
+	}
+	{layer bump
+		{diffuse "/texture/land/town/brick_street_x"}
+		{bump "/texture/land/town/brick_street_x_nm"}
+	}
+}

@@ -1,0 +1,11 @@
+{material
+	{layer bump
+		{diffuse "/texture/land/sand/waves3a1"}
+		{bump "/texture/land/sand/waves3a1_nm"}
+		{specular "/texture/land/winter/clay_snow1"}
+	}
+	{layer bump
+		{diffuse "/texture/land/dirt/clay_gr1"}
+		{bump "/texture/land/hassock/sand_pebbles_nm"}
+	}
+}
