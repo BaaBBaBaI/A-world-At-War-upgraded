@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/p44_pantera/p44_pantera_gun_am"}
+	{bump "$/model/p44_pantera/p44_pantera_gun_nm"}
+	{specular "$/model/p44_pantera/p44_pantera_gun_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

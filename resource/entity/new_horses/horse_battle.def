@@ -1,0 +1,18 @@
+{entity
+	(include "/properties/animal_battle_horse.ext")
+	("weapon_horseman" weapon(springfild_1812_carabin) ammo(69_cal pb ammo) am_total(80))
+	{Extension "horse.mdl"}
+	("anima_sk")
+	{Skeleton
+		{bone "basis"
+			{Orientation
+				1	0	0
+				0	-1	0
+				0	0	1
+			}
+			{bone "horse_sadle_pad"
+				{VolumeView "horse_sadle_pad.ply"}
+			}
+		}
+	}
+}

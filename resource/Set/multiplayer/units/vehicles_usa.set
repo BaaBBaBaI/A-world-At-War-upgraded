@@ -18,13 +18,13 @@
 
 ;���Button 2���
 
-{"browning_stan"    ("vs" c(300) t(all cannon) 	s(usa) n(2) g(c1) sc(5.00) b(v2) cw(2) cp(5)) {level 1} {cost 90} {fore 1.0}}
-{"maxson"           ("vs" c(300) t(all cannon) 	s(usa) n(1) g(c2) sc(7.50) b(v2) cw(2) cp(5)) {level 1} {cost 150} {fore 0.5}}
-{"m1mortar"         ("vs" c(0) t(all cannon mediumcan) 	s(usa) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {level 1} {cost 280} {fore 1.0}}
+{"browning_stan"    ("vs" c(300) t(all cannon) 	s(usa) n(2) g(c1) sc(5.00) b(v2) cw(2) cp(0)) {level 1} {cost 90} {fore 1.0}}
+{"maxson"           ("vs" c(300) t(all cannon) 	s(usa) n(1) g(c2) sc(7.50) b(v2) cw(2) cp(2)) {level 1} {cost 150} {fore 0.5}}
+{"m1mortar"         ("vs" c(0) t(all cannon mediumcan) 	s(usa) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(3)) {level 1} {cost 280} {fore 1.0}}
 
-{"m3cannon"         ("vs" c(0) t(all cannon) 	s(usa) n(2) g(c4) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 135} {fore 1.0}}
-{"m1_57mm"          ("vs" c(0) t(all cannon mediumcan) 	s(usa) n(2) g(c5) sc(11.25) b(v2) cw(2) cp(8)) {level 1} {cost 220} {fore 1.0}}
-{"m5"               ("vs" c(0) t(all cannon heavycan) 	s(usa) n(2) g(c6) sc(21.25) b(v2) cw(2) cp(10)) {level 1} {cost 380} {fore 1.0}}
+{"m3cannon"         ("vs" c(0) t(all cannon) 	s(usa) n(2) g(c4) sc(6.75)  b(v2) cw(2) cp(3)) {level 1} {cost 135} {fore 1.0}}
+{"m1_57mm"          ("vs" c(0) t(all cannon mediumcan) 	s(usa) n(2) g(c5) sc(11.25) b(v2) cw(2) cp(5)) {level 1} {cost 220} {fore 1.0}}
+{"m5"               ("vs" c(0) t(all cannon heavycan) 	s(usa) n(2) g(c6) sc(21.25) b(v2) cw(2) cp(6)) {level 1} {cost 380} {fore 1.0}}
 
 ("how" side(usa) name(how_aa) c(0) c1(gmc_cckw) c2(bofors)  	t(all cannon heavycan heavyaa) g(c7) b(v2) level(1) cost(275) f(1.0))
 ("how" side(usa) name(how_b) c(0) c1(gmc_cckw) c2(m2a1l) 		t(all artillery) g(c8) b(v2) level(1) cost(640) f(1.0))

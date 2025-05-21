@@ -1,0 +1,155 @@
+;SDL
+(include "calavry_unarmed.ext")
+
+	{targetClass "human"}
+	{targetSelector "tank"}
+	{collider "calavry"}
+	{PatherID  "human"}
+	{mass 550}
+	
+	{simulation {able 1} {disableLinked 1}}
+	{autooperatable 1}
+    {placer
+		{crew 0}
+	}
+	
+	{extender "vitality"
+		{Health
+			{max 		1000}	; max health
+			{current 	1000}	; current health
+			{inc 		10.0}	; health regeneration per second
+		}	
+	}	
+	
+	{Chassis "track"
+		{Locomotion ("locomotion")
+			{MaxSpeed	 47}
+			{maxSpeedAtMaxTurn 36}
+			{StartTime	  7.5}
+			{TurnTime  	  3.2}
+    		{TurnStart  0.6} 
+    		{BrakeTime    0.5} 
+    		{StopTime     2} 
+    		{TurnRadius   11} 
+    		{TurnStop   0.5}
+     		{Gears  0.3 0.6 1} 
+    		{RearGears  0.01 0.14}
+		}
+		{FuelBag
+			{volume 1000 }	
+			{rate	1 }   
+			{remain 1000 }
+			{fuel "fuel"}
+		}
+		{speed
+			{fast	47}
+        	{Normal  27}
+        	{Slow  12}
+    	}
+		{dontUseSlope}
+		{ignorePatherBounds}
+		{disableBackward}
+	}
+
+
+
+{Weaponry
+	(mod not "mp"
+		{ManualAccuracy 1.5}
+	)
+	{place "gun"
+		{Rotate}
+	}
+	{place "mgun"
+	}
+	
+}
+
+
+(define "restore_ik_time"
+	{RestoreIKTime 4}
+)
+
+	{placer
+		{place "stomp1"
+			{linkbone 	"stomp001"}
+			{entity 	"stomp_battlesuits"}
+			{handlebone "basis"}
+			{obstacle disable}
+		}
+		{place "stomp2"
+			{linkbone 	"stomp002"}
+			{entity 	"stomp_battlesuits"}
+			{handlebone "basis"}
+			{obstacle disable}
+		}
+		{place "stomp3"
+			{linkbone 	"stomp003"}
+			{entity 	"stomp_battlesuits"}
+			{handlebone "basis"}
+			{obstacle disable}
+		}
+		{place "stomp4"
+			{linkbone 	"stomp004"}
+			{entity 	"stomp_battlesuits"}
+			{handlebone "basis"}
+			{obstacle disable}
+		}
+	}
+	
+	{Volume "bodyb_horse"
+		{Tags  "body"}
+		{Tags "fire"}
+		{Thickness 8}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "detect"
+		{Tags  "detect"}
+		{Thickness 0}
+		{able {visible 0}{obstacle 0}{bullet 0}{contact 1}}
+	}
+	{Volume "bodyb_rider"
+		{Thickness 8}
+	}
+	{Volume "head_horse"
+		{Thickness 8}
+	}
+	{Volume "head_rider"
+		{Thickness 8}
+	}
+	{Volume "neck"
+		{Thickness 8}
+	}
+	{Volume "l_leg"
+		{Thickness 8}
+	}
+	{Volume "r_leg"
+		{Thickness 8}
+	}
+	{volume "h_leg_b_l_down"
+		{Thickness 8}
+	}
+	{volume "h_leg_b_l_up"
+		{Thickness 8}
+	}
+	{volume "h_leg_b_r_down"
+		{Thickness 8}
+	}
+	{volume "h_leg_b_r_up"
+		{Thickness 8}
+	}
+	{volume "h_leg_f_l_down"
+		{Thickness 8}
+	}
+	{volume "h_leg_f_l_up"
+		{Thickness 8}
+	}
+	{volume "h_leg_f_r_down"
+		{Thickness 8}
+	}
+	{volume "h_leg_f_r_up"
+		{Thickness 8}
+	}
+	{volume "saber"
+		{Thickness 20}
+	}

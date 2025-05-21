@@ -58,7 +58,7 @@
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
-			{weapon "m90_53" filling "bullet90 ap" 1}
+			{weapon "m90_53_1" filling "bullet90 ap" 1}
 			{gunner "gunner"}
 			{charger "charger"}
 			("abm_low")

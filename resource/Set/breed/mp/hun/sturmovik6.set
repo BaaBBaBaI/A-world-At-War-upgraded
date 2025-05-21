@@ -45,7 +45,8 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "solothurn_31m" filled}
+		;{item "solothurn_31m" filled}
+		{item "gebauer" filled}
 		{item "ammo mgun" 1200}
 		{item "bandage" 5}
 		{item "grenade mk1" 2}

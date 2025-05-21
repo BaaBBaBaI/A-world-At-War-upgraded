@@ -1,0 +1,19 @@
+{from "pattern gun"   ;
+	{desc ""}
+
+	{filling "bullet90" }
+	{fireSound "gun/85to100_cal/90mm_m1"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 9.6}
+	{recoveryTime 0.3}
+	
+	
+	
+	{range 130 140}
+	{speed 750}
+	{projectileDamage 170}
+	{spreading{radiusTable {0 0} {35 0.35} {70 0.7} {105 1.05} {140 1.4}}{SpreadXYRatio 0.5}{SpreadPower 0.5}}
+	("damage" a(160) b(144) c(127) d(119) e(109))
+	{parameters "fg"{range 110 120}}
+	{parameters "apcr"{range 100 110}("damage" a(175) b(170) c(145) d(130) e(120))}	
+}

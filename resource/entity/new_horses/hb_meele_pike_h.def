@@ -1,0 +1,26 @@
+{entity
+	(include "/properties/animal_battle_horse.ext")
+	("cav_pike")
+	{Extension "horse_melee.mdl"}
+	{props "horse_weapon_melee_pike"}
+	("anima_sk")
+	("melee_brain")
+	{props "hb_meele_pike" "horse_color_euro" "horse_battle_m"}
+
+	;=================individual equipment
+	{Skeleton
+		{bone "basis"
+			{Orientation
+				1	0	0
+				0	-1	0
+				0	0	1
+			}
+			{bone "horse_sadle_pad_light"
+				{VolumeView "horse_sadle_pad_light.ply"}
+			}
+			{bone "equip_light"
+				{VolumeView "equip_light.ply"}
+			}
+		}
+	}
+}

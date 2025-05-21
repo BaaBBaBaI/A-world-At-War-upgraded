@@ -1,0 +1,17 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "ammo mgun" 40}
+	{inventory
+		{size 4 2 }
+	}
+	{entity "zb26"}
+	{fireSound	"mgun/zb_vz30_lmg_burst/"}
+	{reloadSound "zb26_reload"}
+	
+	
+	{Spreading 0.5}
+
+	{rechargeTime 3}
+	{recoveryTime 0.12}
+	("burst_short")
+}

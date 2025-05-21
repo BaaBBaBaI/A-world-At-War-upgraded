@@ -47,7 +47,7 @@
 	{inventory
 		{item "mosin" filled}
 		{item "ammo rifle" 60}
-               		{item "erguotou"}
+		{item "grenade chi_grenadex5" 2}
 		{item "m24 grenade" 2}
 		{item "bandage" 6}
 		{in_hands 0}

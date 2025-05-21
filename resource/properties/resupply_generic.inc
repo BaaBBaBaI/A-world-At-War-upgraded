@@ -49,7 +49,8 @@
 			{item "shotgun" "ammo" 5 {max 30}}
 			{item "mortar" "fg" "ammo" 5 {max 30}{value 2}}
 			{item "hmgun" "ammo" 50 {max 300}{value 2}}
-			{item "mortar150" "fg" "ammo" 2 {max 15}{value 2}}
+			{item "mortar150" "fg" "ammo" 2 {max 30}{value 2}}
+			{item "brixia45" "fg" "ammo" 2 {max 30}{value 2}}
 			{item "bullet20" "zenite" "ammo" 10 {max 250}{value 2}}
 			{item "bullet25" "zenite" "ammo" 10 {max 200}{value 2}}
 			{item "bullet37" "zenite" "ammo" 10 {max 150}{value 2}}

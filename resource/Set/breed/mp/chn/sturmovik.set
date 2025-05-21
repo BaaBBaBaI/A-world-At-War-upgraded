@@ -48,7 +48,7 @@
 		{item "m24 grenade" 4}
 		{item "grenade n73at" 2}
 		{item "bandage" 6}
-		{item "ammo pistol" 300}
+		{item "ammo pistol" 400}
 		{item "mauser_pistol"}
 		{in_hands 0}
 	}

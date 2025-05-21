@@ -1,0 +1,24 @@
+{entity
+	(include "/properties/animal_battle_horse.ext")
+	("wp_rifle_mosin")
+	{Extension "horse.mdl"}
+	{props "horseman_5_shooter_rifle" "horse_weapon_rifle_breec"}
+	("anima_sk")
+	{props "horse_color_euro"}
+	("cav_sword_left_eur")
+	{Skeleton
+		{bone "basis"
+			{Orientation
+				1	0	0
+				0	-1	0
+				0	0	1
+			}
+			{bone "horse_sadle_pad"
+				{VolumeView "horse_sadle_pad_light.ply"}
+			}
+			{bone "equip_light"
+				{VolumeView "equip_light.ply"}
+			}
+		}
+	}
+}

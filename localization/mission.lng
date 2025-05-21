@@ -268,8 +268,8 @@
 		{"3v3_atlantikwall"		
 			{"name" "<e(shadow)><c(afb302)>(SirHinkel's)</c></e> Atlantikwall <e(shadow)><c(081CF7)>3v3</c>"}	
 		}		
-		{"3v3_balaton"		
-			{"name" "<e(shadow)><c(FFB4A2)>(upgraded)</c></e> Balaton <e(shadow)><c(081CF7)>3v3</c>"}	
+		{"2v2_balaton"		
+			{"name" "<e(shadow)><c(FFB4A2)>(upgraded)</c></e> Balaton <e(shadow)><c(FF0000)>2v2</c>"}	
 		}	
 		{"3v3_eastern_ej-ph"		
 			{"name" "<e(shadow)><c(FFB4A2)>(upgraded)</c></e> Eastern Ej-Ph <e(shadow)><c(081CF7)>3v3</c>"}	
@@ -283,8 +283,8 @@
 		{"3v3_hotel_on_a_hill"		
 			{"name" "<e(shadow)><c(FFB4A2)>(upgraded)</c></e> Hotel On A Hill <e(shadow)><c(081CF7)>3v3</c>"}	
 		}	
-		{"3v3_huon"		
-			{"name" "<e(shadow)><c(FFB4A2)>(upgraded)</c></e> Huon <e(shadow)><c(081CF7)>3v3</c>"}	
+		{"1v1_huon"		
+			{"name" "<e(shadow)><c(FFB4A2)>(upgraded)</c></e> Huon <e(shadow)><c(FBCC98)>1v1</c>"}	
 		}	
 		{"3v3_scheldt"		
 			{"name" "<e(shadow)><c(FFB4A2)>(upgraded)</c></e> Scheldt <e(shadow)><c(081CF7)>3v3</c>"}	

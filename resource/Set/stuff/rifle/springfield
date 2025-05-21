@@ -1,0 +1,10 @@
+{from "pattern rifle"
+	{filling "ammo rifle" 5}
+	{entity "springfield"}
+	{fireSound "rifle/m1903a4"}
+	{reloadSound "enfield"}
+	{healthDamage 500}
+	(mod not "mp"
+		{range 90 100}	
+	)
+}

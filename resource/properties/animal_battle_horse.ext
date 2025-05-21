@@ -1,0 +1,360 @@
+;SDL
+actor
+
+(include "vehicle.ext")
+
+;{obstacleID "construction"}
+;{PatherID	"horse_battle"}
+{targetClass 	"human"}
+{targetSelector "tank"}
+{collider "horse_battle"} ;car is old
+{lodclass "human"}
+{Simulation {Able 1} {disableLinked 0}}
+
+;{PatherId "vehicle.small"}
+
+{PatherID	"human"}
+{obstacleID "tank"}
+
+
+	;{props "tractor"}
+{props "flesh" "emit_on_sink" "vehicle" "nocover"}  
+{props "horse_battle" "big" "riding" "vision_vehicle_high"} 
+
+(mod "mp" {props "horse_battle_mp"})
+
+{able "select" "fight"}
+{NoGroupMesh 1}
+{hearingBias 4.5} 
+
+	{brain "vehicle"
+		{state "vehicle"}
+		{const "crush/min_danger_zone_time" 	1}
+		{const "crush/min_danger_zone_length"	1}
+	}
+
+
+(define "melee_brain"
+	;{brain 
+	;	{Properties
+	;		;{control AI}
+	;		;{fire_mode open}
+	;		;{move_mode free}
+	;		;{move_radius 1000}  
+	;		;{advanced_ratio 1}
+	;		;{retreat_ratio 3}
+	;	}
+	;}
+)
+
+(define "accuracy_by_motion" ;  spreading depending on the speed of "body", "gun" volumes
+	{AccuracyByMotion
+        {MaxLinearSpeed %max_linear}               ;km/h
+        {ByLinearSpeed %accuracy_by_linear}
+        {MaxAngularSpeed %max_angular}             ;deg/s
+        {ByAngularSpeed %accuracy_by_angular}
+        {DisorderTime %disorder_time}              ;s
+        {OrderTime %order_time}                    ;s
+    }
+)
+
+(define "abm_horserider"
+	("accuracy_by_motion"
+		max_linear(16) accuracy_by_linear(0.65)
+		max_angular(4) accuracy_by_angular(0.95)
+		disorder_time(1.2) order_time(2.0)
+	)
+)
+{extender "inventory"
+	{box
+		{Size 6 6}
+		{weight 10000}
+	}
+}
+
+(define "restore_ik_time"
+	{RestoreIKTime 4}
+)
+
+
+(define "weapon_horseman_sword"
+	{extender "inventory"
+		{weapon "gun"
+			{mask "weapon %weapon"}
+		}
+		{box
+			{item "%ammo" %am_total}
+			{size 5 5}
+			{weight 300}
+		}
+	}
+	{Weaponry
+		{place "sword_front"
+      		{Rotate}
+			{type "secondary_main"}
+			{weapon "%weapon" filled}
+			{basic}
+			{foresight "foresight_front"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_horserider")
+		}
+		("restore_ik_time")
+	}
+	{Weaponry
+		{place "sword_left"
+      			;{Rotate}
+			{weapon "%weapon" filled}
+			{basic}
+			{foresight "foresight_left"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_horserider")
+		}
+		("restore_ik_time")
+	}
+	{Weaponry
+		{place "sword_right"
+      			;{Rotate}
+			{weapon "%weapon" filled}
+			{basic}
+			{foresight "foresight_right"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_horserider")
+		}
+		("restore_ik_time")
+	}
+)
+
+(define "weapon_horseman"
+	{extender "inventory"
+		{weapon "gun"
+			{mask "weapon %weapon"}
+		}
+		{box
+			{item "%ammo" %am_total}
+			{size 5 5}
+			{weight 300}
+		}
+	}
+	{Weaponry
+		{place "gun"
+      			{Rotate}
+			{weapon "%weapon" filled}
+			{basic}
+			{foresight "foresight1"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_horserider")
+		}
+		("restore_ik_time")
+	}
+)
+
+(define "weapon_horseman_bow"
+	{extender "inventory"
+		{weapon "gun"
+			{mask "weapon %weapon"}
+		}
+		{box
+			{item "%ammo" %am_total}
+			{size 5 5}
+			{weight 300}
+		}
+	}
+	{Weaponry
+		{place "gun"
+      			{Rotate}
+			{weapon "%weapon" filled}
+			{basic}
+			{foresight "foresight_bow"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_horserider")
+		}
+		("restore_ik_time")
+	}
+)
+
+
+
+;======================WEAPON DEF PRES
+
+;==================Pistol
+)
+(define "wp_pist_nagan" 		("weapon_horseman" weapon(nagan) 			            ammo(ammo pistol) am_total(60)))
+(define "wp_pist_luger" 		    ("weapon_horseman" weapon(luger) 			                ammo(ammo pistol) am_total(60)))
+(define "wp_pist_c98" 		    ("weapon_horseman" weapon(c98) 			                ammo(ammo pistol) am_total(60)))
+
+
+;==================Carbine 
+(define "wp_rifle_mosin" 		("weapon_horseman" weapon(mosin_kozak) 			ammo(ammo rifle) am_total(80)))
+
+
+;==================BOW
+
+(define "bow_light"					("weapon_horseman_bow" weapon(light_bow) 			ammo(bow_arrow ammo) 	am_total(40)))
+(define "bow_med"					("weapon_horseman_bow" weapon(med_bow) 				ammo(bow_arrow ammo) 	am_total(40)))
+(define "bow_long"					("weapon_horseman_bow" weapon(long_bow) 			ammo(bow_arrow ammo) 	am_total(40)))
+
+;==================Melee
+
+(define "cav_sword_eur"					("weapon_horseman_sword" 			weapon(cav_sword_eur) 			ammo(bandage) 	am_total(1)))
+(define "cav_sword_eur_g"				("weapon_horseman_sword" 			weapon(cav_sword_eur_guard) 	ammo(bandage) 	am_total(1)))
+(define "cav_sword_east"				("weapon_horseman_sword" 			weapon(cav_sword_east) 			ammo(bandage) 	am_total(1)))
+(define "cav_sword_jap"					("weapon_horseman_sword" 			weapon(cav_sword_jap) 			ammo(bandage) 	am_total(1)))
+(define "cav_tom"						("weapon_horseman_sword" 			weapon(cav_melee_tom) 			ammo(bandage) 	am_total(1)))
+(define "cav_pike"						("weapon_horseman_sword" 			weapon(cav_melee_pike) 			ammo(bandage) 	am_total(1)))
+(define "cav_yari"						("weapon_horseman_sword" 			weapon(cav_melee_yari) 			ammo(bandage) 	am_total(1)))
+(define "cav_naginata"					("weapon_horseman_sword" 			weapon(cav_melee_naginata) 		ammo(bandage) 	am_total(1)))
+
+;
+
+(define "left_weapon_melee"
+	{props "horseman_left_weapon" "%weap_prop"}
+	{Weaponry
+		{place "sword_front"
+    		{Rotate}
+			{weapon "%weapon" filled}
+			{basic}
+			{foresight "foresight_front"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_horserider")
+			;{StationaryFiring}
+		}
+		("restore_ik_time")
+	}
+)
+
+
+
+(define "cav_sword_left_eur"					("left_weapon_melee" 			weapon(cav_sword_eur) weap_prop(left_weapon_view_eur)))
+(define "cav_sword_left_east"					("left_weapon_melee" 			weapon(cav_sword_east) weap_prop(left_weapon_view_east)))
+(define "cav_sword_left_jap"					("left_weapon_melee" 			weapon(cav_sword_jap) weap_prop(left_weapon_view_jap)))
+(define "cav_sword_left_ind"					("left_weapon_melee" 			weapon(cav_melee_tom) weap_prop(left_weapon_view_ind)))
+
+
+{Sensor
+	{Visor "eyes"
+		{vision "human"}
+		{bone "visor1"}
+	}
+	{Visor "telescope"}
+	{AttackZone 55}
+	{RecognizeTime 0.25}
+	{InformRange 55 55}	
+}
+
+
+;{body {proper body sensible} {permit body}}
+
+	{volume "body"
+		{thickness 4}
+		{Tags  "contact_vol"}
+		{component "body"}
+		{able {contact 1}}
+	}
+	{volume "body1"
+		{thickness 4}
+		{component "body"}
+	}
+	{volume "body2"
+		{thickness 4}
+		{component "body"}
+		{tags "mover" "track"}
+		{able {NoWoundDecal}}
+	}
+	{volume "body3"
+		{thickness 4}
+		{component "body"}
+		{tags "mover" "track"}
+		{able {NoWoundDecal}}
+	}
+	{volume "body4"
+		{thickness 4}
+		{component "body"}
+		{tags "mover" "track"}
+		{able {NoWoundDecal}}
+	}
+	{volume "body5"
+		{thickness 4}
+		{component "body"}
+		{tags "mover" "track"}
+		{able {NoWoundDecal}}
+	}
+
+
+
+(define "locomotion"
+    {MaxSpeed       50 } ; максимальная скорость, kmph
+	{maxSpeedAtMaxTurn 20}
+    {StartTime      5.8 } ; время разгона до макс. скорости с 0, seconds
+	{TurnTime       1.85  } ; время на разворот на 360 градусов при макс. скорости разворота, seconds
+	{TurnStart      1.5} ; время разгона до макс. угловой скорости с 0, seconds
+	{BrakeTime      1.85} ; время торможения с макс. скорости до 0, seconds
+    {StopTime       0.45  } ; время остановки после отключения двигателя с макс. скорости до 0, seconds
+    {TurnRadius     1 } ; мин. радиус разворота, meter
+    {TurnStop       1.0 } ; время остановки с макс. угловой скорости до 0, seconds
+	{Gears 0.15 0.35 1.0} ; передаточные коэф-ты коробки передач
+	{RearGears 0.1 0.2} ; передаточные коэф-ты коробки передач
+    {GearSwitchDelay 1.8}   ; время смены направления движения, sec
+
+)
+
+	{Chassis "track"
+		{Locomotion 
+			("locomotion")
+		}
+		{FuelBag ;вылет при повороте?
+			{volume 999 }   ; liters
+			{rate   0.05 }    ; liters per kilometer
+			{remain 999 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Slow  10}
+        	{Normal 40}
+        	{Fast  50}
+    	}
+		{dontUseSlope}
+		{ignorePatherBounds}
+		{disableBackward}
+	}
+
+	{placer
+		{place "driver"
+			{group "crew"}
+			{linkbone "driver"}
+			{visor "eyes"}
+			{turnoff {sensor}}
+			;{openForCrush}
+		}
+		{crew}
+	}
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_SdKfz251-1"} {end "horse_driver_new"} {base "doorleft"}}
+			{reverse 	{end	"board_SdKfz251-1" -1} {base "doorleft" -1}}
+		}
+		{door "emit2"}
+		{door "emit1"}
+		{link "emit2" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+		{link "emit1" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+	}
+
+;{extender "vitality"}
+	{mass 1000}
+	
+(define "anima_sk"
+	{Skeleton
+		{animation
+			{smooth 0.5}
+			{blend "pose_stand"	{pose "passive" begin}}
+		}
+	}
+)
+
+	(include "/properties/selection/vehicle.inc"  scale(0.5))
+

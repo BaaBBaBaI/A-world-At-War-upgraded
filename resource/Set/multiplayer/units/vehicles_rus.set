@@ -18,7 +18,7 @@
 
 ;���Button 2���
 
-{"degtyarev_stan"   ("vs" c(300) t(all cannon) 	s(rus) n(2) g(c1) sc(5.50) b(v2) cw(2) cp(5)) {level 1} {cost 90} {fore 1.0}}
+{"degtyarev_stan"   ("vs" c(300) t(all cannon) 	s(rus) n(2) g(c1) sc(5.50) b(v2) cw(2) cp(0)) {level 1} {cost 90} {fore 1.0}}
 {"dshk_stan"        ("vs" c(300) t(all cannon) 	s(rus) n(2) g(c2) sc(7.50) b(v2) cw(2) cp(5)) {level 1} {cost 140} {fore 0.5}}
 {"bm37"             ("vs" c(0) t(all cannon mediumcan) 	s(rus) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {level 1} {cost 280} {fore 1.0}}
 
@@ -32,7 +32,7 @@
 
 {"su122"            ("v" c(0) t(all artillery) 			s(rus) n1(3) n2(1) g(c10) sc(40.00) b(v2) cw(0) cp(7)) {level 1} {cost 800} {fore 1.0}}
 {"isu152"           ("v"  c(0) t(all artillery heavyart) s(rus) n1(4) n2(1) g(c11) sc(67.50) b(v2) cw(0) cp(20)) {level 1} {cost 1350} {fore 1.0}} 	
-{"bm13"             ("vs" c(0) t(all artillery heavyart) s(rus) n(2) g(c12) sc(62.50) b(v2) cw(0) cp(15)) {level 1} {cost 1075} {fore 1.0}}
+{"bm13"             ("vs" c(0) t(all artillery heavyart) s(rus) n(2) g(c12) sc(62.50) b(v2) cw(0) cp(15)) {level 1} {cost 1050} {fore 1.0}}
 
 
 
@@ -101,5 +101,5 @@
 
 {"heronew3_rus"		("v1" c(720) c1(bm_8_24)		t(all hero) s(rus) n1(tankman:1) n2(tankman2:1) g(h7) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
 {"hero7_rus"        ("v23" c(600) c1(t34_3) 		t(all hero) s(rus) n1(tankman:3) n2(tankman:1) n3(smg4:4) g(h7) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
-{"heronew6_rus"  	("v1" c(840) c1(is2_berlin) 	t(all hero) s(rus) n1(tankman:4) n2(tankman2:1) g(h8) b(hero)) {level 1} {cost 8.0} {fore -0.5}}
+{"heronew6_rus"  	("v1" c(910) c1(is2_berlin) 	t(all hero) s(rus) n1(tankman:4) n2(tankman2:1) g(h8) b(hero)) {level 1} {cost 8.0} {fore -0.5}}
 {"hero9_rus"  	    ("v1" c(1200) c1(203b4) 		t(all hero) s(rus) n1(vehicle_supporter:2) n2(tankman2:0) g(h8) b(hero)) {level 1} {cost 10.0} {fore -0.5}}

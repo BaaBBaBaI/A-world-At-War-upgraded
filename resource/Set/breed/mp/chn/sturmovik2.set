@@ -45,7 +45,7 @@
 	}
 	{inventory
 		{item "typezhongzheng" filled}
-        {item "erguotou"}
+        {item "grenade n73at"}
 		{item "ammo rifle" 60}
 		{item "m24 grenade" 2}
 		{item "sandbag_kit" 1}

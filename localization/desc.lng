@@ -89,9 +89,9 @@
 				
 				{"toerni_mg" "<c(c3baae)>Toerni detatchment Jaeger"}
 				{"toerni_rifle" "<c(c3baae)>Toerni detatchment Jaeger"}
-				{"toerni_shreck" "<c(c3baae)>Toerni detatchment Jaeger"}
+				{"toerni_shreck" "<c(c3baae)>Toerni AT Jaeger"}
 				{"toerni_smg" "<c(c3baae)>Toerni detatchment Jaeger"}
-				{"toerni_sniper" "<c(c3baae)>Toerni detatchment Jaeger"}
+				{"toerni_sniper" "<c(c3baae)>Toerni sniper Jaeger"}
 				{"reco" "<c(c3baae)>Reconnaissance Leader"}
 				{"reco2" "<c(c3baae)>Reconnaissance infantry"}
 				{"reco3" "<c(c3baae)>Reconnaissance sniper"}
@@ -798,6 +798,7 @@
 				{"smg2" "<c(c3baae)>assault SMG infantry"}
 				{"sniper" "<c(c3baae)>sniper"}
 				{"sturmovik" "<c(c3baae)>Elite Veteran"}
+				{"sturmovikb" "<c(c3baae)>Elite Veteran"}
 				{"sturmovik2" "<c(c3baae)>Elite Veteran"}
 				{"sturmovik3" "<c(c3baae)>Elite Veteran"}
 				{"sturmovik4" "<c(c3baae)>Elite Veteran"}
@@ -832,6 +833,7 @@
 				{"reco3" "<c(c3baae)>Reconnaissance sniper"}
 				{"elite_at_rifle" "<c(c3baae)>Elite AT-rifle infantry"}
 				{"elite_at_rifle_2" "<c(c3baae)>Elite AT-rifle support"}
+				{"stormtroopermg" "<c(c3baae)>Elite machine gunner"}
 			}
 		}
 		{"civilian"
@@ -880,6 +882,8 @@
 		{"mgs2(chn)" "Machine Gunners"}
 		{"stormtroopers1(chn)" "Elite Troops"}
 		{"stormtroopers2(chn)" "Elite AT Infantry"}
+		{"stormtroopers3(chn)" "Elite Machine gunners"}
+
 
 
 		{"recon(eng)" "Reconnaissance"}
@@ -1802,6 +1806,7 @@
 		{"m1139" "Carro Armato M11/39"}
 		{"m1340" "Carro Armato M13/40"}
 		{"m1441" "Carro Armato M14/41"}
+		{"p44_pantera" "P44 Panther da 90/53"}
 		
 		{"carro15" "Carro Armato M15/42"}
 		{"20mmScotti" "2cm Scotti L/77"}
@@ -1856,6 +1861,7 @@
 		{"vickers_veteran" "Vickers Veteran"}
 		{"m4a1_eng" "M4A1 Grizzly"}
 		{"m15a1" "M15A1"}
+		
 
 
 ;*******************************
@@ -2185,6 +2191,7 @@
 		{"browning_1917_mgun_chn" "Browning 1917 mgun"}
 		{"m5a1_chn" "M5A1 Stuart"}
 		{"amr35-13mm_chn" "Amr35 13mm"}
+		{"epuc-26_chn_1931" "T-26 1931"}
 	}
 	{"ammo"
 		{"arl" "Air rocket"}
@@ -2327,10 +2334,12 @@
 			{"mgun_right" "<f(arial_hq)><c(20a601)>Right</c>"}
 			{"mgun_left" "<f(arial_hq)><c(20a601)>Left</c>"}
 		}
+
 		{"karabin_wz98pso" "Karabin Wz98 sniper"}
 		{"mors_wz39" "Pistolet maszynowy wz. 39 Mors"}
 		{"wz35" "WZ35"}
 		{"vis_wz35" "Vis wz35 Pistol"}
+		{"90mm_da53" "9cm da 90/53"}
 		{"karabinek_38m" "Karabin samopowtarzalny wzor 38M"}
 		{"karabinek_wz98" "Kb wz. 98a"}
 		{"karabinek_wz29" "Karabinek wz. 1929"}
@@ -2607,6 +2616,8 @@
 		{"m75_34" "7.5cm Ansaldo L/34"}
 		{"m75_46" "7.5cm Ansaldo L/46"}
 		{"m90_53" "9cm Ansaldo L/53"}
+		{"m90_53_1" "9cm Ansaldo L/53"}
+		{"m90_53_2" "Veteran 9cm Ansaldo L/53"}
 		{"m105_25" "10.5cm Ansaldo L/25"}
 		{"m105_28" "10.5cm Schneider L/28"}
 		{"149mm_obice" "14.9cm Obice L/35"}

@@ -18,7 +18,7 @@
 
 ;���Button 2���
 
-{"ckm_wz30_mgun"    ("vs" c(300) t(all cannon) 	s(pol) n(2) g(c1) sc(5.00) b(v2) cw(2) cp(5)) {level 1} {cost 90} {fore 1.0}}
+{"ckm_wz30_mgun"    ("vs" c(300) t(all cannon) 	s(pol) n(2) g(c1) sc(5.00) b(v2) cw(2) cp(0)) {level 1} {cost 90} {fore 1.0}}
 
 {"25mm_1934_pol"       	    ("vs" c(70) t(all cannon) 	s(pol) n(2) g(c4) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 140} {fore 0.5}}
 {"47mm_1938_pol"       	    ("vs" c(0) t(all cannon) 	s(pol) n(2) g(c5) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 150} {fore 1.0}}
@@ -75,6 +75,7 @@
 {"hero3_pol"        ("v3" c(240) c1(zis5_rus_moto) t(all hero) s(pol) n1(elite:6) n2(elite2:2) n3(elite3:2) n4(elite4:1) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 {"hero4_pol"        ("i3" c(240)  t(all hero) s(pol) n1(home_guard:12) n2(home_guard3:4) n3(home_guard3:2) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 
+;{"heronew6_pol"        ("v24" c(360) c1(hb_r_mosin) t(all hero) s(pol) n1(elite:3) n2(elite2:1) n3(elite3:4)  g(h4) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 {"heronew6_pol"        ("v24" c(360) c1(boyes_gun_carrier_prb) t(all hero) s(pol) n1(elite:3) n2(elite2:1) n3(elite3:4)  g(h4) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 
 {"heronew5_pol"     ("i2" c(360) t(all hero) s(pol) n1(sas_scout:3) n2(sas_scout2:1) g(h3) b(hero)) {level 1} {cost 2.0} {fore -0.5}}

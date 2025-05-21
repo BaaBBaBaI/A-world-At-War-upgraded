@@ -22,7 +22,7 @@
 {"browning_1917_mgun_chn"    ("vs" c(300) t(all cannon) 	s(chn) n(2) g(c1) sc(5.00) b(v2) cw(2) cp(5)) {level 1} {cost 90} {fore 1.0}}
 {"cannone4732_chn"         	("vs" c(0) t(all cannon)	s(chn) n(2) g(c3) sc(6.50)  b(v2) cw(2) cp(5)) {level 1} {cost 135} {fore 1.0}}
 {"75mm_shneider_chn"              ("vs" c(0) t(all cannon)	s(chn) n(2) g(c4) sc(11.25) b(v2) cw(2) cp(5)) {level 1} {cost 180} {fore 1.0}}
-{"t90_75m_chn"          ("vs" c(0) t(all canonn heavycan arcade) 	s(chn) n(2) g(c6) sc(14.00) b(v2) cw(2) cp(10)) {level 1} {cost 260} {fore 1.0}}
+{"t90_75m_chn"          ("vs" c(0) t(all canonn heavycan) 	s(chn) n(2) g(c6) sc(14.00) b(v2) cw(2) cp(10)) {level 1} {cost 260} {fore 1.0}}
 {"m5_chn"               ("vs" c(0) t(all cannon heavycan) 	s(chn) n(2) g(c5) sc(21.25) b(v2) cw(2) cp(10)) {level 1} {cost 350} {fore 1.0}}
 
  
@@ -41,6 +41,7 @@
 
 {"ft17_chn"      	    ("v" c(150) t(all light) 		s(chn) n1(1) n2(1) g(d1) sc(9.00) b(v3) cw(0) cp(0)) {level 1} {cost 90} {fore 0.6}}
 {"L335_chn"      	   ("v" c(150) t(all light) 		s(chn) n1(2)  g(d2) sc(11.25) b(v3) cw(0) cp(5)) {level 1} {cost 120} {fore 0}} 
+{"epuc-26_chn_1931"      	   ("v" c(100) t(all light) 		s(chn) n1(2)  g(d3) sc(11.25) b(v3) cw(0) cp(5)) {level 1} {cost 125} {fore 0}} 
 
 
 {"t-26_chn"      	   ("v" c(100) t(all light) 		s(chn) n1(2) n2(1) g(d3) sc(11.25) b(v3) cw(0) cp(5)) {level 1} {cost 160} {fore 0}} 

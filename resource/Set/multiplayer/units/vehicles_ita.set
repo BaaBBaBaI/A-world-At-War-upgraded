@@ -20,7 +20,7 @@
 
 ;���Button 2���
 
-{"bredasafat77_stan"        ("vs" c(300) t(all cannon) 	s(ita) n(2) g(c1) sc(6.00) b(v2) cw(2) cp(5)) {level 1} {cost 90} {fore 1.0}}
+{"bredasafat77_stan"        ("vs" c(300) t(all cannon) 	s(ita) n(2) g(c1) sc(6.00) b(v2) cw(2) cp(0)) {level 1} {cost 90} {fore 1.0}}
 {"20mmScotti"   ("vs" c(300) t(all cannon) 	s(ita) n(2) g(c2) sc(8.50) b(v2) cw(2) cp(5)) {level 1} {cost 175} {fore 0.5}}
 {"Brixia45"           ("vs" c(0) t(all cannon mediumcan) 	s(ita) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {level 1} {cost 260} {fore 1.0}}
 
@@ -79,6 +79,8 @@
 {"pz4hita"             ("v" c(0) t(all heavy) 			s(ita) n1(4) n2(1) g(e6) sc(62.50) b(v4) cw(0) cp(15)) {level 1} {cost 600} {fore 1.0}}  	
 
 {"m10525"             ("v" c(0) t(all heavy) 			s(ita) n1(1) n2(2) g(e7) sc(67.50) b(v4) cw(0) cp(15)) {level 1} {cost 750} {fore 1.0}}
+
+{"p44_pantera"  ("v" c(0) t(all heavy arcade) 			s(ita) n1(1) n2(2) g(e8) sc(67.50) b(v4) cw(0) cp(20)) {level 1} {cost 1425} {fore 1.0}}
  
 ;{"pz6bh"            ("v" c(0) t(all sheavy) 		s(ita) n1(4) n2(1) g(e8) sc(120.00) b(v4) cw(0) cp(40)) {level 1} {cost 2400} {fore 1.0}} 	
 
@@ -90,7 +92,7 @@
 {"m7518"             ("v" c(0) t(all medium) 		s(ita) n1(2) n2(1) g(f2) sc(21.00) b(v5) cw(0) cp(2)) {level 1} {cost 280} {fore 1.0}}
 {"m7532"           ("v" c(0) t(all medium) 	s(ita) n1(2) n2(1) g(f3) sc(26.25) b(v5) cw(2) cp(5)) {level 1} {cost 350} {fore 1.0}} 	
 {"m7534"          	("v" c(0) t(all medium) 		s(ita) n1(2) n2(1) g(f4) sc(30.00) b(v5) cw(0) cp(5)) {level 1} {cost 460} {fore 1.0}} 	
-{"m9053"          ("v" c(0) t(all heavy) 	s(ita) n1(3) n2(1) g(f5) sc(45.00) b(v5) cw(0) cp(12)) {level 1} {cost 750} {fore 1.0}}  			
+{"m9053"          ("v" c(0) t(all heavy) 	s(ita) n1(3) n2(1) g(f5) sc(45.00) b(v5) cw(0) cp(12)) {level 1} {cost 850} {fore 1.0}}  			
 
 ;{"l335"    ("v" c(0) t(all heavy)			s(ita) n1(1) n2(1) g(f4) sc(55.00) b(v5) cw(0) cp(30)) {level 1} {cost 1100} {fore 1.0}} 				
 ;{"Lancia1ZM"      ("v" c(0) t(all heavy) 			s(ita) n1(3) n2(1) g(f5) sc(90.00) b(v5) cw(0) cp(30)) {level 1} {cost 1800} {fore 1.0}} 	
@@ -130,6 +132,6 @@
  
 
 
-{"hero9_ita"        ("v1" c(1200) c1(elefantita) 	t(all hero) s(ita) n1(tankman:3) n2(tankman2:1) g(h10) b(hero)) {level 1} {cost 8.0} {fore -0.5}}
+{"hero9_ita"        ("v1" c(1200) c1(elefantita) 	t(all hero) s(ita) n1(tankman:3) n2(tankman2:1) g(h10) b(hero)) {level 1} {cost 9.0} {fore -0.5}}
 
   

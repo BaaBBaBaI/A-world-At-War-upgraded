@@ -180,7 +180,7 @@
 ("squad_with4types" side(com) name(stormtroopers) c(0) g(squad_5) c1(sturmovik:4) c2(sturmovik2:2) c3(sturmovik3:1) c4(sturmovik4:1) b(squad1) t(all inf_only) level(1) cost(360) f(1.0))
 ("squad_with4types" side(fin) name(stormtroopers) c(0) g(squad_5) c1(sturmovik:1) c2(sturmovik2:2) c3(sturmovik3:3) c4(sturmovik4:2) b(squad1) t(all inf_only) level(1) cost(330) f(1.0))
 ("squad_with3types" side(ita) name(stormtroopers) c(0) g(squad_5) c1(sturmovik:3) c2(sturmovik2:3) c3(sturmovik3:2) b(squad1) t(all inf_only) level(1) cost(280) f(1.0))
-("squad_with3types" side(chn) name(stormtroopers) c(0) g(squad_5) c1(sturmovik:3) c2(sturmovik2:3) c3(sturmovik3:3) b(squad1) t(all inf_only) level(1) cost(280) f(1.0))
+("squad_with3types" side(chn) name(stormtroopers) c(0) g(squad_5) c1(sturmovikb:3) c2(sturmovik2:3) c3(sturmovik3:3) b(squad1) t(all inf_only) level(1) cost(280) f(1.0))
 ("squad_with3types" side(ger2) name(stormtroopers) c(0) g(squad_5) c1(sturmovik:4) c2(sturmovik2:2) c3(sturmovik3:2) b(squad1) t(all inf_only) level(8) cost(340) f(1.0))
 
 
@@ -387,6 +387,7 @@
 ("squad_with2types" side(fin) name(stormtroopers3) c(300) g(soldier_6) c1(sturmovik6:1) c2(sturmovik6b:2) b(squad2) t(all inf_only) level(1) cost(125) f(1.0))
 ("squad_with2types" side(ita) name(stormtroopers3) c(300) g(soldier_6) c1(sturmovik6:1) c2(sturmovik6b:2) b(squad2) t(all inf_only) level(1) cost(140) f(1.0))
 ("squad_with2types" side(ger2) name(stormtroopers3) c(300) g(soldier_6) c1(sturmovik6:1) c2(sturmovik6b:2) b(squad2) t(all inf_only) level(21) cost(145) f(1.0))
+("squad_with2types" side(chn) name(stormtroopers3) c(300) g(soldier_6) c1(stormtroopermg:1) c2(sturmovik:2) b(squad2) t(all inf_only) level(1) cost(125) f(1.0))
 ("squad_with2types" side(chn) name(elite_at_rifles) c1(elite_at_rifle:1) c2(elite_at_rifle_2:2) c(320) g(soldier_4) b(squad2) t(all inf_only) level(1) cost(180) f(1.0))
 ("squad_with2types" side(pol) name(stormtroopers3) c(300) g(soldier_6) c1(sturmovik6:1) c2(sturmovik6b:2) b(squad2) t(all inf_only) level(1) cost(120) f(1.0))
 

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/1812/fra/enqi_army_h1_fra"}
+	{blend none}
+}

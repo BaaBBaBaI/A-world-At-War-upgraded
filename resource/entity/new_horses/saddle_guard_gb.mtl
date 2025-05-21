@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/fauna/sadlepad_other_eng"}
+	{blend none}
+}

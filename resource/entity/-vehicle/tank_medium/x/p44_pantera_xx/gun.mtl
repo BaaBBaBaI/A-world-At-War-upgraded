@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/p44_pantera/p44_pantera_gun_x"}
+	{bump "$/model/p44_pantera/p44_pantera_gun_nm"}
+	{blend none}
+}

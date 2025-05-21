@@ -19,7 +19,7 @@
 
 ;���Button 2���
 
-{"13mm_hotchkiss"     ("vs" c(50) t(all cannon)	s(fra) n(2) g(c1) sc(5.00) b(v2) cw(2) cp(7.5)) {level 1} {cost 180} {fore 0.5}}
+{"13mm_hotchkiss"     ("vs" c(50) t(all cannon)	s(fra) n(2) g(c1) sc(5.00) b(v2) cw(2) cp(5)) {level 1} {cost 180} {fore 0.5}}
 ;{"oerlikon"         ("vs" c(0) t(all cannon) 	s(fra) n(1) g(c2) sc(8.50) b(v2) cw(2) cp(5)) {level 1} {cost 210} {fore 0.5}}
 ; Exclusive special points {"mle_27"		    	("vs" c(0) t(all cannon mediumcan) 	s(fra) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {level 1} {cost 350} {fore 1.0}}
 

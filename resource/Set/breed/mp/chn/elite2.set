@@ -48,7 +48,7 @@
 		{item "dp" filled}
 		{item "bandage" 6}
 		{item "mgun ammo" 1200}
-                	{item "erguotou"}
+		{item "grenade chi_grenadex5" 1}
 		{item "m24 grenade" 2}
 		{item "mauser_pistol" filled}
 		{item "pistol ammo" 20}

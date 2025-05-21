@@ -425,10 +425,12 @@
 {"mp/usa/mgun2" ("mgun" side(usa))}
 {"mp/eng/mgun2" ("mgun" side(eng))}
 {"mp/pol/mgun2" ("mgun" side(pol))}
+{"mp/chn/stormtroopermg" ("mgun" side(chn))}
 
 {"mp/fra/mgun2" ("mgun" side(fra))}
 {"mp/fra/mgun_sup" ("mgun" side(fra))}
 {"mp/hun/mgun_sup" ("mgun" side(hun))}
+
 
 {"mp/fra/defense_mg" ("mgun" side(fra))}
 {"mp/fra/maginot" ("mgun" side(fra))}
@@ -716,7 +718,7 @@
     {cw 5.0}
 )
 
- 
+{"mp/chn/sturmovikb" ("sturmovik" side(chn))}
 {"mp/rus/sturmovik" ("sturmovik" side(rus))}
 {"mp/ger/sturmovik" ("sturmovik" side(ger))}
 {"mp/eng/sturmovik" ("sturmovik" side(eng))}
@@ -1039,9 +1041,19 @@
 {"mp/hun/oficer" ("oficer" side(hun))}
 {"mp/fin/oficer" ("oficer" side(fin))}
 {"mp/ita/oficer" ("oficer" side(ita))}
-{"mp/chn/oficer" ("oficer" side(chn))}
+
 {"mp/ger2/oficer" ("oficer" side(ger2))}
 {"mp/pol/oficer" ("oficer" side(pol))}
+
+(define "oficer_chn"
+    {tags   "oficer %side spec infantry man"}
+    {cp     -35.00}
+    {score  10.00}
+    {basic}
+    {breed}
+    {cw 10.0}
+)
+{"mp/chn/oficer" ("oficer_chn" side(chn))}
 
 
 (define "oficer_ger2"
