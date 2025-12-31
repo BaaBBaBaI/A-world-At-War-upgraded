@@ -28,13 +28,13 @@
 		}
 		{"pistol" lvl_5
 		}
-		{"smg" lvl_5
+		{"smg" lvl_4
 		}
 		{"mgun" lvl_4
 		}
 		{"rifle" lvl_5
 		}
-		{"rocketlauncher" lvl_5
+		{"rocketlauncher" lvl_4
 		}
 		{"melee" lvl_5
 		}
@@ -45,9 +45,10 @@
 	}
 	{inventory
 		{item "mp18" filled}
-		{item "m24 grenade" 2}
+		{item "grenade chi_grenadex5" 2}
+		{item "grenade n73at" 1}
 		{item "bandage" 6}
-		{item "ammo pistol" 400}
+		{item "ammo pistol" 600}
 		{in_hands 0}
 	}
 }

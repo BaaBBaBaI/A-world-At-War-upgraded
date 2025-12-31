@@ -5,8 +5,8 @@
 		{size 4 2 }
 	}
 	{entity "zb26"}
-	{fireSound	"mgun/zb_vz30_lmg_burst/"}
-	{reloadSound "zb26_reload"}
+	{fireSound	"mgun/mg13_burst/"}
+	{reloadSound "mg34_reload"}
 	
 	
 	{Spreading 0.5}

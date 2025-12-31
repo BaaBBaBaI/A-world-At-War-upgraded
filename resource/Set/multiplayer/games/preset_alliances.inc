@@ -5,6 +5,7 @@
 				{armies "ita"}
 				{armies "fin"}
 				{armies "hun"}
+				{armies "ger2"}
 				{icon "/interface/pages/multi/flag_axis"}
 			}
 			{"allies"
@@ -15,5 +16,6 @@
 				{armies "chn"}
 				{armies "com"}
 				{armies "fra"}
+				{armies "pol"}
 				{icon "/interface/pages/multi/flag_allies"}
 			}

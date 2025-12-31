@@ -45,10 +45,9 @@
 	}
 	{inventory
 		{item "zb26" filled}
-		{item "bandage" 6}
+		{item "bandage" 5}
 		{item "mgun ammo" 1300}
         {item "sandbag_kit" 1}
-        {item "grenade chi_grenadex5" 2}
         {item "dynamite"}
 		{item "m24 grenade" 2}
 		{item "mauser_pistol"}

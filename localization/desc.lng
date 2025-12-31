@@ -1407,7 +1407,9 @@
 		{"heronew3_chn" "Muslim Soldiers"}
 		{"hero3_chn" "German Trained Squad"}
 		{"hero5_chn" "Radio Operator"}
- 		{"hero6_chn" "United China"}     
+ 		{"hero6_chn" "United China"}    
+		{"heronew6_chn" "Soviet AT support"}    
+		{"hero13_chn" "Reactive support"}    
 
 
 		{"heronew5_chn" "German Panzer I"}
@@ -1520,6 +1522,7 @@
 		{"blitz3_6inf" "Opel Blitz 3.6"}
 		{"blitz3_6m" "Ambulance truck"}
 		{"bm13" "BM-13 Katyusha"}
+		{"bm13_chn" "BM-13 Katyusha"}
 		{"bm_8_24" "BM-8-24"}
 		{"bm37" "BM-37 mortar"}
 		{"bofors" "40mm M1 Bofors L/60"}
@@ -2002,6 +2005,7 @@
 		{"t29" "T29"}
 		{"t34_0" "T-34/76"}
 		{"t34_1" "T-34/57"}
+		{"t34_1_chn" "T-34/57"}
 		{"t34_2" "T-34/76"}
 		{"t34_3" "T-34/85"}
 		{"t34m" "T-34 Sapper"}
