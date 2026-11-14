@@ -50,7 +50,6 @@
 		{item "mine_detector"}
 		{item "dynamite" 3}
 		{item "grenade satchel" 2}
-		{item "trench_spade" 1}
 		{in_hands 0}
 	}
 }

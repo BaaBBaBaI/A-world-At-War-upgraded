@@ -6,7 +6,7 @@
 	{nationality pol}
 	{tags "officer"}
 	{armors
-		{head winterhat_pla}
+		{head "pol_rogatywka_wz36"}
 	}
 	{perks
 		{"health" "150%"

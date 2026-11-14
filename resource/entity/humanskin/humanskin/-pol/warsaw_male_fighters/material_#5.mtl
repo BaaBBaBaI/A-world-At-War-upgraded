@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "warsaw_male_head_b_diff"}
+	{blend none}
+}

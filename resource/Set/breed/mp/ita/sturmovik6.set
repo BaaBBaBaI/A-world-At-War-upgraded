@@ -1,11 +1,11 @@
 {breed
-	{skin "adra_para2"}
+	{skin "ita-paratrooper_nembo1"}
 	{portrait "ita_elite2"}
 	{nationality ita}
 	{icon "stormtroopers"}
 	{icon_priority 4}
 	{armors
-		{head ita_coloniale_bersagliere}
+		{head ita_M33_bersagliere_rsi}
 	}
 	{perks
 		{"health" "350%"
@@ -45,10 +45,12 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "breda_38" filled}
+		{item "mg42" filled}
 		{item "ammo mgun" 1200}
 		{item "bandage" 5}
-		{item "grenade srcm35" 2}
+		{item "grenade m39" 2}
+		{item "buffetterie_alpini_breda"}
+		{item "buffetterie_alpini_mab38a"}
 		{item "sandbag_kit" 1}
 		{in_hands 0}
 	}

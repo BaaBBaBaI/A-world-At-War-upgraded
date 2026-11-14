@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "pulemethik"}
+	{color "229 229 229 50"}
+	{blend test}
+}

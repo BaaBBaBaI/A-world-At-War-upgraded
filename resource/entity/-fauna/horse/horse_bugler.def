@@ -1,0 +1,19 @@
+{actor
+	(include "../horse_evil.inc")
+	{Extension "horse_bugler.mdl"}
+
+	{extender "inventory"
+		{box
+			{Size 6 10}
+			{weight 300}
+			}
+	}
+
+	{texmod "ALBINO"}
+
+;	{Weaponry
+;		{place "gun"
+;			{weapon "jaws" filling "ammo pistol" 999}
+;		}
+;	}
+}

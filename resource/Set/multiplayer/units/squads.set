@@ -425,6 +425,7 @@
 ("squad_with1types" side(chn) name(snipers) c(150) g(soldier_9) c1(sniper:1) b(squad2) t(all sniper_only inf_only) level(1) cost(230) f(0))
 ("squad_with1types" side(ger2) name(snipers) c(150) g(soldier_9) c1(sniper:1) b(squad2) t(all sniper_only inf_only) level(8) cost(230) f(0))
 ("squad_with1types" side(pol) name(snipers) c(150) g(soldier_9) c1(sniper:1) b(squad2) t(all sniper_only inf_only) level(1) cost(230) f(0))
+;("squad_with1types" side(pol) name(snipers) c(150) g(soldier_9) c1(flamer4:1) b(squad2) t(all sniper_only inf_only) level(1) cost(230) f(0))
 
 
 ("squad_with1types" side(rus) name(officers) c(150) g(soldier_10) c1(oficer:1) b(squad2) t(all officer inf_only) level(1) cost(360) f(0))

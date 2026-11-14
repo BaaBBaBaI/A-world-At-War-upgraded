@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_flag.ext")
+	{extension "flag_handle.mdl"}
+	{extender "stuff"
+		{item "flag_rus"}
+	}
+	{Texmod "rus"}
+}

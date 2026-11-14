@@ -6,7 +6,7 @@
 	{nationality pol}
 	{tags "officer"}
 	{armors
-		{head winterhat_pla}
+		{head "pol_helmet_adriana"}
 	}
 	{perks
 		{"health" "150%"

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "warsaw_female_figh_b_ubody_diff"}
+	{blend none}
+}

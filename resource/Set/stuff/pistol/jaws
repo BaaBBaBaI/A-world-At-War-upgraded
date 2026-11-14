@@ -1,0 +1,10 @@
+{from "pattern pistol"
+	{filling "ammo pistol" 999}
+	{entity "knife_union"}
+	{fireSound "Animali/Cavallo/Zoccolo"}
+	{range 2 2}
+	{rechargeTime 1.5}
+	{speed 100}
+	{healthDamage 120}
+	{AimingTolerance 5}
+}

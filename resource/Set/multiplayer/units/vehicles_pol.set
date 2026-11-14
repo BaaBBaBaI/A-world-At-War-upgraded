@@ -69,14 +69,17 @@
 
 ;���Button Hero���
 
+
 {"hero1_pol"        ("v1" c(120) c1(t20) 	t(all hero) s(pol) n1(home_guard3:6) n2(home_guard:2) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
 {"heronew1_pol"     ("v1" c(240) c1(np_su12)   		t(all hero) s(pol) n1(tankman:3) n2(tankman2:1) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
-{"hero2_pol"        ("i2" c(120) 			                t(all hero) s(pol) n1(at_rifle:2) n2(rifle:5) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
+{"hero2_pol"        ("i2" c(120) t(all hero) s(pol) n1(at_rifle:2) n2(rifle:5) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
+{"hero6_pol"        ("v1" c(120) c1(cws_ivan) 	t(all hero) s(pol) n1(flamer4:1) n2(tankman:0) g(h2) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
 {"hero3_pol"        ("v3" c(240) c1(zis5_rus_moto) t(all hero) s(pol) n1(elite:6) n2(elite2:2) n3(elite3:2) n4(elite4:1) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 {"hero4_pol"        ("i3" c(240)  t(all hero) s(pol) n1(home_guard:12) n2(home_guard3:4) n3(home_guard3:2) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 
 ;{"heronew6_pol"        ("v24" c(360) c1(hb_r_mosin) t(all hero) s(pol) n1(elite:3) n2(elite2:1) n3(elite3:4)  g(h4) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 {"heronew6_pol"        ("v24" c(360) c1(boyes_gun_carrier_prb) t(all hero) s(pol) n1(elite:3) n2(elite2:1) n3(elite3:4)  g(h4) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+{"uhlans_pol"          ("cav_pol" c(240) c1(horse_oficier) c2(horse_lancer2) c3(horse_trooper) t(all hero) s(pol) n1(cav_officer) n2(cav_lancer) n3(cav_rifle) g(h6) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 
 {"heronew5_pol"     ("i2" c(360) t(all hero) s(pol) n1(sas_scout:3) n2(sas_scout2:1) g(h3) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 {"heronew4_pol"     ("v45" c(280) c1(mk2a_com) c2(m3_eng)   t(all hero) s(pol) n1(tankman:3) n2(tankman2:1) n3(smg:3) n4(rifle:4) g(h3) b(hero)) {level 1} {cost 3.0} {fore -0.5}}

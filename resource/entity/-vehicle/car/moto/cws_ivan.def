@@ -1,0 +1,8 @@
+{moto
+	(include "moto.inc")
+	{extender "inventory"
+		{Box
+		}
+	}
+	{texmod "ally3"}
+}

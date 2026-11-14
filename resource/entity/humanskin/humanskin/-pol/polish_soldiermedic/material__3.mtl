@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "eye_v2_diff"}
+	{blend none}
+}

@@ -1,0 +1,22 @@
+{actor
+	(include "../horse_evil.inc")
+	{Extension "horse_oficier.mdl"}
+
+	{extender "inventory"
+		{box
+			{Size 6 10}
+			{weight 300}
+			{item "knife_union" 1}
+			{item "ammo pistol" 100}
+			{item "bandage" 5}
+		}
+	}
+
+	{texmod "ROANO"}
+
+;	{Weaponry
+;		{place "gun"
+;			{weapon "jaws" filling "ammo pistol" 999}
+;		}
+;	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "warsaw_female_figh_c_head_diff"}
+	{bump "warsaw_female_figh_b_head_ddn"}
+	{specular "warsaw_female_figh_b_head_spec"}
+	{color "229 229 229 25"}
+	{blend none}
+}

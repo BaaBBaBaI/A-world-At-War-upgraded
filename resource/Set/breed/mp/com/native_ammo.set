@@ -1,0 +1,58 @@
+{breed
+	{skin "native4"}
+	{portrait "NZ_soldier1"}
+	{nationality eng}
+	{icon "rifleman"}
+	{icon_priority 1}
+	{armors	
+	
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "300%"
+		}
+		{"stamina_regeneration" "300%"
+		}
+		{"vision" "mp_native"
+		}
+		{"speed" 1.1
+		}
+		{"tank"	0.8
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		{"stealth"
+		}
+		
+		{"pistol" lvl_1
+		}
+		{"smg" lvl_1
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"rocketlauncher" lvl_1W
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "spear" filled}
+		{item "bandage" 3}
+		{item "cha_broadsword" filled}
+		{item "ammo rifle" 200}
+		{item "ammo pistol" 600}
+		{item "ammo mgun" 900}
+		{in_hands 0}
+	}
+}

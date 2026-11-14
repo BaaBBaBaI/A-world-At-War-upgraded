@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/humanskin/pol_head_sqldr"}
+	;{bump "$/humanskin/pol_head_sqldr_nm"}
+	{blend none}
+}

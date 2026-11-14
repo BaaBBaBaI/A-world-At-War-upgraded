@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "generic_hands_female_diff"}
+
+	{blend none}
+}

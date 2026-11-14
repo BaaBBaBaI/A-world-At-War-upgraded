@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "polish_soldier_coat"}
+	{color "255 255 255 50"}
+	{blend none}
+}

@@ -1,0 +1,22 @@
+{actor
+	(include "../horse_evil.inc")
+	{Extension "horse_supply.mdl"}
+
+	{extender "inventory"
+		{box
+			{Size 6 10}
+			{weight 300}
+			{item "ammo pistol" 1000}
+			{item "ammo rifle" 1000}
+			{item "bandage" 100}
+			}
+	}
+
+	{texmod "BAIO"}
+
+;	{Weaponry
+;		{place "gun"
+;			{weapon "jaws" filling "ammo pistol" 999}
+;		}
+;	}
+}

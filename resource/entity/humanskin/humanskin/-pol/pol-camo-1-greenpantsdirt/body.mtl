@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "pol-camo-1-greenpantsdirt"}
+	{color "255 255 255 50"}
+	{blend none}
+}

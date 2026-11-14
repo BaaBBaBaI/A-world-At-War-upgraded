@@ -1,0 +1,4 @@
+{material bump
+	{diffuse "pol-head-lwp"}
+	{blend none}
+}

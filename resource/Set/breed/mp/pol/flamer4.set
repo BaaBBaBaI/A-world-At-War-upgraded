@@ -1,0 +1,61 @@
+{breed
+	{skin "pol_ivan"}
+	{portrait "pol_recon"}
+	{nationality rus}
+	{icon "pol_recon"}
+	{icon_priority 3}
+	{"names"
+		{"first" "Ivan"}
+		{"last" "Afanasiev"}
+	}
+	{perks
+		{"health" "500%"
+		}
+		{"health_regeneration" "300%"
+		}
+		{"stamina" "300%"
+		}
+		{"stamina_regeneration" "200%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 1.0
+		}
+		{"tank"	0.8
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		{"stealth"
+		}
+		{"pistol" lvl_5
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_5
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "ppsh" filled}
+		{item "dynamite" 1}
+		{item "weapon bazooka_ivan" filled}
+		{item "ammo bazooka" 5}
+		{item "grenade n73at" 2}
+		{item "grenade poland_z33" 3}
+		{item "grenade molotov_coctail" 2}
+		{item "ammo pistol" 500}
+		{item "bandage" 5}
+		{in_hands 0}
+	}
+}

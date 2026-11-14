@@ -1,0 +1,21 @@
+{actor
+	(include "../horse_evil.inc")
+	{Extension "horse_trooper.mdl"}
+
+	{extender "inventory"
+		{box
+			{Size 6 10}
+			{weight 500}
+			{item "ammo rifle" 100}
+			{item "karabinek_wz98" filling "ammo rifle" 5}
+		}
+	}
+
+	{texmod "BAIO1"}
+	
+;	{Weaponry
+;		{place "gun"
+;			{weapon "karabinek_wz98" filling "ammo rifle" 5}
+;		}
+;	}
+}

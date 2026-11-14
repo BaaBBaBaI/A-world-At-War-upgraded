@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "eye_v2_diff"}
+
+	{specular "eye_v2_spec"}
+	{color "229 229 229 25"}
+	{blend none}
+}

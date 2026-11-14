@@ -91,11 +91,9 @@
 			{item "n73at" "grenade" 10}
 			{item "smoke" "grenade" 10}
 			{item "antipersonnel" "mine" 20}		
-			{item "mortar" "ammo" 60}
 			{item "bandage" 50}
 			{item "dynamite" 2}
 			{item "repair_kit"}
-			{item "box_ammo" 4}
 		}
 	}
 	(include "/properties/resupply_generic.inc")

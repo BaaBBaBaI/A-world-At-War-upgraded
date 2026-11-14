@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/pol_tankman"}
+	{bump "$/humanskin/pol_tankman_nm"}
+	{specular "$/humanskin/pol_tankman_spec"}
+	{color "229 229 229 0"}
+	{blend none}
+}

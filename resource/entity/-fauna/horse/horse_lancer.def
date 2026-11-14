@@ -1,0 +1,19 @@
+{actor
+	(include "../horse_evil.inc")
+	{Extension "horse_lancer.mdl"}
+	
+	{extender "inventory"
+		{box
+			{Size 6 10}
+			{weight 500}
+			}
+	}
+
+	{texmod "SAURO"}
+	
+;	{Weaponry
+;		{place "gun"
+;			{weapon "jaws" filling "ammo pistol" 999}
+;			}
+;	}
+}

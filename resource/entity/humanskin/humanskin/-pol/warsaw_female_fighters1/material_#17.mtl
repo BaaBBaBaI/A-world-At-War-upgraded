@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "warsaw_female_figh_attach_diff"}
+	{bump "warsaw_female_figh_attach_ddn"}
+	{blend none}
+}

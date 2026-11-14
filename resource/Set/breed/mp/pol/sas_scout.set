@@ -4,6 +4,7 @@
 	{nationality pol}
 	{icon "scout"}
 	{icon_priority 5}
+	{name "Ivan Afanasiev"}
 	{armors
 		{head beret_commando}
 	}

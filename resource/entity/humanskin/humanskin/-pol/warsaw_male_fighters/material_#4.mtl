@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "wars_male_lower_c_diff"}
+	{blend none}
+}

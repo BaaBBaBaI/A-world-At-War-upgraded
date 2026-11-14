@@ -79,12 +79,10 @@
 			{item "poland_o33" "grenade" 20}
 			{item "n73at" "grenade" 10}
 			{item "smoke" "grenade" 10}		
-			{item "mortar" "ammo" 60}
 			{item "bandage" 50}
 			{item "dynamite" 2}
 			{item "repair_kit"}
 			{item "barrel" 2 filling "fuel" 500}
-			{item "box_ammo_art" 4}
 		}
 	}
 	(include "/properties/resupply_generic.inc")

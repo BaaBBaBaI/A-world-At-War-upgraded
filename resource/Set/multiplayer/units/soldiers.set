@@ -19,6 +19,7 @@
 {"mp/com/oficer_arty" ("nocp" side(chn))}
 {"mp/eng/oficer_arty" ("nocp" side(chn))}
 {"mp/fra/oficer_arty" ("nocp" side(chn))}
+{"mp/jap/agent_leader" ("nocp" side(jap))}
  
 (define "recon"
     {tags   "elite %side infantry man"}
@@ -642,7 +643,7 @@
  
 {"mp/jap/agent_1" ("elite" side(jap))}
 {"mp/jap/agent_2" ("elite" side(jap))}
-{"mp/jap/agent_leader" ("elite" side(jap))}
+
 
 {"mp/com/can_para" ("elite" side(com))}
 {"mp/com/can_para_2" ("elite" side(com))}
@@ -922,7 +923,7 @@
 {"mp/rus/flamer3" ("flamer" side(rus))}
 {"mp/fin/flamer2" ("flamer" side(fin))}
 {"mp/pol/flamer2" ("flamer" side(pol))}
-
+{"mp/pol/flamer4" ("flamer" side(pol))}
 
 
 (define "sniper"
@@ -1047,13 +1048,14 @@
 
 (define "oficer_chn"
     {tags   "oficer %side spec infantry man"}
-    {cp     -35.00}
+    {cp     -25.00}
     {score  10.00}
     {basic}
     {breed}
     {cw 10.0}
 )
 {"mp/chn/oficer" ("oficer_chn" side(chn))}
+
 
 
 (define "oficer_ger2"
@@ -1171,3 +1173,15 @@
 {"mp/fin/swe2" ("swedish" side(fin))}
 {"mp/fin/swe3" ("swedish" side(fin))}
 {"mp/fin/swe4" ("swedish" side(fin))}
+
+(define "cavalry_pol"
+    {tags   "cavalry %side infantry man"}
+    {cp     2.0}
+    {score  1.00}
+    {basic}
+    {breed}
+    {cw 1.2}
+)
+{"mp/pol/cav_rifle" ("cavalry_pol" side(pol))}
+{"mp/pol/cav_lancer" ("cavalry_pol" side(pol))}
+{"mp/pol/cav_officer" ("cavalry_pol" side(pol))}

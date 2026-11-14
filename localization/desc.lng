@@ -14,7 +14,6 @@
 		}
 		{"mp"
 			
-
 				{"fin"{"ap_miner" "<c(c3baae)>combat engineer (AP mines)"}
 				{"ap_miner2" "<c(c3baae)>Mannerheimn-line engineer (mines)"}
 				
@@ -37,6 +36,7 @@
 				{"flamer" "<c(c3baae)>flamethrower infantry"}
 				{"flamer2" "<c(c3baae)>flamethrower support infantry"}
 				{"flamer3" "<c(c3baae)>shock infantry"}
+				
 				{"home_guard" "<c(c3baae)>Reservist"}
 				{"home_guard2" "<c(c3baae)>Reservist"}
 				{"home_guard3" "<c(c3baae)>Reservist"}
@@ -130,6 +130,7 @@
 				{"mgun" "<c(c3baae)>machine gunner"}
 				{"mgun2" "<c(c3baae)>machine gunner"}
 				{"oficer" "<c(c3baae)>officer"}
+				{"flamer4" "<c(c3baae)>Crazy Ivan"}
 				{"oficer_arty" "<c(c3baae)>officer"}
 				{"radioman" "<c(c3baae)>radio operator"}
 				{"rifle" "<c(c3baae)>rifleman"}
@@ -1334,6 +1335,7 @@
 		{"hero9_hun_new" "German King Tiger"}
 
 		{"hero1_pol" "Resistance (S)"}
+		{"hero6_pol" "Crazy Ivan"}
 		{"heronew1_pol" "SU 12"}
 		{"hero2_pol" "AT Riflemans"}
 		{"heronew4_pol" "British Loan Aid"}
@@ -1348,6 +1350,7 @@
 		{"heronew3_pol" "IS-2 1945"}
 		{"hero10_pol" "French Arty Aid"}
 		{"hero7_pol" "Assault Tanks"}
+		{"uhlans_pol" "Polish Uhlans (Cavalry)"}
 
 		{"hero1_ost" "Veteran Officer"}
         {"hero2_ost" "Panzerschreck squad"}
@@ -1733,6 +1736,7 @@
 		{"47mm_1938_pol" "47mm SA 1937 L / 53"}
 		{"37mm_SA18_pol" "37mm Sa18"}
 		{"cws" "CWS bike"}
+		{"cws_ivan" "CWS bike"}
 		{"ckm_wz30_stan_fix" "Ckm wz30 MG"}
 		{"ckm_wz30_mgun" "Ciezki Karabin Maszynowy WZ30"}
         {"ckm_wz30" "Ckm wz.30"}
@@ -1760,6 +1764,9 @@
 		{"t34_2_pol" "T-34M1"}
 		{"t34_3_pol" "T-34M2"}
 		{"pz5d_pol" "WP Panther"}
+		{"horse_trooper" "Cavalry Horse (Carbine)"}
+		{"horse_lancer2" "Cavalry Horse (Lance)"}
+		{"horse_oficier" "Officer Horse"}
 		
 		
 		{"np_ba20_fin" "BA-20"}
@@ -1993,6 +2000,7 @@
 		{"stug3g" "StuG III Ausf.G"}
 		{"stuh42" "StuH 42"}
 		{"sturmtiger" "Sturmtiger"}
+		{"karlthor" "Karl Thor"}
 		{"su122" "SU-122"}
 		{"su76" "SU-76"}
 		{"su85" "SU-85"}
@@ -2470,6 +2478,7 @@
 		{"arl" "Missile"}
 		{"bar" "B.A.R."}
 		{"bazooka" "Bazooka M1A1"}
+		{"bazooka_ivan" "Crazy Bazooka"}
 		{"besa" "B.E.S.A."}
 		{"binocular" "Binocular"}
 		{"bm8" "82mm BM-8 rockets"}
